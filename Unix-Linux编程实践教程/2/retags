@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# 删除当前的tags文件
+if [ -f tags ];
+then
+    rm -rf tags
+fi
+
+# 创建新的tags文件
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q \
+    ./*
+    #base battle dbproxy home login online party party2.0 serv_share single switch

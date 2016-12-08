@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFERSIZE	./cp1.c	17;"	d	file:
+COPYMODE	./cp1.c	18;"	d	file:
+NRECS	./utmplib.c	15;"	d	file:
+NULLUT	./utmplib.c	16;"	d	file:
+SHOWHOST	./who1.c	17;"	d	file:
+SHOWHOST	./who3.c	17;"	d	file:
+UTSIZE	./utmplib.c	17;"	d	file:
+cur_rec	./utmplib.c	/^static int      cur_rec;$/;"	v	file:
+fd_utmp	./utmplib.c	/^static int      fd_utmp = -1;$/;"	v	file:
+main	./cp1.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./who1.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./who3.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+num_recs	./utmplib.c	/^static int      num_recs;$/;"	v	file:
+oops	./cp1.c	/^void oops(const char *, const char *);$/;"	p	file:	signature:(const char *, const char *)
+oops	./cp1.c	/^void oops(const char *s1, const char *s2)$/;"	f	signature:(const char *s1, const char *s2)
+show_info	./who1.c	/^void show_info(struct utmp* utbufp)$/;"	f	signature:(struct utmp* utbufp)
+show_info	./who1.c	/^void show_info(struct utmp*);$/;"	p	file:	signature:(struct utmp*)
+show_info	./who3.c	/^void show_info(struct utmp*);$/;"	p	file:	signature:(struct utmp*)
+utmp_close	./utmplib.c	/^void utmp_close()$/;"	f
+utmp_next	./utmplib.c	/^struct utmp *utmp_next()$/;"	f
+utmp_open	./utmplib.c	/^int utmp_open(char *filename)$/;"	f	signature:(char *filename)
+utmp_reload	./utmplib.c	/^int utmp_reload()$/;"	f
+utmpbuf	./utmplib.c	/^static char     utmpbuf[NRECS * UTSIZE];$/;"	v	file:
