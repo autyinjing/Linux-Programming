@@ -43,8 +43,10 @@ struct utmp *utmp_next()
     if (cur_rec == num_recs && utmp_reload() == 0)
         return NULLUT;
 
-    recp = (struct utmp*)&utmpbuf[cur_rec*UTSIZE];
-    ++cur_rec;
+    do {
+        recp = (struct utmp*)&utmpbuf[cur_rec*UTSIZE];
+        ++cur_rec;
+    } while (recp->ut_type != );
     return recp;
 }
 

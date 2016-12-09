@@ -13,6 +13,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <string.h>
 
 #define BUFFERSIZE  4096
 #define COPYMODE    0644
@@ -26,6 +27,10 @@ int main(int argc, const char* argv[])
 
     if (argc != 3) {
         fprintf(stderr, "usage: %s source destination\n", *argv);
+        exit(1);
+    }
+    if (strcmp(argv[1], argv[2]) == 0) {
+        fprintf(stderr, "%s 和 %s 是同一个文件\n", argv[1], argv[2]);
         exit(1);
     }
 
