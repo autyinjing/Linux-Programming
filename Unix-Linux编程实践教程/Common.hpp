@@ -8,11 +8,14 @@
  ********************************************************************** */
 
 #ifndef DO_ERR
+
 #include <stdio.h>
 #include <stdlib.h>
+
 #define DO_ERR(err_stat, err_info) \
     if (err_stat) { \
         perror(err_info); \
         exit(1); \
     }
+
 #endif  //end of DO_ERR

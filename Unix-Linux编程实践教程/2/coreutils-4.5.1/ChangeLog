@@ -1,0 +1,156 @@
+2002-09-01  Jim Meyering  <meyering@lucent.com>
+
+	* Version 4.5.1.
+
+2002-08-31  Jim Meyering  <meyering@lucent.com>
+
+	Symlinks were always reported as using 0 blocks.
+	* src/system.h (ST_NBLOCKS): Don't depend on file type.
+	This reverts the change of 2000-01-30.
+	Based on a report and patch from Neil Brown via Michael Stone.
+	This fixes Debian Bug#156358.
+
+	* Most files: Change `exit (0)' to `exit (EXIT_SUCCESS)',
+	`exit (1)' to `exit (EXIT_FAILURE)', and
+	`usage (1)' to `usage (EXIT_FAILURE)'.
+
+	* chgrp.c, chmod.c, chown.c, chroot.c, cp.c, date.c, dd.c, du.c,
+	* hostname.c, id.c, install.c, ln.c, mkdir.c, mkfifo.c, mknod.c,
+	* nice.c, pinky.c, printf.c, pwd.c, shred.c, sleep.c, stty.c,
+	* su.c, tac-pipe.c, tail.c, tee.c, touch.c, uname.c, uptime.c,
+	* users.c, who.c: Change `error (1, ...' to `error (EXIT_FAILURE, ...'.
+	But don't change `error (0, ...' to `error (EXIT_SUCCESS, ...', since
+	error never exits successfully.
+
+2002-08-29  Jim Meyering  <meyering@lucent.com>
+
+	* src/remove.c (remove_cwd_entries): Use closedir (not CLOSEDIR)
+	when ignoring any return value.
+
+	* src/remove.c (remove_cwd_entries): Detect and diagnose readdir
+	failures.  On some systems (at least EMC Celerra and Solaris5.8),
+	this appears to be necessary.
+	(is_empty_dir): Likewise.  Also, always close directory handle.
+	* src/ls.c (print_dir): Likewise.
+	(print_dir): Rename local variable: reading -> dirp.
+	Reported by Mike Coleman.
+
+2002-08-28  Jim Meyering  <meyering@lucent.com>
+
+	* src/remove.c (remove_cwd_entries): Use CLOSEDIR, not closedir.
+	Give a diagnostic and fail if closedir fails.
+
+2002-08-26  Jim Meyering  <meyering@lucent.com>
+
+	* Makefile.am (THANKS-to-translators): New rule.
+	(EXTRA_DIST): Add both THANKS-to-translators and THANKStt.in.
+	* THANKStt.in: New file.
+
+	* src/cat.c (close_stdout_wrapper): New, kludgey, function and
+	file-scoped global.
+	(main): Register it with atexit.
+	Close STDOUT_FILENO, to avoid a problem when writing to
+	/dev/audio on at least Solaris 2.7 and 2.8 systems.
+	Reported by Shing-Shong Shei.
+
+2002-08-25  Jim Meyering  <meyering@lucent.com>
+
+	* src/cat.c (main): Close STDIN_FILENO rather than a literal `0'.
+	* src/tac.c (main): Likewise.
+	* src/tail.c (main): Likewise.
+	* src/tee.c (main): Likewise.
+	* src/tr.c (main): Likewise.
+	* src/wc.c (main): Likewise.
+
+2002-08-20  Jim Meyering  <meyering@lucent.com>
+
+	* tests/mv/setup: Rewrite not to use `: ${VAR=not_set}' paradigm.
+
+2002-08-10  Paul Eggert  <eggert@twinsun.com>
+
+	* src/nohup.sh: Don't use "exec --"; it's not portable and
+	shouldn't be needed.
+
+2002-08-09  Jim Meyering  <meyering@lucent.com>
+
+	* src/pr.c (main): Don't ignore -COLUMN if it's the last option.
+	(usage): Clarify help text for the -COLUMN option.
+	Patch by Padraig Brady.
+	* tests/pr/Test.pm [col-last]: New test for the above.
+
+	* configure.ac: Start with version 4.5.1, chosen so that it's larger
+	than the latest version numbers of the component packages.
+
+	* man/Makefile.am (check-x-vs-1): Set and export PATH so we use
+	programs in ../src.
+
+2002-08-08  Jim Meyering  <meyering@lucent.com>
+
+	* src/date.c: Guard inclusion of <langinfo.h> with
+	`#if HAVE_LANGINFO_CODESET', not `#if HAVE_LANGINFO_H'.
+	* src/sort.c: Likewise.
+	Patch by GOTO Masanori.
+
+2002-08-05  Paul Eggert  <eggert@twinsun.com>
+
+	Fix some minor time-related bugs with POSIX time arguments.
+	Some valid time stamps were being rejected (notably -1, and
+	time stamps before 1900 on 64-bit hosts).  And some invalid
+	time stamps were being accepted, e.g. September 31.
+
+	* src/date.c (main): Adjust to posixtime signature change.
+	* src/touch.c (main): Likewise.  Remove unnecessary initialization.
+	Use localtime, not posixtm, to warn about obsolete "touch".
+
+2002-08-05  Jim Meyering  <meyering@lucent.com>
+
+	* tests/misc/Makefile.am (TESTS): Add nice and pathchk1.
+
+2002-08-04  Jim Meyering  <meyering@lucent.com>
+
+	* src/Makefile.am (check-README): New target/rule.
+	(check): Depend on it.
+
+	* configure.ac (AC_CONFIG_FILES): Add old/Makefile and old/*/Makefile.
+
+2002-08-03  Jim Meyering  <meyering@lucent.com>
+
+	* Makefile.am (SUBDIRS): Add old.
+	* old/: New directory, containing legacy ChangeLog* and NEWS files
+	from the fileutils, sh-utils, and textutils packages.
+
+	* src/Makefile.am (AM_INSTALLCHECK_STD_OPTIONS_EXEMPT): Set to false.
+
+2002-08-02  Paul Eggert  <eggert@twinsun.com>
+
+	* NEWS, doc/coreutils.texi: uniq now obeys LC_COLLATE.
+
+	* src/uniq.c: Include hard-locale.h, xmemcoll.h.
+	(hard_LC_COLLATE): New var.
+	(different): Args are now char *, not const char *.
+	Use xmemcoll instead of memcmp to compare lines, so that
+	LC_COLLATE has effect.  However, use memcmp if it is an
+	easy locale.
+	(check_file): Do not include newline in comparison, so that
+	xmemcoll has a byte to stomp on temporarily.
+	(main): Set hard_LC_COLLATE.
+
+2002-07-29  Jim Meyering  <meyering@lucent.com>
+
+	* Makefile.am (SUBDIRS): Remove djgpp, for now.
+
+2002-07-08  Jim Meyering  <meyering@lucent.com>
+
+	* src/Makefile.am (uninstall-local): Search for @GNU_PACKAGE@,
+	rather than the hard-coded `sh-utils'.
+
+2002-07-01  Jim Meyering  <meyering@lucent.com>
+
+	* configure.ac: Merge the three files from fileutils,
+	textutils, and sh-utils.
+	* Makefile.am: Likewise.
+	* src/Makefile.am: Likewise.
+
+Local Variables:
+version-control: never
+End:
