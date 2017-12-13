@@ -191,3 +191,330 @@ static void _db_free(DB *db)
         free(db->name);
     free(db);
 }
+
+/* 获取一个记录 */
+char *db_fetch(DBHANDLE h, const char *key)
+{
+    DB      *db = h;
+    char    *ptr;
+
+    if (_db_find_and_lock(db, key, 0) < 0) {
+        ptr = NULL;
+        db->cnt_fetcherr++;
+    } else {
+        ptr = _db_readdat(db);
+        db->cnt_fetchok++;
+    }
+
+    if (un_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
+        err_dump("db_fetch: unlock error");
+    return ptr;
+}
+
+/* 查找指定key对应的记录 */
+static int _db_find_and_lock(DB *db, const char *key, int writelock)
+{
+    off_t   offset, nextoffset;
+
+    db->chainoff = (_db_hash(db, key) * PTR_SZ) + db->hashoff;
+    db->ptroff = db->chainoff;
+
+    /* 对单个散列链加锁 */
+    if (writelock) {
+        if (writew_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
+            err_dump("_db_find_and_lock: writew_lock error");
+    } else {
+        if (readw_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
+            err_dump("_db_find_and_lock: readw_lock error");
+    }
+
+    /* 读取散列链第一个节点的偏移量 */
+    offset = _db_readptr(db, db->ptroff);
+
+    /* 遍历散列链，查找key */
+    while (offset != 0) {
+        nextoffset = _db_readidx(db, offset);
+        if (strcmp(db->idxbuf, key) == 0)
+            break;
+        db->ptroff = offset;
+        offset = nextoffset;
+    }
+
+    return (offset == 0 ? -1 : 0);
+}
+
+/* 计算哈希值 */
+static DBHASH _db_hash(DB *db, const char *key)
+{
+    DBHASH  hval = 0;
+    char    c;
+    int     i;
+
+    for (i = 1; (c = *key++) != 0; ++i)
+        hval += c * i;
+    return (hval % db->nhash);
+}
+
+/* 读取文件中一个定长字符串表示的整数值 */
+static off_t _db_readptr(DB *db, off_t offset)
+{
+    char    asciiptr[PTR_SZ + 1];
+
+    if (lseek(db->idxfd, offset, SEEK_SET) == -1)
+        err_dump("_db_readptr: lseek error to ptr field");
+    if (read(db->idxfd, asciiptr, PTR_SZ) != PTR_SZ)
+        err_dump("_db_readptr: read error of ptr field");
+    asciiptr[PTR_SZ] = 0;
+    return (atol(asciiptr));
+}
+
+/* 读取一条索引记录 */
+static off_t _db_readidx(DB *db, off_t offset)
+{
+    ssize_t         i;
+    char            *ptr1, *ptr2;
+    char            aciiptr[PTR_SZ + 1], asciilen[IDXLEN_SZ + 1];
+    struct iovec    iov[2];
+
+    /* 定位到记录的位置 */
+    if ((db->idxoff = lseek(db->idxfd, offset, offset == 0 ? SEEK_CUR : SEEK_SET)) == -1)
+        err_dump("_db_readidx: lseek error");
+    
+    /* 读取下一个节点的偏移量和索引记录长度 */
+    iov[0].iov_base = asciiptr;
+    iov[0].iov_len  = PRE_SZ;
+    iov[1].iov_base = asciilen;
+    iov[1].iov_len  = IDXLEN_SZ;
+    if ((i = readv(db->idxfd, &iov[0], 2)) != PTR_SZ + IDXLEN_SZ) {
+        if (i == 0 && offset == 0)
+            return -1;
+        err_dump("_db_readidx: readv error of index record");
+    }
+
+    asciiptr[PTR_SZ] = 0;
+    db->ptrval = atol(asciiptr);
+
+    asciilen[IDXLEN_SZ] = 0;
+    if ((db->idxlen = atoi(asciilen)) < IDXLEN_MIN || db->idxlen > IDXLEN_MAX)
+        err_dump("_db_readidx: invalid length");
+
+    /* 读取索引记录 */
+    if ((i = read(db->idxfd, db->idxbuf, db->idxlen)) != db->idxlen)
+        err_dump("_db_readidx: read error of index record");
+    if (db->idxbuf[db->idxlen-1] != NEWLINE)
+        err_dump("_db_readidx: missing newline");
+    db->idxbuf[db->idxlen-1] = 0;
+
+    /* 读取数据偏移量和数据长度 */
+    if ((ptr1 = strchr(db->idxbuf, SEP)) == NULL)
+        err_dump("_db_readidx: missing first separator");
+    *ptr1++ = 0;
+    if ((ptr2 = strchr(ptr1, SEP)) == NULL)
+        err_dump("_db_readidx: missing second separator");
+    *ptr2++ = 0;
+    if (strchr(ptr2, SEP) != NULL)
+        err_dump("_db_readidx: too many separators");
+
+    if ((db->datoff = atol(ptr1)) < 0)
+        err_dump("_db_readidx: starting offset < 0");
+    if ((db->datlen = atol(ptr2)) <= 0 || db->datlen > DATLEN_MAX)
+        err_dump("_db_readidx: invalid length");
+    return db->ptrval;
+}
+
+/* 读取数据 */
+static char *_db_readdat(DB *db)
+{
+    if (lseek(db->datfd, db->datoff, SEEK_SET) == -1)
+        err_dump("_db_readdat: lseek error");
+    if (read(db->datfd, db->datbuf, db->datlen) != db->datlen)
+        err_dump("_db_readdat: read error");
+    if (db->datbuf[db->datlen-1] != NEWLINE)
+        err_dump("_db_readdat: missing newline");
+    db->datbuf[db->datlen-1] = 0;
+    return db->datbuf;
+}
+
+/* 删除指定的数据 */
+int db_delete(DBHANDLE h, const char *key)
+{
+    DB      *db = h;
+    int     rc = 0;
+
+    if (_db_find_and_lock(db, key, 1) == 0) {
+        _db_dodelete(db);
+        db->cnt_delok++;
+    } else {
+        rc = -1;
+        db->cnt_delerr++;
+    }
+    if (un_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
+        err_dump("db_delete: un_lock error");
+    return rc;
+}
+
+
+/* 执行删除操作 */
+static void _db_dodelete(DB *db)
+{
+    int     i;
+    char    *ptr;
+    off_t   freeptr, saveptr;
+
+    /* 将数据结构中索引记录和数据记录清空 */
+    for (ptr = db->datbuf, i = 0; i < db->datlen - 1; i++)
+        *ptr++ = SPACE;
+    *ptr = 0;
+    ptr = db->idxbuf;
+    while (*ptr)
+        *ptr++ = SPACE;
+
+    /* 将空白内容写入文件 */
+    if (writew_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
+        err_dump("_db_dodelete: write_lock error");
+    _db_writedat(db, db->datbuf, db->datoff, SEEK_SET);
+
+    freeptr = _db_readptr(db, FREE_OFF);
+    saveptr = db->ptrval;
+
+    /* 将删除的索引记录放入空闲链表的首部 */
+    _db_writeidx(db, db->idxbuf, db->idxoff, SEEK_SET, freeptr);
+    _db_writeptr(db, FREE_OFF, db->idxoff);
+
+    /* 将删除的索引记录的后一条记录串在前一条记录上 */
+    _db_writeptr(db, db->ptroff, saveptr);
+
+    if (un_lock(db->idxfd, FREE_OFF, SEET_SET, 1) < 0)
+        err_dump("_db_dodelete: un_lock error");
+}
+
+/* 写数据 */
+static void _db_writedat(DB *db, const char *data, off_t offset, int whence)
+{
+    struct iovec    iov[2];
+    static char     newline = NEWLINE;
+
+    /* 往文件尾追加数据，需要锁住整个文件 */
+    if (whence == SEEK_END)
+        if (write_lock(db->datfd, 0, SEEK_SET, 0) < 0)
+            err_dump("_db_writedat: writew_lock error");
+    if ((db->datoff = lseek(db->datfd, offset, whence)) == -1)
+        err_dump("_db_writedat: lseek error");
+    db->datlen = strlen(data) + 1;
+
+    iov[0].iov_base = (char *)data;
+    iov[0].iov_len  = db->datlen - 1;
+    iov[1].iov_base = &newline;
+    iov[1].iov_len  = 1;
+    if (writev(db->datfd, &iov[0], 2) != db->datlen)
+        err_dump("_db_writedat: writev error of data record");
+    if (whence == SEEK_END)
+        if (un_lock(db->datfd, 0, SEEK_SET, 0) < 0)
+            err_dump("_db_writedat: unlock error");
+}
+
+/* 写索引记录 */
+static void _db_writeidx(DB *db, const char *key, off_t offset, int whence, off_t ptrval)
+{
+    struct iovec    iov[2];
+    char            asciiptrlen[PTR_SZ + IDXLEN_SZ + 1];
+    int             len;
+    char            *fmt;
+
+    /* 构造写入内容 */
+    if ((db->ptrval = ptrval) < 0 || ptrval > PTR_MAX)
+        err_quit("_db_writeidx: invalid ptr: %d", ptrval);
+    if (sizeof(off_t) == sizeof(long long))
+        fmt = "%s%c%lld%c%d\n";
+    else
+        fmt = "%s%c%ld%c%d\n";
+    sprintf(db->idxbuf, fmt, key, SEP, db->datoff, SEP, db->datlen);
+    if ((len = strlen(db->idxbuf)) < IDXLEN_MIN || len > IDXLEN_MAX)
+        err_dump("_db_writeidx: invalid length");
+    sprintf(asciiptrlen, "%*ld%*d", PTR_SZ, ptrval, IDXLEN_SZ, len);
+
+    /* 如果是追加数据，需要对散列链加锁 */
+    if (whence == SEEK_END)
+        if (writew_lock(db->idxfd, ((db->nhash+1)*PTR_SZ)+1, SEEK_SET, 0) < 0)
+            err_dump("_db_writeidx: writew_lock error");
+
+    if ((db->idxoff = lseek(db->idxfd, offset, whence)) == -1)
+        err_dump("_db_writeidx: lseek error");
+
+    iov[0].iov_base = asciiptrlen;
+    iov[0].iov_len  = PTR_SZ + IDXLEN_SZ;
+    iov[1].iov_base = db->idxbuf;
+    iov[1].iov_len  = len;
+    if (writev(db->idxfd, &iov[0], 2) != PTR_SZ + IDXLEN_SZ + len)
+        err_dump("_db_writeidx: writev error of index record");
+
+    if (whence == SEEK_END)
+        if (un_lock(db->idxfd, ((db->nhash+1)*PTR_SZ)+1, SEEK_SET, 0) < 0)
+            err_dump("_db_writeidx: unlock error");
+}
+
+/* 将数值写为定长字符串 */
+static void _db_writeptr(DB *db, off_t offset, off_t ptrval)
+{
+    char        asciiptr[PTR_SZ + 1];
+
+    if (ptrval < 0 || ptrval > PTR_MAX)
+        err_quit("_db_writeptr: invalid ptr: %d", ptrval);
+    sprintf(asciiptr, "%*ld", PTR_SZ, ptrval);
+
+    if (lseek(db->idxfd, offset, SEEK_SET) == -1)
+        err_dump("_db_writeptr: lseek error to ptr field");
+    if (write(db->idxfd, asciiptr, PTR_SZ) != PTR_SZ)
+        err_dump("_db_writeptr: write error of ptr field");
+}
+
+/* 存储记录接口 */
+int db_store(DBHANDLE h, const char *key, const char *data, int flag)
+{
+    DB      *db = h;
+    int     rc, keylen, datlen;
+    off_t   ptrval;
+
+    if (flag != INSERT && flag != DB_REPLACE && flag != DB_STORE) {
+        errno = EINVAL;
+        return -1;
+    }
+    keylen = strlen(key);
+    datlen = strlen(data) + 1;
+    if (datlen < DATLEN_MIN || datlen > DATLEN_MAX)
+        err_dump("db_store: invalid data length");
+
+    if (_db_find_and_lock(db, key, 1) < 0) {            /* 没有找到记录 */
+        if (flag == DB_REPLACE) {
+            rc = -1;
+            db->cnt_storerr++;
+            errno = ENOENT;
+            goto doreturn;
+        }
+
+        ptrval = _db_readptr(db, db->chainoff);
+        if (_db_findfree(db, keylen, datlen) < 0) {     
+            /* 空闲链表中没有找到足够大的空记录项 */
+            _db_writedat(db, data, 0, SEEK_END);
+            _db_writeidx(db, key, SEEK_END, ptrval);
+
+            _db_writeptr(db, db->chainoff, db->idxoff);
+            db->cnt_stor1++;
+        } else {                                        
+            /* 空闲链表中有一个能够容纳新记录的空记录项 */
+            _db_writedat(db, data, db->datoff, SEEK_SET);
+            _db_writeidx(db, key, db->idxoff, SEEK_SET, ptrval);
+            _db_writeptr(db, db->chainoff, db->idxoff);
+            db->cnt_stor2++;
+        }
+    } else {                                            /* 找到记录 */
+        /* 已存在，不能插入 */
+        if (flag == DB_INSERT) {                        
+            rc = 1;
+            db->cnt_storerr++;
+            goto doreturn;
+        }
+
+        if ()
+    }
+}
