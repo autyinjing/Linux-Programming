@@ -1,0 +1,113 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COUNT	./db.c	/^typedef unsigned long   COUNT;$/;"	t	file:
+DATLEN_MAX	./apue_db.h	36;"	d
+DATLEN_MIN	./apue_db.h	35;"	d
+DB	./db.c	/^} DB;$/;"	t	typeref:struct:__anon1	file:
+DBHANDLE	./apue_db.h	/^typedef void * DBHANDLE;$/;"	t
+DBHASH	./db.c	/^typedef unsigned long   DBHASH;$/;"	t	file:
+DB_INSERT	./apue_db.h	26;"	d
+DB_REPLACE	./apue_db.h	27;"	d
+DB_STORE	./apue_db.h	28;"	d
+FREE_OFF	./db.c	27;"	d	file:
+HASH_OFF	./db.c	28;"	d	file:
+IDXLEN_MAX	./apue_db.h	34;"	d
+IDXLEN_MIN	./apue_db.h	33;"	d
+IDXLEN_SZ	./db.c	18;"	d	file:
+NEWLINE	./db.c	21;"	d	file:
+NHASH_DEF	./db.c	26;"	d	file:
+PTR_MAX	./db.c	25;"	d	file:
+PTR_SZ	./db.c	24;"	d	file:
+SEP	./db.c	19;"	d	file:
+SPACE	./db.c	20;"	d	file:
+_APUE_DB_H	./apue_db.h	11;"	d
+__anon1::chainoff	./db.c	/^    off_t   chainoff;       \/* 当前key的散列表偏移量 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_delerr	./db.c	/^    COUNT   cnt_delerr;     \/* 删除失败 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_delok	./db.c	/^    COUNT   cnt_delok;      \/* 删除成功 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_fetcherr	./db.c	/^    COUNT   cnt_fetcherr;   \/* 访问失败 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_fetchok	./db.c	/^    COUNT   cnt_fetchok;    \/* 访问成功 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_nextrec	./db.c	/^    COUNT   cnt_nextrec;    \/* 读取下一条成功 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_stor1	./db.c	/^    COUNT   cnt_stor1;      \/* 追加数据 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_stor2	./db.c	/^    COUNT   cnt_stor2;      \/* 在已删除key的位置插入数据 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_stor3	./db.c	/^    COUNT   cnt_stor3;      \/* 删除已存在的key后重新插入 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_stor4	./db.c	/^    COUNT   cnt_stor4;      \/* 替换已存在的key *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::cnt_storerr	./db.c	/^    COUNT   cnt_storerr;    \/* 已存在，插入失败 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::datbuf	./db.c	/^    char    *datbuf;        \/* 数据文件缓冲区 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::datfd	./db.c	/^    int     datfd;          \/* 数据文件的描述符 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::datlen	./db.c	/^    size_t  datlen;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::datoff	./db.c	/^    off_t   datoff;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::hashoff	./db.c	/^    off_t   hashoff;        \/* 散列表项的长度 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::idxbuf	./db.c	/^    char    *idxbuf;        \/* 索引文件缓冲区 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::idxfd	./db.c	/^    int     idxfd;          \/* 索引文件的描述符 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::idxlen	./db.c	/^    size_t  idxlen;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::idxoff	./db.c	/^    off_t   idxoff;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::name	./db.c	/^    char    *name;          \/* 数据库名缓冲区 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::nhash	./db.c	/^    DBHASH  nhash;          \/* 散列表的长度 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::ptroff	./db.c	/^    off_t   ptroff;         \/* 查找的键所在链表里面的上一个记录项的偏移量 *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::ptrval	./db.c	/^    off_t   ptrval;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+_db_alloc	./db.c	/^static DB       *_db_alloc(int);$/;"	p	file:	signature:(int)
+_db_alloc	./db.c	/^static DB *_db_alloc(int namelen)$/;"	f	file:	signature:(int namelen)
+_db_dodelete	./db.c	/^static void     _db_dodelete(DB *);$/;"	p	file:	signature:(DB *)
+_db_dodelete	./db.c	/^static void _db_dodelete(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_find_and_lock	./db.c	/^static int      _db_find_and_lock(DB *, const char *, int);$/;"	p	file:	signature:(DB *, const char *, int)
+_db_find_and_lock	./db.c	/^static int _db_find_and_lock(DB *db, const char *key, int writelock)$/;"	f	file:	signature:(DB *db, const char *key, int writelock)
+_db_findfree	./db.c	/^static int      _db_findfree(DB *, int, int);$/;"	p	file:	signature:(DB *, int, int)
+_db_findfree	./db.c	/^static int _db_findfree(DB *db, int keylen, int datlen)$/;"	f	file:	signature:(DB *db, int keylen, int datlen)
+_db_free	./db.c	/^static void     _db_free(DB *);$/;"	p	file:	signature:(DB *)
+_db_free	./db.c	/^static void _db_free(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_hash	./db.c	/^static DBHASH   _db_hash(DB *, const char *);$/;"	p	file:	signature:(DB *, const char *)
+_db_hash	./db.c	/^static DBHASH _db_hash(DB *db, const char *key)$/;"	f	file:	signature:(DB *db, const char *key)
+_db_readdat	./db.c	/^static char     *_db_readdat(DB *);$/;"	p	file:	signature:(DB *)
+_db_readdat	./db.c	/^static char *_db_readdat(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_readidx	./db.c	/^static off_t    _db_readidx(DB *, off_t);$/;"	p	file:	signature:(DB *, off_t)
+_db_readidx	./db.c	/^static off_t _db_readidx(DB *db, off_t offset)$/;"	f	file:	signature:(DB *db, off_t offset)
+_db_readptr	./db.c	/^static off_t    _db_readptr(DB *, off_t);$/;"	p	file:	signature:(DB *, off_t)
+_db_readptr	./db.c	/^static off_t _db_readptr(DB *db, off_t offset)$/;"	f	file:	signature:(DB *db, off_t offset)
+_db_writedat	./db.c	/^static void     _db_writedat(DB *, const char *, off_t, int);$/;"	p	file:	signature:(DB *, const char *, off_t, int)
+_db_writedat	./db.c	/^static void _db_writedat(DB *db, const char *data, off_t offset, int whence)$/;"	f	file:	signature:(DB *db, const char *data, off_t offset, int whence)
+_db_writeidx	./db.c	/^static void     _db_writeidx(DB *, const char *, off_t, int, off_t);$/;"	p	file:	signature:(DB *, const char *, off_t, int, off_t)
+_db_writeidx	./db.c	/^static void _db_writeidx(DB *db, const char *key, off_t offset, int whence, off_t ptrval)$/;"	f	file:	signature:(DB *db, const char *key, off_t offset, int whence, off_t ptrval)
+_db_writeptr	./db.c	/^static void     _db_writeptr(DB *, off_t, off_t);$/;"	p	file:	signature:(DB *, off_t, off_t)
+_db_writeptr	./db.c	/^static void _db_writeptr(DB *db, off_t offset, off_t ptrval)$/;"	f	file:	signature:(DB *db, off_t offset, off_t ptrval)
+chainoff	./db.c	/^    off_t   chainoff;       \/* 当前key的散列表偏移量 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_delerr	./db.c	/^    COUNT   cnt_delerr;     \/* 删除失败 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_delok	./db.c	/^    COUNT   cnt_delok;      \/* 删除成功 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_fetcherr	./db.c	/^    COUNT   cnt_fetcherr;   \/* 访问失败 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_fetchok	./db.c	/^    COUNT   cnt_fetchok;    \/* 访问成功 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_nextrec	./db.c	/^    COUNT   cnt_nextrec;    \/* 读取下一条成功 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_stor1	./db.c	/^    COUNT   cnt_stor1;      \/* 追加数据 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_stor2	./db.c	/^    COUNT   cnt_stor2;      \/* 在已删除key的位置插入数据 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_stor3	./db.c	/^    COUNT   cnt_stor3;      \/* 删除已存在的key后重新插入 *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_stor4	./db.c	/^    COUNT   cnt_stor4;      \/* 替换已存在的key *\/$/;"	m	struct:__anon1	file:	access:public
+cnt_storerr	./db.c	/^    COUNT   cnt_storerr;    \/* 已存在，插入失败 *\/$/;"	m	struct:__anon1	file:	access:public
+datbuf	./db.c	/^    char    *datbuf;        \/* 数据文件缓冲区 *\/$/;"	m	struct:__anon1	file:	access:public
+datfd	./db.c	/^    int     datfd;          \/* 数据文件的描述符 *\/$/;"	m	struct:__anon1	file:	access:public
+datlen	./db.c	/^    size_t  datlen;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+datoff	./db.c	/^    off_t   datoff;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+db_close	./apue_db.h	/^void        db_close(DBHANDLE);$/;"	p	signature:(DBHANDLE)
+db_close	./db.c	/^void db_close(DBHANDLE h)$/;"	f	signature:(DBHANDLE h)
+db_delete	./apue_db.h	/^int         db_delete(DBHANDLE, const char *);$/;"	p	signature:(DBHANDLE, const char *)
+db_delete	./db.c	/^int db_delete(DBHANDLE h, const char *key)$/;"	f	signature:(DBHANDLE h, const char *key)
+db_fetch	./apue_db.h	/^char        *db_fetch(DBHANDLE, const char *);$/;"	p	signature:(DBHANDLE, const char *)
+db_fetch	./db.c	/^char *db_fetch(DBHANDLE h, const char *key)$/;"	f	signature:(DBHANDLE h, const char *key)
+db_nextrec	./apue_db.h	/^char        *db_nextrec(DBHANDLE, char *);$/;"	p	signature:(DBHANDLE, char *)
+db_nextrec	./db.c	/^char *db_nextrec(DBHANDLE h, char *key)$/;"	f	signature:(DBHANDLE h, char *key)
+db_open	./apue_db.h	/^DBHANDLE    db_open(const char *, int, ...);$/;"	p	signature:(const char *, int, ...)
+db_open	./db.c	/^DBHANDLE db_open(const char *pathname, int oflag, ...)$/;"	f	signature:(const char *pathname, int oflag, ...)
+db_rewind	./apue_db.h	/^void        db_rewind(DBHANDLE);$/;"	p	signature:(DBHANDLE)
+db_rewind	./db.c	/^void db_rewind(DBHANDLE h)$/;"	f	signature:(DBHANDLE h)
+db_store	./apue_db.h	/^int         db_store(DBHANDLE, const char *, const char *, int);$/;"	p	signature:(DBHANDLE, const char *, const char *, int)
+db_store	./db.c	/^int db_store(DBHANDLE h, const char *key, const char *data, int flag)$/;"	f	signature:(DBHANDLE h, const char *key, const char *data, int flag)
+hashoff	./db.c	/^    off_t   hashoff;        \/* 散列表项的长度 *\/$/;"	m	struct:__anon1	file:	access:public
+idxbuf	./db.c	/^    char    *idxbuf;        \/* 索引文件缓冲区 *\/$/;"	m	struct:__anon1	file:	access:public
+idxfd	./db.c	/^    int     idxfd;          \/* 索引文件的描述符 *\/$/;"	m	struct:__anon1	file:	access:public
+idxlen	./db.c	/^    size_t  idxlen;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+idxoff	./db.c	/^    off_t   idxoff;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public
+name	./db.c	/^    char    *name;          \/* 数据库名缓冲区 *\/$/;"	m	struct:__anon1	file:	access:public
+nhash	./db.c	/^    DBHASH  nhash;          \/* 散列表的长度 *\/$/;"	m	struct:__anon1	file:	access:public
+ptroff	./db.c	/^    off_t   ptroff;         \/* 查找的键所在链表里面的上一个记录项的偏移量 *\/$/;"	m	struct:__anon1	file:	access:public
+ptrval	./db.c	/^    off_t   ptrval;         \/*  *\/$/;"	m	struct:__anon1	file:	access:public

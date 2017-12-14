@@ -21,9 +21,9 @@
 #define NEWLINE         '\n'
 
 /* 空闲链表和散列链使用的常量 */
-#define PTR_SZ          6
+#define PTR_SZ          4
 #define PTR_MAX         999999
-#define NHASH_DEF       137
+#define NHASH_DEF       3
 #define FREE_OFF        0
 #define HASH_OFF        PTR_SZ
 
@@ -32,34 +32,35 @@ typedef unsigned long   COUNT;
 
 /* 数据库结构 */
 typedef struct {
-    int     idxfd;
-    int     datfd;
-    char    *idxbuf;
-    char    *datbuf;
-    char    *name;
+    int     idxfd;          /* 索引文件的描述符 */
+    int     datfd;          /* 数据文件的描述符 */
+    char    *idxbuf;        /* 索引文件缓冲区 */
+    char    *datbuf;        /* 数据文件缓冲区 */
+    char    *name;          /* 数据库名缓冲区 */
 
-    off_t   idxoff;
-    size_t  idxlen;
+    off_t   idxoff;         /* 索引记录的偏移量 */
+    size_t  idxlen;         /* 索引记录的长度 */
 
-    off_t   datoff;
-    size_t  datlen;
+    off_t   datoff;         /* 数据偏移量 */
+    size_t  datlen;         /* 数据长度 */
 
-    off_t   ptrval;
-    off_t   ptroff;
-    off_t   chainoff;
-    off_t   hashoff;
+    off_t   ptrval;         /* 空闲链表指针 */
+    off_t   ptroff;         /* 查找的键所在链表里面的上一个记录项的偏移量 */
+    off_t   chainoff;       /* 当前key的散列表偏移量 */
+    off_t   hashoff;        /* 散列表项的长度 */
 
-    DBHASH  nhash;
-    COUNT   cnt_delok;
-    COUNT   cnt_delerr;
-    COUNT   cnt_fetchok;
-    COUNT   cnt_fetcherr;
-    COUNT   cnt_nextrec;
-    COUNT   cnt_stor1;
-    COUNT   cnt_stor2;
-    COUNT   cnt_stor3;
-    COUNT   cnt_stor4;
-    COUNT   cnt_storerr;
+    DBHASH  nhash;          /* 散列表的长度 */
+    /* 计数器 */
+    COUNT   cnt_delok;      /* 删除成功 */
+    COUNT   cnt_delerr;     /* 删除失败 */
+    COUNT   cnt_fetchok;    /* 访问成功 */
+    COUNT   cnt_fetcherr;   /* 访问失败 */
+    COUNT   cnt_nextrec;    /* 读取下一条成功 */
+    COUNT   cnt_stor1;      /* 追加数据 */
+    COUNT   cnt_stor2;      /* 在已删除key的位置插入数据 */
+    COUNT   cnt_stor3;      /* 删除已存在的key后重新插入 */
+    COUNT   cnt_stor4;      /* 替换已存在的key */
+    COUNT   cnt_storerr;    /* 已存在，插入失败 */
 } DB;
 
 /* 内部函数 */
@@ -82,7 +83,7 @@ DBHANDLE db_open(const char *pathname, int oflag, ...)
     DB          *db;
     int         len, mode;
     size_t      i;
-    char        aciiptr[PTR_SZ + 1],
+    char        asciiptr[PTR_SZ + 1],
                 hash[(NHASH_DEF + 1) * PTR_SZ + 2];
     struct stat statbuff;
 
@@ -91,7 +92,7 @@ DBHANDLE db_open(const char *pathname, int oflag, ...)
     if ((db = _db_alloc(len)) == NULL)
         err_dump("db_open: _db_alloc error for DB");
     db->nhash   = NHASH_DEF;
-    db_hashoff  = HASH_OFF;
+    db->hashoff = HASH_OFF;
     strcpy(db->name, pathname);
     strcat(db->name, ".idx");
 
@@ -102,7 +103,7 @@ DBHANDLE db_open(const char *pathname, int oflag, ...)
         mode = va_arg(ap, int);
         va_end(ap);
 
-        db->idxfd = open(dn->name, oflag, mode);
+        db->idxfd = open(db->name, oflag, mode);
         strcpy(db->name + len, ".dat");
         db->datfd = open(db->name, oflag, mode);
     } else {
@@ -255,7 +256,7 @@ static DBHASH _db_hash(DB *db, const char *key)
     return (hval % db->nhash);
 }
 
-/* 读取文件中一个定长字符串表示的整数值 */
+/* 读取空闲链表节点的指针值 */
 static off_t _db_readptr(DB *db, off_t offset)
 {
     char    asciiptr[PTR_SZ + 1];
@@ -273,7 +274,7 @@ static off_t _db_readidx(DB *db, off_t offset)
 {
     ssize_t         i;
     char            *ptr1, *ptr2;
-    char            aciiptr[PTR_SZ + 1], asciilen[IDXLEN_SZ + 1];
+    char            asciiptr[PTR_SZ + 1], asciilen[IDXLEN_SZ + 1];
     struct iovec    iov[2];
 
     /* 定位到记录的位置 */
@@ -282,11 +283,11 @@ static off_t _db_readidx(DB *db, off_t offset)
     
     /* 读取下一个节点的偏移量和索引记录长度 */
     iov[0].iov_base = asciiptr;
-    iov[0].iov_len  = PRE_SZ;
+    iov[0].iov_len  = PTR_SZ;
     iov[1].iov_base = asciilen;
     iov[1].iov_len  = IDXLEN_SZ;
     if ((i = readv(db->idxfd, &iov[0], 2)) != PTR_SZ + IDXLEN_SZ) {
-        if (i == 0 && offset == 0)
+        if (i == 0 && offset == 0)  /* 读到文件尾 */
             return -1;
         err_dump("_db_readidx: readv error of index record");
     }
@@ -353,7 +354,6 @@ int db_delete(DBHANDLE h, const char *key)
     return rc;
 }
 
-
 /* 执行删除操作 */
 static void _db_dodelete(DB *db)
 {
@@ -384,7 +384,7 @@ static void _db_dodelete(DB *db)
     /* 将删除的索引记录的后一条记录串在前一条记录上 */
     _db_writeptr(db, db->ptroff, saveptr);
 
-    if (un_lock(db->idxfd, FREE_OFF, SEET_SET, 1) < 0)
+    if (un_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
         err_dump("_db_dodelete: un_lock error");
 }
 
@@ -453,7 +453,7 @@ static void _db_writeidx(DB *db, const char *key, off_t offset, int whence, off_
             err_dump("_db_writeidx: unlock error");
 }
 
-/* 将数值写为定长字符串 */
+/* 将ptrval以空闲链表节点指针的格式写入offset指定文件位置 */
 static void _db_writeptr(DB *db, off_t offset, off_t ptrval)
 {
     char        asciiptr[PTR_SZ + 1];
@@ -475,7 +475,7 @@ int db_store(DBHANDLE h, const char *key, const char *data, int flag)
     int     rc, keylen, datlen;
     off_t   ptrval;
 
-    if (flag != INSERT && flag != DB_REPLACE && flag != DB_STORE) {
+    if (flag != DB_INSERT && flag != DB_REPLACE && flag != DB_STORE) {
         errno = EINVAL;
         return -1;
     }
@@ -496,7 +496,7 @@ int db_store(DBHANDLE h, const char *key, const char *data, int flag)
         if (_db_findfree(db, keylen, datlen) < 0) {     
             /* 空闲链表中没有找到足够大的空记录项 */
             _db_writedat(db, data, 0, SEEK_END);
-            _db_writeidx(db, key, SEEK_END, ptrval);
+            _db_writeidx(db, key, 0, SEEK_END, ptrval);
 
             _db_writeptr(db, db->chainoff, db->idxoff);
             db->cnt_stor1++;
@@ -515,6 +515,104 @@ int db_store(DBHANDLE h, const char *key, const char *data, int flag)
             goto doreturn;
         }
 
-        if ()
+        /* replace 或者 store */
+        if (datlen != db->datlen) {
+            _db_dodelete(db);
+
+            ptrval = _db_readptr(db, db->chainoff);
+
+            _db_writedat(db, data, 0, SEEK_END);
+            _db_writeidx(db, key, 0, SEEK_END, ptrval);
+
+            _db_writeptr(db, db->chainoff, db->idxoff);
+            db->cnt_stor3++;
+        } else {
+            _db_writedat(db, data, db->datoff, SEEK_SET);
+            db->cnt_stor4++;
+        }
     }
+    rc = 0;
+
+doreturn:
+    if (un_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
+        err_dump("db_store: un_lock error");
+    return rc;
+}
+
+/* 从空闲链表上寻找一个长度匹配的空记录项 */
+static int _db_findfree(DB *db, int keylen, int datlen)
+{
+    int     rc;
+    off_t   offset, nextoffset, saveoffset;
+
+    if (writew_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
+        err_dump("_db_findfree: writew_lock error");
+
+    saveoffset = FREE_OFF;
+    offset = _db_readptr(db, saveoffset);
+
+    /* 链表查询 */
+    while (offset != 0) {
+        nextoffset = _db_readidx(db, offset);
+        if (strlen(db->idxbuf) == keylen && db->datlen == datlen)
+            break;
+        saveoffset = offset;
+        offset = nextoffset;
+    }
+
+    if (offset == 0) {
+        rc = -1;
+    } else {
+        _db_writeptr(db, saveoffset, db->ptrval);
+        rc = 0;
+    }
+
+    if (un_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
+        err_dump("_db_findfree: un_lock error");
+    return rc;
+}
+
+/* 重置文件偏移量为第一条记录的起始位置 */
+void db_rewind(DBHANDLE h)
+{
+    DB      *db = h;
+    off_t   offset;
+
+    offset = (db->nhash + 1) * PTR_SZ;
+    if ((db->idxoff = lseek(db->idxfd, offset+1, SEEK_SET)) == -1)
+        err_dump("db_rewind: lseek error");
+}
+
+/* 返回下一条记录 */
+char *db_nextrec(DBHANDLE h, char *key)
+{
+    DB      *db = h;
+    char    c;
+    char    *ptr;
+
+    if (readw_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
+        err_dump("db_nextrec: readw_lock error");
+
+    /* 读取一条非空索引 */
+    do {
+        if (_db_readidx(db, 0) < 0) {
+            ptr = NULL;
+            goto doreturn;
+        }
+
+        ptr = db->idxbuf;
+        while ((c = *ptr++) != 0 && c == SPACE)
+            ;
+    } while (c == 0);
+
+    /* 读取数据 */
+    if (key != NULL)
+        strcpy(key, db->idxbuf);
+    ptr = _db_readdat(db);
+    db->cnt_nextrec++;
+
+doreturn:
+    if (un_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
+        err_dump("db_nextrec: un_lock error");
+    return ptr;
 }
