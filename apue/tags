@@ -1,0 +1,2044 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACORE	./apue.2e/proc/pracct.c	10;"	d	file:
+AR	./apue.2e/db/freebsd.mk	/^AR	= ar$/;"	m
+AR	./apue.2e/db/linux.mk	/^AR	= ar$/;"	m
+AR	./apue.2e/db/macos.mk	/^AR	= ar$/;"	m
+AR	./apue.2e/db/solaris.mk	/^AR	= ar$/;"	m
+AR	./apue.2e/lib/freebsd.mk	/^AR	= ar$/;"	m
+AR	./apue.2e/lib/linux.mk	/^AR	= ar$/;"	m
+AR	./apue.2e/lib/macos.mk	/^AR	= ar$/;"	m
+AR	./apue.2e/lib/solaris.mk	/^AR	= ar$/;"	m
+ARRAY_SIZE	./apue.2e/ipc/tshm.c	4;"	d	file:
+AXSIG	./apue.2e/proc/pracct.c	13;"	d	file:
+BIGCOUNT	./apue.2e/lib/semaph.c	43;"	d	file:
+BUFFERSZ	./apue.2e/stdio/buf.c	7;"	d	file:
+BUFFERSZ	./apue.2e/stdio/buf.c	9;"	d	file:
+BUFFSIZE	./1/example/copy.c	21;"	d	file:
+BUFFSIZE	./10/example/10-22.c	20;"	d	file:
+BUFFSIZE	./3/example/3-3.c	20;"	d	file:
+BUFFSIZE	./apue.2e/advio/catgetmsg.c	4;"	d	file:
+BUFFSIZE	./apue.2e/call/loop.poll.c	4;"	d	file:
+BUFFSIZE	./apue.2e/mycat/mycat.c	3;"	d	file:
+BUFFSIZE	./apue.2e/open.fe/main.c	4;"	d	file:
+BUFFSIZE	./apue.2e/pty/loop.c	3;"	d	file:
+BUFFSIZE	./apue.2e/signals/sigtstp.c	3;"	d	file:
+BUFLEN	./apue.2e/sockets/ruptime-dg.c	6;"	d	file:
+BUFLEN	./apue.2e/sockets/ruptime.c	7;"	d	file:
+BUFLEN	./apue.2e/sockets/ruptimed-dg.c	7;"	d	file:
+BUFLEN	./apue.2e/sockets/ruptimed.c	7;"	d	file:
+CBREAK	./apue.2e/lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon3	file:
+CFLAGS	./apue.2e/db/freebsd.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CFLAGS	./apue.2e/db/linux.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CFLAGS	./apue.2e/db/macos.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CLI_PATH	./apue.2e/lib/cliconn.c	6;"	d	file:
+CLI_PATH	./apue.2e/sockets/cliconn.c	6;"	d	file:
+CLI_PERM	./apue.2e/lib/cliconn.c	7;"	d	file:
+CLI_PERM	./apue.2e/sockets/cliconn.c	7;"	d	file:
+CL_CALL	./apue.2e/call/call.h	6;"	d
+CL_CALL	./apue.2e/calld/calld.h	5;"	d
+CL_OPEN	./apue.2e/open.fe/open.h	4;"	d
+CL_OPEN	./apue.2e/open/open.h	4;"	d
+CL_OPEN	./apue.2e/opend.fe/opend.h	4;"	d
+CL_OPEN	./apue.2e/opend/opend.h	5;"	d
+COMM_OBJ	./apue.2e/db/freebsd.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	./apue.2e/db/linux.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	./apue.2e/db/macos.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	./apue.2e/db/solaris.mk	/^COMM_OBJ   = db.o$/;"	m
+CONFIG_FILE	./apue.2e/ipp/print.h	14;"	d
+CONTROLLEN	./apue.2e/lib/recvfd.c	9;"	d	file:
+CONTROLLEN	./apue.2e/lib/sendfd.c	8;"	d	file:
+CONTROLLEN	./apue.2e/sockets/recvfd.c	9;"	d	file:
+CONTROLLEN	./apue.2e/sockets/recvfd2.c	22;"	d	file:
+CONTROLLEN	./apue.2e/sockets/sendfd.c	8;"	d	file:
+CONTROLLEN	./apue.2e/sockets/sendfd2.c	17;"	d	file:
+COUNT	./apue.2e/db/db.c	/^typedef unsigned long	COUNT;	\/* unsigned counter *\/$/;"	t	file:
+COUNT	./project/apue_db/db.c	/^typedef unsigned long   COUNT;$/;"	t	file:
+CREDOPT	./apue.2e/sockets/recvfd2.c	13;"	d	file:
+CREDOPT	./apue.2e/sockets/recvfd2.c	8;"	d	file:
+CREDSLEN	./apue.2e/sockets/recvfd2.c	21;"	d	file:
+CREDSLEN	./apue.2e/sockets/sendfd2.c	16;"	d	file:
+CREDSTRUCT	./apue.2e/sockets/recvfd2.c	11;"	d	file:
+CREDSTRUCT	./apue.2e/sockets/recvfd2.c	6;"	d	file:
+CREDSTRUCT	./apue.2e/sockets/sendfd2.c	5;"	d	file:
+CREDSTRUCT	./apue.2e/sockets/sendfd2.c	8;"	d	file:
+CR_UID	./apue.2e/sockets/recvfd2.c	12;"	d	file:
+CR_UID	./apue.2e/sockets/recvfd2.c	7;"	d	file:
+CS_CALL	./apue.2e/call/call.h	5;"	d
+CS_CALL	./apue.2e/calld/calld.h	4;"	d
+CS_OPEN	./apue.2e/open/open.h	5;"	d
+CS_OPEN	./apue.2e/opend/opend.h	4;"	d
+CTRLA	./apue.2e/call/take.c	3;"	d	file:
+Client	./apue.2e/calld/calld.h	/^} Client;$/;"	t	typeref:struct:__anon5
+Client	./apue.2e/opend/opend.h	/^} Client;$/;"	t	typeref:struct:__anon2
+DATADIR	./apue.2e/ipp/print.h	17;"	d
+DATAFILE	./apue.2e/environ/opendata.c	3;"	d	file:
+DATLEN_MAX	./apue.2e/db/apue_db.h	27;"	d
+DATLEN_MAX	./project/apue_db/apue_db.h	36;"	d
+DATLEN_MIN	./apue.2e/db/apue_db.h	26;"	d
+DATLEN_MIN	./project/apue_db/apue_db.h	35;"	d
+DB	./apue.2e/db/db.c	/^} DB;$/;"	t	typeref:struct:__anon4	file:
+DB	./project/apue_db/db.c	/^} DB;$/;"	t	typeref:struct:__anon10	file:
+DBHANDLE	./apue.2e/db/apue_db.h	/^typedef	void *	DBHANDLE;$/;"	t
+DBHANDLE	./project/apue_db/apue_db.h	/^typedef void * DBHANDLE;$/;"	t
+DBHASH	./apue.2e/db/db.c	/^typedef unsigned long	DBHASH;	\/* hash values *\/$/;"	t	file:
+DBHASH	./project/apue_db/db.c	/^typedef unsigned long   DBHASH;$/;"	t	file:
+DB_INSERT	./apue.2e/db/apue_db.h	17;"	d
+DB_INSERT	./project/apue_db/apue_db.h	26;"	d
+DB_REPLACE	./apue.2e/db/apue_db.h	18;"	d
+DB_REPLACE	./project/apue_db/apue_db.h	27;"	d
+DB_STORE	./apue.2e/db/apue_db.h	19;"	d
+DB_STORE	./project/apue_db/apue_db.h	28;"	d
+DEBUG	./apue.2e/calld/calld.h	/^void  DEBUG(char *, ...);					\/* debug.c *\/$/;"	p	signature:(char *, ...)
+DEBUG	./apue.2e/calld/debug.c	/^DEBUG(char *fmt, ...)		\/* debug output, newline at end *\/$/;"	f	signature:(char *fmt, ...)
+DEBUG_NONL	./apue.2e/calld/calld.h	/^void  DEBUG_NONL(char *, ...);$/;"	p	signature:(char *, ...)
+DEBUG_NONL	./apue.2e/calld/debug.c	/^DEBUG_NONL(char *fmt, ...)	\/* debug output, NO newline at end *\/$/;"	f	signature:(char *fmt, ...)
+DEF_PAGER	./apue.2e/ipc/pipe2.c	4;"	d	file:
+DEPTH	./apue.2e/file/longpath.c	4;"	d	file:
+DEVICES	./apue.2e/calld/calld.h	17;"	d
+DIALERS	./apue.2e/calld/calld.h	18;"	d
+DIRS	./apue.2e/Makefile	/^DIRS = lib sockets advio call calld daemons datafiles db environ exercises \\$/;"	m
+DIR_MODE	./apue.2e/include/apue.h	46;"	d
+DIR_MODE	./apue.2e/lib/apue.h	46;"	d
+DIR_MODE	./apue.2e/sockets/apue.h	46;"	d
+DIR_MODE	./apue.h	46;"	d
+Debug	./apue.2e/calld/calld.h	/^  int	Debug;				\/* option from client *\/$/;"	m	struct:__anon5	access:public
+Debug	./apue.2e/calld/main.c	/^int			Debug;	\/* Debug controlled by client, not cmd line *\/$/;"	v
+Devices	./apue.2e/calld/calld.h	/^} Devices;$/;"	t	typeref:struct:__anon7
+Dialers	./apue.2e/calld/calld.h	/^} Dialers;$/;"	t	typeref:struct:__anon8
+ETIME	./apue.2e/ipp/print.h	37;"	d
+EVEN	./apue.2e/calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+EXPALRM	./apue.2e/calld/expectstr.c	3;"	d	file:
+EXTRA	./apue.2e/advio/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/advio/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/advio/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/advio/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/call/freebsd.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	./apue.2e/call/linux.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	./apue.2e/call/macos.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	./apue.2e/call/solaris.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	./apue.2e/calld/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/calld/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/calld/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/calld/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/daemons/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/daemons/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/daemons/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/daemons/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/datafiles/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/datafiles/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/datafiles/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/datafiles/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/exercises/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/exercises/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/exercises/macos.mk	/^EXTRA=-DOS_INLINE=static$/;"	m
+EXTRA	./apue.2e/exercises/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/ipc/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/ipc/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/ipc/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/ipc/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/ipp/freebsd.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	./apue.2e/ipp/linux.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	./apue.2e/ipp/macos.mk	/^EXTRA=-DDEBUG -DOS_INLINE=static$/;"	m
+EXTRA	./apue.2e/ipp/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	./apue.2e/lib/freebsd.mk	/^EXTRA= -D_HAS_OPENPT -D_HAS_GRANTPT -D_HAS_UNLOCKPT -D_HAS_PTSNAME$/;"	m
+EXTRA	./apue.2e/lib/solaris.mk	/^EXTRA=-D__EXTENSIONS__ -D_HAS_PTSNAME -D_HAS_GRANTPT -D_HAS_UNLOCKPT$/;"	m
+EXTRA	./apue.2e/lock/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/lock/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/lock/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/lock/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/open.fe/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/open.fe/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/open.fe/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/open.fe/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/open/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/open/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/open/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/open/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/opend.fe/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/opend.fe/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/opend.fe/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/opend.fe/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/opend/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/opend/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/opend/macos.mk	/^EXTRA=-DOS_INLINE=static$/;"	m
+EXTRA	./apue.2e/opend/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/proc/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/pty/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	./apue.2e/sockets/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/sockets/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/sockets/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/sockets/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	./apue.2e/streams/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/streams/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/streams/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/streams/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/termios/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/termios/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/termios/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/termios/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	./apue.2e/threadctl/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/threadctl/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/threadctl/solaris.mk	/^EXTRA=-D_POSIX_PTHREAD_SEMANTICS$/;"	m
+EXTRA	./apue.2e/threads/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/threads/linux.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/threads/macos.mk	/^EXTRA=$/;"	m
+EXTRA	./apue.2e/threads/solaris.mk	/^EXTRA=$/;"	m
+EXTRALIBS	./apue.2e/call/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/calld/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/ipc/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/ipp/solaris.mk	/^EXTRALIBS=-lsocket -lnsl -lrt -lpthread$/;"	m
+EXTRALIBS	./apue.2e/open.fe/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/open/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/opend.fe/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/opend/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/pty/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/sockets/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	./apue.2e/threadctl/freebsd.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	./apue.2e/threadctl/linux.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	./apue.2e/threadctl/solaris.mk	/^EXTRALIBS=-lrt -lpthread$/;"	m
+EXTRALIBS	./apue.2e/threads/freebsd.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	./apue.2e/threads/linux.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	./apue.2e/threads/solaris.mk	/^EXTRALIBS=-lpthread$/;"	m
+FIFO	./apue.2e/ipc/fifo1.c	4;"	d	file:
+FIFO_MODE	./apue.2e/streams/servlisten.c	6;"	d	file:
+FILENMSZ	./apue.2e/ipp/print.h	20;"	d
+FILEPERM	./apue.2e/ipp/print.h	21;"	d
+FILES	./apue.2e/environ/freebsd.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	./apue.2e/environ/linux.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	./apue.2e/environ/macos.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	./apue.2e/environ/solaris.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILE_MODE	./apue.2e/include/apue.h	44;"	d
+FILE_MODE	./apue.2e/lib/apue.h	44;"	d
+FILE_MODE	./apue.2e/sockets/apue.h	44;"	d
+FILE_MODE	./apue.h	44;"	d
+FMT	./7/example/7-8.c	22;"	d	file:
+FMT	./7/example/7-8.c	24;"	d	file:
+FMT	./apue.2e/environ/getrlimit.c	4;"	d	file:
+FMT	./apue.2e/environ/getrlimit.c	6;"	d	file:
+FMT	./apue.2e/proc/pracct.c	5;"	d	file:
+FMT	./apue.2e/proc/pracct.c	7;"	d	file:
+FMT	./process/src/rlimit.c	14;"	d	file:
+FMT	./process/src/rlimit.c	16;"	d	file:
+FREE_OFF	./apue.2e/db/db.c	25;"	d	file:
+FREE_OFF	./project/apue_db/db.c	27;"	d	file:
+FTW_D	./4/example/4-7.c	52;"	d	file:
+FTW_D	./apue.2e/file/ftw4.c	50;"	d	file:
+FTW_DNR	./4/example/4-7.c	53;"	d	file:
+FTW_DNR	./apue.2e/file/ftw4.c	51;"	d	file:
+FTW_F	./4/example/4-7.c	51;"	d	file:
+FTW_F	./apue.2e/file/ftw4.c	49;"	d	file:
+FTW_NS	./4/example/4-7.c	54;"	d	file:
+FTW_NS	./apue.2e/file/ftw4.c	52;"	d	file:
+GET_MIN	./process/src/xxx.c	13;"	d	file:
+HASH	./apue.2e/threads/mutex2.c	5;"	d	file:
+HASH	./apue.2e/threads/mutex3.c	5;"	d	file:
+HASH_OFF	./apue.2e/db/db.c	26;"	d	file:
+HASH_OFF	./project/apue_db/db.c	28;"	d	file:
+HBUFSZ	./apue.2e/ipp/print.h	33;"	d
+HDRS	./apue.2e/call/freebsd.mk	/^HDRS = call.h$/;"	m
+HDRS	./apue.2e/call/linux.mk	/^HDRS = call.h$/;"	m
+HDRS	./apue.2e/call/macos.mk	/^HDRS = call.h$/;"	m
+HDRS	./apue.2e/call/solaris.mk	/^HDRS = call.h$/;"	m
+HDRS	./apue.2e/calld/freebsd.mk	/^HDRS = calld.h$/;"	m
+HDRS	./apue.2e/calld/linux.mk	/^HDRS = calld.h$/;"	m
+HDRS	./apue.2e/calld/macos.mk	/^HDRS = calld.h$/;"	m
+HDRS	./apue.2e/calld/solaris.mk	/^HDRS = calld.h$/;"	m
+HDRS	./apue.2e/ipp/freebsd.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	./apue.2e/ipp/linux.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	./apue.2e/ipp/macos.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	./apue.2e/ipp/solaris.mk	/^HDRS = print.h ipp.h$/;"	m
+HOST_NAME_MAX	./apue.2e/ipp/print.h	27;"	d
+HOST_NAME_MAX	./apue.2e/sockets/ruptimed-dg.c	11;"	d	file:
+HOST_NAME_MAX	./apue.2e/sockets/ruptimed-fd.c	12;"	d	file:
+HOST_NAME_MAX	./apue.2e/sockets/ruptimed.c	11;"	d	file:
+HTTP_INFO	./apue.2e/ipp/printd.c	19;"	d	file:
+HTTP_SUCCESS	./apue.2e/ipp/printd.c	20;"	d	file:
+IBUFSZ	./apue.2e/ipp/print.h	32;"	d
+IDXLEN_MAX	./apue.2e/db/apue_db.h	25;"	d
+IDXLEN_MAX	./project/apue_db/apue_db.h	34;"	d
+IDXLEN_MIN	./apue.2e/db/apue_db.h	24;"	d
+IDXLEN_MIN	./project/apue_db/apue_db.h	33;"	d
+IDXLEN_SZ	./apue.2e/db/db.c	13;"	d	file:
+IDXLEN_SZ	./project/apue_db/db.c	18;"	d	file:
+IOBUFSZ	./apue.2e/ipp/print.h	34;"	d
+IPP_PORT	./apue.2e/ipp/print.h	30;"	d
+JOBFILE	./apue.2e/ipp/print.h	16;"	d
+JOBNM_MAX	./apue.2e/ipp/print.h	23;"	d
+LIBMISC	./apue.2e/db/freebsd.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	./apue.2e/db/linux.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	./apue.2e/db/macos.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	./apue.2e/db/solaris.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	./apue.2e/lib/freebsd.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	./apue.2e/lib/linux.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	./apue.2e/lib/macos.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	./apue.2e/lib/solaris.mk	/^LIBMISC	= libapue.a$/;"	m
+LOCKFILE	./apue.2e/daemons/single.c	10;"	d	file:
+LOCKMODE	./apue.2e/daemons/single.c	11;"	d	file:
+Lock	./apue.2e/calld/lock.c	/^} Lock;$/;"	t	typeref:struct:__anon9	file:
+MALLOC_SIZE	./apue.2e/ipc/tshm.c	5;"	d	file:
+MAXADDRLEN	./apue.2e/sockets/ruptime.c	6;"	d	file:
+MAXADDRLEN	./apue.2e/sockets/ruptimed-dg.c	8;"	d	file:
+MAXARGC	./apue.2e/lib/bufargs.c	3;"	d	file:
+MAXCFGLINE	./apue.2e/ipp/util.c	6;"	d	file:
+MAXFMTLEN	./apue.2e/ipp/util.c	8;"	d	file:
+MAXKWLEN	./apue.2e/ipp/util.c	7;"	d	file:
+MAXLINE	./apue.2e/include/apue.h	42;"	d
+MAXLINE	./apue.2e/lib/apue.h	42;"	d
+MAXLINE	./apue.2e/sockets/apue.h	42;"	d
+MAXLINE	./apue.h	42;"	d
+MAXSLEEP	./apue.2e/sockets/clconn.c	4;"	d	file:
+MAXSPEEDSTR	./apue.2e/calld/calld.h	7;"	d
+MAXSYSNAME	./apue.2e/calld/calld.h	6;"	d
+MAXSZ	./apue.2e/file/longpath.c	7;"	d	file:
+MAX_PASS_LEN	./apue.2e/termios/getpass.c	5;"	d	file:
+MSGLEN_MAX	./apue.2e/ipp/print.h	24;"	d
+MYHOME	./apue.2e/file/longpath.c	5;"	d	file:
+Myfunc	./4/example/4-7.c	/^typedef int 	Myfunc( const char *, const struct stat *, int );$/;"	t	file:
+Myfunc	./apue.2e/file/ftw4.c	/^typedef	int	Myfunc(const char *, const struct stat *, int);$/;"	t	file:
+NALLOC	./apue.2e/calld/calld.h	13;"	d
+NALLOC	./apue.2e/opend/client.c	3;"	d	file:
+NAME	./apue.2e/file/longpath.c	6;"	d	file:
+NEWLINE	./apue.2e/db/db.c	16;"	d	file:
+NEWLINE	./project/apue_db/db.c	21;"	d	file:
+NHASH	./apue.2e/threads/mutex2.c	4;"	d	file:
+NHASH	./apue.2e/threads/mutex3.c	4;"	d	file:
+NHASH_DEF	./apue.2e/db/db.c	24;"	d	file:
+NHASH_DEF	./project/apue_db/db.c	26;"	d	file:
+NLOOPS	./apue.2e/advio/devzero.c	5;"	d	file:
+NONE	./apue.2e/calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+OBJ	./apue.2e/datafiles/freebsd.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	./apue.2e/datafiles/linux.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	./apue.2e/datafiles/macos.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	./apue.2e/datafiles/solaris.mk	/^OBJ = getpwnam.o$/;"	m
+OBJS	./apue.2e/lib/freebsd.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	./apue.2e/lib/linux.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	./apue.2e/lib/macos.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	./apue.2e/lib/solaris.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+ODD	./apue.2e/calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+OPEN_MAX_GUESS	./apue.2e/exercises/openmax.c	5;"	d	file:
+OPEN_MAX_GUESS	./apue.2e/lib/openmax.c	15;"	d	file:
+OPTSTR	./apue.2e/pty/main.c	10;"	d	file:
+OPTSTR	./apue.2e/pty/main.c	8;"	d	file:
+OP_CANCEL_JOB	./apue.2e/ipp/ipp.h	65;"	d
+OP_CREATE_JOB	./apue.2e/ipp/ipp.h	62;"	d
+OP_GET_JOBS	./apue.2e/ipp/ipp.h	67;"	d
+OP_GET_JOB_ATTR	./apue.2e/ipp/ipp.h	66;"	d
+OP_GET_PRINTER_ATTR	./apue.2e/ipp/ipp.h	68;"	d
+OP_HOLD_JOB	./apue.2e/ipp/ipp.h	69;"	d
+OP_PAUSE_PRINTER	./apue.2e/ipp/ipp.h	72;"	d
+OP_PRINT_JOB	./apue.2e/ipp/ipp.h	59;"	d
+OP_PRINT_URI	./apue.2e/ipp/ipp.h	60;"	d
+OP_PURGE_JOBS	./apue.2e/ipp/ipp.h	74;"	d
+OP_RELEASE_JOB	./apue.2e/ipp/ipp.h	70;"	d
+OP_RESTART_JOB	./apue.2e/ipp/ipp.h	71;"	d
+OP_RESUME_PRINTER	./apue.2e/ipp/ipp.h	73;"	d
+OP_SEND_DOC	./apue.2e/ipp/ipp.h	63;"	d
+OP_SEND_URI	./apue.2e/ipp/ipp.h	64;"	d
+OP_VALIDATE_JOB	./apue.2e/ipp/ipp.h	61;"	d
+PAGER	./apue.2e/ipc/popen2.c	4;"	d	file:
+PATH_MAX_GUESS	./apue.2e/lib/pathalloc.c	16;"	d	file:
+PROGS	./apue.2e/advio/freebsd.mk	/^PROGS = devzero mcopy nonblockw pendlock$/;"	m
+PROGS	./apue.2e/advio/linux.mk	/^PROGS = catgetmsg devzero mcopy nonblockw pendlock$/;"	m
+PROGS	./apue.2e/advio/macos.mk	/^PROGS = devzero mcopy nonblockw pendlock$/;"	m
+PROGS	./apue.2e/advio/solaris.mk	/^PROGS = catgetmsg devzero mcopy nonblockw pendlock$/;"	m
+PROGS	./apue.2e/call/freebsd.mk	/^PROGS = call$/;"	m
+PROGS	./apue.2e/call/linux.mk	/^PROGS = call$/;"	m
+PROGS	./apue.2e/call/macos.mk	/^PROGS = call$/;"	m
+PROGS	./apue.2e/call/solaris.mk	/^PROGS = call$/;"	m
+PROGS	./apue.2e/calld/freebsd.mk	/^PROGS = calld$/;"	m
+PROGS	./apue.2e/calld/linux.mk	/^PROGS = calld$/;"	m
+PROGS	./apue.2e/calld/macos.mk	/^PROGS = calld$/;"	m
+PROGS	./apue.2e/calld/solaris.mk	/^PROGS = calld$/;"	m
+PROGS	./apue.2e/exercises/freebsd.mk	/^PROGS =	getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	./apue.2e/exercises/linux.mk	/^PROGS =	getpwsvr4 getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	./apue.2e/exercises/macos.mk	/^PROGS =	getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	./apue.2e/exercises/solaris.mk	/^PROGS =	getpwsvr4 goodexit getlogin sizepipe$/;"	m
+PROGS	./apue.2e/file/freebsd.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	./apue.2e/file/linux.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	./apue.2e/file/macos.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	./apue.2e/file/solaris.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	./apue.2e/ipc/freebsd.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	./apue.2e/ipc/linux.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	./apue.2e/ipc/macos.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	./apue.2e/ipc/solaris.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	./apue.2e/ipp/freebsd.mk	/^PROGS = print printd$/;"	m
+PROGS	./apue.2e/ipp/linux.mk	/^PROGS = print printd$/;"	m
+PROGS	./apue.2e/ipp/macos.mk	/^PROGS = print printd$/;"	m
+PROGS	./apue.2e/ipp/solaris.mk	/^PROGS = print printd$/;"	m
+PROGS	./apue.2e/lock/freebsd.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	./apue.2e/lock/linux.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	./apue.2e/lock/macos.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	./apue.2e/lock/solaris.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	./apue.2e/mycat/freebsd.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	./apue.2e/mycat/linux.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	./apue.2e/mycat/macos.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	./apue.2e/mycat/solaris.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	./apue.2e/open.fe/freebsd.mk	/^PROGS = openclient$/;"	m
+PROGS	./apue.2e/open.fe/linux.mk	/^PROGS = openclient$/;"	m
+PROGS	./apue.2e/open.fe/macos.mk	/^PROGS = openclient$/;"	m
+PROGS	./apue.2e/open.fe/solaris.mk	/^PROGS = openclient$/;"	m
+PROGS	./apue.2e/open/freebsd.mk	/^PROGS = openclient$/;"	m
+PROGS	./apue.2e/open/linux.mk	/^PROGS = openclient$/;"	m
+PROGS	./apue.2e/open/macos.mk	/^PROGS = openclient$/;"	m
+PROGS	./apue.2e/open/solaris.mk	/^PROGS = openclient$/;"	m
+PROGS	./apue.2e/opend.fe/freebsd.mk	/^PROGS = opend$/;"	m
+PROGS	./apue.2e/opend.fe/linux.mk	/^PROGS = opend$/;"	m
+PROGS	./apue.2e/opend.fe/macos.mk	/^PROGS = opend$/;"	m
+PROGS	./apue.2e/opend.fe/solaris.mk	/^PROGS = opend$/;"	m
+PROGS	./apue.2e/opend/freebsd.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	./apue.2e/opend/linux.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	./apue.2e/opend/macos.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	./apue.2e/opend/solaris.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	./apue.2e/proc/freebsd.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	./apue.2e/proc/linux.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	./apue.2e/proc/macos.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	./apue.2e/proc/solaris.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	./apue.2e/pty/freebsd.mk	/^PROGS =	pty$/;"	m
+PROGS	./apue.2e/pty/linux.mk	/^PROGS =	pty$/;"	m
+PROGS	./apue.2e/pty/macos.mk	/^PROGS =	pty$/;"	m
+PROGS	./apue.2e/pty/solaris.mk	/^PROGS =	pty$/;"	m
+PROGS	./apue.2e/signals/freebsd.mk	/^PROGS =	critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	./apue.2e/signals/linux.mk	/^PROGS =	child critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	./apue.2e/signals/macos.mk	/^PROGS =	critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	./apue.2e/signals/solaris.mk	/^PROGS =	child critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	./apue.2e/sockets/freebsd.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	./apue.2e/sockets/linux.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	./apue.2e/sockets/macos.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	./apue.2e/sockets/solaris.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	./apue.2e/std/freebsd.mk	/^PROGS = conf options$/;"	m
+PROGS	./apue.2e/std/linux.mk	/^PROGS = conf options$/;"	m
+PROGS	./apue.2e/std/macos.mk	/^PROGS = conf options$/;"	m
+PROGS	./apue.2e/std/solaris.mk	/^PROGS = conf options$/;"	m
+PROGS	./apue.2e/stdio/freebsd.mk	/^PROGS = tempfiles tempnam$/;"	m
+PROGS	./apue.2e/stdio/linux.mk	/^PROGS = buf tempfiles tempnam$/;"	m
+PROGS	./apue.2e/stdio/macos.mk	/^PROGS = buf tempfiles tempnam$/;"	m
+PROGS	./apue.2e/stdio/solaris.mk	/^PROGS = tempfiles tempnam$/;"	m
+PROGS	./apue.2e/streams/freebsd.mk	/^PROGS=$/;"	m
+PROGS	./apue.2e/streams/linux.mk	/^PROGS = #strlist t_isastream$/;"	m
+PROGS	./apue.2e/streams/macos.mk	/^PROGS=$/;"	m
+PROGS	./apue.2e/streams/solaris.mk	/^PROGS = strlist t_isastream$/;"	m
+PROGS	./apue.2e/termios/freebsd.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	./apue.2e/termios/linux.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	./apue.2e/termios/macos.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	./apue.2e/termios/solaris.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	./apue.2e/threadctl/freebsd.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	./apue.2e/threadctl/linux.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	./apue.2e/threadctl/macos.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	./apue.2e/threadctl/solaris.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	./apue.2e/threads/freebsd.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	./apue.2e/threads/linux.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	./apue.2e/threads/macos.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	./apue.2e/threads/solaris.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PR_TEXT	./apue.2e/ipp/print.h	62;"	d
+PSCMD	./8/test/6.c	21;"	d	file:
+PSCMD	./8/test/6.c	23;"	d	file:
+PSCMD	./apue.2e/proc/zombie.c	4;"	d	file:
+PSCMD	./apue.2e/proc/zombie.c	6;"	d	file:
+PTR_MAX	./apue.2e/db/db.c	23;"	d	file:
+PTR_MAX	./project/apue_db/db.c	25;"	d	file:
+PTR_SZ	./apue.2e/db/db.c	22;"	d	file:
+PTR_SZ	./project/apue_db/db.c	24;"	d	file:
+QLEN	./apue.2e/ipp/print.h	31;"	d
+QLEN	./apue.2e/lib/servlisten.c	6;"	d	file:
+QLEN	./apue.2e/sockets/ruptimed-fd.c	9;"	d	file:
+QLEN	./apue.2e/sockets/ruptimed.c	8;"	d	file:
+QLEN	./apue.2e/sockets/servlisten.c	6;"	d	file:
+RANLIB	./apue.2e/db/freebsd.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	./apue.2e/db/linux.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	./apue.2e/db/macos.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	./apue.2e/lib/freebsd.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	./apue.2e/lib/linux.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	./apue.2e/lib/macos.mk	/^RANLIB     = ranlib$/;"	m
+RAW	./apue.2e/lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon3	file:
+REQDIR	./apue.2e/ipp/print.h	18;"	d
+RESET	./apue.2e/lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon3	file:
+RIGHTSLEN	./apue.2e/sockets/recvfd2.c	20;"	d	file:
+RIGHTSLEN	./apue.2e/sockets/sendfd2.c	15;"	d	file:
+RWRWRW	./4/example/4-3.c	21;"	d	file:
+RWRWRW	./apue.2e/file/umask.c	4;"	d	file:
+SCM_CREDTYPE	./apue.2e/sockets/recvfd2.c	14;"	d	file:
+SCM_CREDTYPE	./apue.2e/sockets/recvfd2.c	9;"	d	file:
+SCM_CREDTYPE	./apue.2e/sockets/sendfd2.c	6;"	d	file:
+SCM_CREDTYPE	./apue.2e/sockets/sendfd2.c	9;"	d	file:
+SECTONSEC	./apue.2e/threadctl/timeout.c	14;"	d	file:
+SEP	./apue.2e/db/db.c	14;"	d	file:
+SEP	./project/apue_db/db.c	19;"	d	file:
+SHM_MODE	./apue.2e/ipc/tshm.c	7;"	d	file:
+SHM_SIZE	./apue.2e/ipc/tshm.c	6;"	d	file:
+SIGBAD	./10/example/10-9.c	21;"	d	file:
+SIGBAD	./apue.2e/signals/setops.c	5;"	d	file:
+SIG_ERR	./apue.2e/include/apue.h	51;"	d
+SIG_ERR	./apue.2e/lib/apue.h	51;"	d
+SIG_ERR	./apue.2e/sockets/apue.h	51;"	d
+SIG_ERR	./apue.h	51;"	d
+SIZE	./apue.2e/advio/devzero.c	6;"	d	file:
+SPACE	./apue.2e/db/db.c	15;"	d	file:
+SPACE	./project/apue_db/db.c	20;"	d	file:
+SPOOLDIR	./apue.2e/ipp/print.h	15;"	d
+STALE	./apue.2e/lib/servaccept.c	7;"	d	file:
+STALE	./apue.2e/sockets/servaccept.c	7;"	d	file:
+STATCLASS_CLIERR	./apue.2e/ipp/ipp.h	15;"	d
+STATCLASS_INFO	./apue.2e/ipp/ipp.h	13;"	d
+STATCLASS_OK	./apue.2e/ipp/ipp.h	12;"	d
+STATCLASS_REDIR	./apue.2e/ipp/ipp.h	14;"	d
+STATCLASS_SRVERR	./apue.2e/ipp/ipp.h	16;"	d
+STAT_CLI_ACCERR	./apue.2e/ipp/ipp.h	43;"	d
+STAT_CLI_ATTRCON	./apue.2e/ipp/ipp.h	39;"	d
+STAT_CLI_BADFMT	./apue.2e/ipp/ipp.h	35;"	d
+STAT_CLI_BADREQ	./apue.2e/ipp/ipp.h	25;"	d
+STAT_CLI_COMPERR	./apue.2e/ipp/ipp.h	41;"	d
+STAT_CLI_FMTERR	./apue.2e/ipp/ipp.h	42;"	d
+STAT_CLI_FORBID	./apue.2e/ipp/ipp.h	26;"	d
+STAT_CLI_NOAUTH	./apue.2e/ipp/ipp.h	27;"	d
+STAT_CLI_NOCHAR	./apue.2e/ipp/ipp.h	38;"	d
+STAT_CLI_NOCOMP	./apue.2e/ipp/ipp.h	40;"	d
+STAT_CLI_NOPERM	./apue.2e/ipp/ipp.h	28;"	d
+STAT_CLI_NOSCHM	./apue.2e/ipp/ipp.h	37;"	d
+STAT_CLI_NOTFND	./apue.2e/ipp/ipp.h	31;"	d
+STAT_CLI_NOTPOS	./apue.2e/ipp/ipp.h	29;"	d
+STAT_CLI_NOTSUP	./apue.2e/ipp/ipp.h	36;"	d
+STAT_CLI_OBJGONE	./apue.2e/ipp/ipp.h	32;"	d
+STAT_CLI_TIMOUT	./apue.2e/ipp/ipp.h	30;"	d
+STAT_CLI_TOOBIG	./apue.2e/ipp/ipp.h	33;"	d
+STAT_CLI_TOOLNG	./apue.2e/ipp/ipp.h	34;"	d
+STAT_OK	./apue.2e/ipp/ipp.h	21;"	d
+STAT_OK_ATTRCON	./apue.2e/ipp/ipp.h	23;"	d
+STAT_OK_ATTRIGN	./apue.2e/ipp/ipp.h	22;"	d
+STAT_SRV_BADVER	./apue.2e/ipp/ipp.h	48;"	d
+STAT_SRV_CANCEL	./apue.2e/ipp/ipp.h	53;"	d
+STAT_SRV_DEVERR	./apue.2e/ipp/ipp.h	49;"	d
+STAT_SRV_INTERN	./apue.2e/ipp/ipp.h	45;"	d
+STAT_SRV_NOMULTI	./apue.2e/ipp/ipp.h	54;"	d
+STAT_SRV_NOTSUP	./apue.2e/ipp/ipp.h	46;"	d
+STAT_SRV_REJECT	./apue.2e/ipp/ipp.h	51;"	d
+STAT_SRV_TMPERR	./apue.2e/ipp/ipp.h	50;"	d
+STAT_SRV_TOOBUSY	./apue.2e/ipp/ipp.h	52;"	d
+STAT_SRV_UNAVAIL	./apue.2e/ipp/ipp.h	47;"	d
+SUSV3	./apue.2e/lib/pathalloc.c	11;"	d	file:
+SYSTEMS	./apue.2e/calld/calld.h	16;"	d
+Sigfunc	./apue.2e/include/apue.h	/^typedef void 	Sigfunc( int );$/;"	t
+Sigfunc	./apue.2e/lib/apue.h	/^typedef void 	Sigfunc( int );$/;"	t
+Sigfunc	./apue.2e/sockets/apue.h	/^typedef void 	Sigfunc( int );$/;"	t
+Sigfunc	./apue.h	/^typedef void 	Sigfunc( int );$/;"	t
+Systems	./apue.2e/calld/calld.h	/^} Systems;$/;"	t	typeref:struct:__anon6
+TAG_BOOLEAN	./apue.2e/ipp/ipp.h	92;"	d
+TAG_CHARSET	./apue.2e/ipp/ipp.h	105;"	d
+TAG_DATETIME	./apue.2e/ipp/ipp.h	95;"	d
+TAG_END_OF_ATTR	./apue.2e/ipp/ipp.h	81;"	d
+TAG_ENUM	./apue.2e/ipp/ipp.h	93;"	d
+TAG_INTEGER	./apue.2e/ipp/ipp.h	91;"	d
+TAG_INTRANGE	./apue.2e/ipp/ipp.h	97;"	d
+TAG_JOB_ATTR	./apue.2e/ipp/ipp.h	80;"	d
+TAG_KEYWORD	./apue.2e/ipp/ipp.h	102;"	d
+TAG_MIMETYPE	./apue.2e/ipp/ipp.h	107;"	d
+TAG_NAMEWLANG	./apue.2e/ipp/ipp.h	99;"	d
+TAG_NAMEWOLANG	./apue.2e/ipp/ipp.h	101;"	d
+TAG_NATULANG	./apue.2e/ipp/ipp.h	106;"	d
+TAG_NONE	./apue.2e/ipp/ipp.h	90;"	d
+TAG_OCTSTR	./apue.2e/ipp/ipp.h	94;"	d
+TAG_OPERATION_ATTR	./apue.2e/ipp/ipp.h	79;"	d
+TAG_PRINTER_ATTR	./apue.2e/ipp/ipp.h	82;"	d
+TAG_RESOLUTION	./apue.2e/ipp/ipp.h	96;"	d
+TAG_TEXTWLANG	./apue.2e/ipp/ipp.h	98;"	d
+TAG_TEXTWOLANG	./apue.2e/ipp/ipp.h	100;"	d
+TAG_UNKNOWN	./apue.2e/ipp/ipp.h	89;"	d
+TAG_UNSUPPORTED	./apue.2e/ipp/ipp.h	88;"	d
+TAG_UNSUPP_ATTR	./apue.2e/ipp/ipp.h	83;"	d
+TAG_URI	./apue.2e/ipp/ipp.h	103;"	d
+TAG_URISCHEME	./apue.2e/ipp/ipp.h	104;"	d
+TELL_CHILD	./10/example/10-17.c	/^void TELL_CHILD( pid_t pid )$/;"	f	signature:( pid_t pid )
+TELL_CHILD	./apue.2e/include/apue.h	/^void 	TELL_CHILD( pid_t );$/;"	p	signature:( pid_t )
+TELL_CHILD	./apue.2e/ipc/tellwait.c	/^TELL_CHILD(pid_t pid)$/;"	f	signature:(pid_t pid)
+TELL_CHILD	./apue.2e/lib/apue.h	/^void 	TELL_CHILD( pid_t );$/;"	p	signature:( pid_t )
+TELL_CHILD	./apue.2e/lib/tellwait.c	/^TELL_CHILD(pid_t pid)$/;"	f	signature:(pid_t pid)
+TELL_CHILD	./apue.h	/^void 	TELL_CHILD( pid_t );$/;"	p	signature:( pid_t )
+TELL_PARENT	./10/example/10-17.c	/^void TELL_PARENT( pid_t pid )$/;"	f	signature:( pid_t pid )
+TELL_PARENT	./apue.2e/include/apue.h	/^void 	TELL_PARENT( pid_t );$/;"	p	signature:( pid_t )
+TELL_PARENT	./apue.2e/ipc/tellwait.c	/^TELL_PARENT(pid_t pid)$/;"	f	signature:(pid_t pid)
+TELL_PARENT	./apue.2e/lib/apue.h	/^void 	TELL_PARENT( pid_t );$/;"	p	signature:( pid_t )
+TELL_PARENT	./apue.2e/lib/tellwait.c	/^TELL_PARENT(pid_t pid)$/;"	f	signature:(pid_t pid)
+TELL_PARENT	./apue.h	/^void 	TELL_PARENT( pid_t );$/;"	p	signature:( pid_t )
+TELL_WAIT	./10/example/10-17.c	/^void TELL_WAIT( void )$/;"	f	signature:( void )
+TELL_WAIT	./apue.2e/include/apue.h	/^void 	TELL_WAIT( void );$/;"	p	signature:( void )
+TELL_WAIT	./apue.2e/ipc/tellwait.c	/^TELL_WAIT(void)$/;"	f	signature:(void)
+TELL_WAIT	./apue.2e/lib/apue.h	/^void 	TELL_WAIT( void );$/;"	p	signature:( void )
+TELL_WAIT	./apue.2e/lib/tellwait.c	/^TELL_WAIT(void)$/;"	f	signature:(void)
+TELL_WAIT	./apue.h	/^void 	TELL_WAIT( void );$/;"	p	signature:( void )
+TIMEOUT	./apue.2e/sockets/ruptime-dg.c	7;"	d	file:
+TOK_ADD	./7/example/7-4.c	21;"	d	file:
+TOK_ADD	./apue.2e/environ/cmd1.c	3;"	d	file:
+TOK_ADD	./apue.2e/environ/cmd2.c	4;"	d	file:
+USECTONSEC	./apue.2e/threadctl/timeout.c	15;"	d	file:
+USERNM_MAX	./apue.2e/ipp/print.h	22;"	d
+WAIT_CHILD	./10/example/10-17.c	/^void WAIT_CHILD( void )$/;"	f	signature:( void )
+WAIT_CHILD	./apue.2e/include/apue.h	/^void 	WAIT_CHILD( void );$/;"	p	signature:( void )
+WAIT_CHILD	./apue.2e/ipc/tellwait.c	/^WAIT_CHILD(void)$/;"	f	signature:(void)
+WAIT_CHILD	./apue.2e/lib/apue.h	/^void 	WAIT_CHILD( void );$/;"	p	signature:( void )
+WAIT_CHILD	./apue.2e/lib/tellwait.c	/^WAIT_CHILD(void)$/;"	f	signature:(void)
+WAIT_CHILD	./apue.h	/^void 	WAIT_CHILD( void );$/;"	p	signature:( void )
+WAIT_PARENT	./10/example/10-17.c	/^void WAIT_PARENT( void )$/;"	f	signature:( void )
+WAIT_PARENT	./apue.2e/include/apue.h	/^void 	WAIT_PARENT( void );$/;"	p	signature:( void )
+WAIT_PARENT	./apue.2e/ipc/tellwait.c	/^WAIT_PARENT(void)$/;"	f	signature:(void)
+WAIT_PARENT	./apue.2e/lib/apue.h	/^void 	WAIT_PARENT( void );$/;"	p	signature:( void )
+WAIT_PARENT	./apue.2e/lib/tellwait.c	/^WAIT_PARENT(void)$/;"	f	signature:(void)
+WAIT_PARENT	./apue.h	/^void 	WAIT_PARENT( void );$/;"	p	signature:( void )
+WHITE	./apue.2e/calld/calld.h	15;"	d
+WHITE	./apue.2e/lib/bufargs.c	4;"	d	file:
+_APUE_DB_H	./apue.2e/db/apue_db.h	2;"	d
+_APUE_DB_H	./project/apue_db/apue_db.h	11;"	d
+_APUE_H	./apue.2e/include/apue.h	20;"	d
+_APUE_H	./apue.2e/lib/apue.h	20;"	d
+_APUE_H	./apue.2e/sockets/apue.h	20;"	d
+_APUE_H	./apue.h	20;"	d
+_IO_LINE_BUF	./apue.2e/stdio/buf.c	5;"	d	file:
+_IO_UNBUFFERED	./apue.2e/stdio/buf.c	4;"	d	file:
+_IO_file_flags	./apue.2e/stdio/buf.c	6;"	d	file:
+_IPP_H	./apue.2e/ipp/ipp.h	2;"	d
+_PRINT_H	./apue.2e/ipp/print.h	2;"	d
+_XOPEN_SOURCE	./apue.2e/include/apue.h	22;"	d
+_XOPEN_SOURCE	./apue.2e/lib/apue.h	22;"	d
+_XOPEN_SOURCE	./apue.2e/sockets/apue.h	22;"	d
+_XOPEN_SOURCE	./apue.h	22;"	d
+__anon10::chainoff	./project/apue_db/db.c	/^    off_t   chainoff;       \/* 当前key的散列表偏移量 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_delerr	./project/apue_db/db.c	/^    COUNT   cnt_delerr;     \/* 删除失败 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_delok	./project/apue_db/db.c	/^    COUNT   cnt_delok;      \/* 删除成功 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_fetcherr	./project/apue_db/db.c	/^    COUNT   cnt_fetcherr;   \/* 访问失败 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_fetchok	./project/apue_db/db.c	/^    COUNT   cnt_fetchok;    \/* 访问成功 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_nextrec	./project/apue_db/db.c	/^    COUNT   cnt_nextrec;    \/* 读取下一条成功 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_stor1	./project/apue_db/db.c	/^    COUNT   cnt_stor1;      \/* 追加数据 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_stor2	./project/apue_db/db.c	/^    COUNT   cnt_stor2;      \/* 在已删除key的位置插入数据 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_stor3	./project/apue_db/db.c	/^    COUNT   cnt_stor3;      \/* 删除已存在的key后重新插入 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_stor4	./project/apue_db/db.c	/^    COUNT   cnt_stor4;      \/* 替换已存在的key *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::cnt_storerr	./project/apue_db/db.c	/^    COUNT   cnt_storerr;    \/* 已存在，插入失败 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::datbuf	./project/apue_db/db.c	/^    char    *datbuf;        \/* 数据文件缓冲区 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::datfd	./project/apue_db/db.c	/^    int     datfd;          \/* 数据文件的描述符 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::datlen	./project/apue_db/db.c	/^    size_t  datlen;         \/* 数据长度 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::datoff	./project/apue_db/db.c	/^    off_t   datoff;         \/* 数据偏移量 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::hashoff	./project/apue_db/db.c	/^    off_t   hashoff;        \/* 散列表项的长度 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::idxbuf	./project/apue_db/db.c	/^    char    *idxbuf;        \/* 索引文件缓冲区 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::idxfd	./project/apue_db/db.c	/^    int     idxfd;          \/* 索引文件的描述符 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::idxlen	./project/apue_db/db.c	/^    size_t  idxlen;         \/* 索引记录的长度 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::idxoff	./project/apue_db/db.c	/^    off_t   idxoff;         \/* 索引记录的偏移量 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::name	./project/apue_db/db.c	/^    char    *name;          \/* 数据库名缓冲区 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::nhash	./project/apue_db/db.c	/^    DBHASH  nhash;          \/* 散列表的长度 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::ptroff	./project/apue_db/db.c	/^    off_t   ptroff;         \/* 查找的键所在链表里面的上一个记录项的偏移量 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon10::ptrval	./project/apue_db/db.c	/^    off_t   ptrval;         \/* 空闲链表指针 *\/$/;"	m	struct:__anon10	file:	access:public
+__anon2::fd	./apue.2e/opend/opend.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon2	access:public
+__anon2::uid	./apue.2e/opend/opend.h	/^  uid_t	uid;$/;"	m	struct:__anon2	access:public
+__anon4::chainoff	./apue.2e/db/db.c	/^  off_t  chainoff; \/* offset of hash chain for this index record *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_delerr	./apue.2e/db/db.c	/^  COUNT  cnt_delerr;   \/* delete error *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_delok	./apue.2e/db/db.c	/^  COUNT  cnt_delok;    \/* delete OK *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_fetcherr	./apue.2e/db/db.c	/^  COUNT  cnt_fetcherr; \/* fetch error *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_fetchok	./apue.2e/db/db.c	/^  COUNT  cnt_fetchok;  \/* fetch OK *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_nextrec	./apue.2e/db/db.c	/^  COUNT  cnt_nextrec;  \/* nextrec *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_stor1	./apue.2e/db/db.c	/^  COUNT  cnt_stor1;    \/* store: DB_INSERT, no empty, appended *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_stor2	./apue.2e/db/db.c	/^  COUNT  cnt_stor2;    \/* store: DB_INSERT, found empty, reused *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_stor3	./apue.2e/db/db.c	/^  COUNT  cnt_stor3;    \/* store: DB_REPLACE, diff len, appended *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_stor4	./apue.2e/db/db.c	/^  COUNT  cnt_stor4;    \/* store: DB_REPLACE, same len, overwrote *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::cnt_storerr	./apue.2e/db/db.c	/^  COUNT  cnt_storerr;  \/* store error *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::datbuf	./apue.2e/db/db.c	/^  char  *datbuf; \/* malloc'ed buffer for data record*\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::datfd	./apue.2e/db/db.c	/^  int    datfd;  \/* fd for data file *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::datlen	./apue.2e/db/db.c	/^  size_t datlen; \/* length of data record *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::datoff	./apue.2e/db/db.c	/^  off_t  datoff; \/* offset in data file of data record *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::hashoff	./apue.2e/db/db.c	/^  off_t  hashoff;  \/* offset in index file of hash table *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::idxbuf	./apue.2e/db/db.c	/^  char  *idxbuf; \/* malloc'ed buffer for index record *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::idxfd	./apue.2e/db/db.c	/^  int    idxfd;  \/* fd for index file *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::idxlen	./apue.2e/db/db.c	/^  size_t idxlen; \/* length of index record *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::idxoff	./apue.2e/db/db.c	/^  off_t  idxoff; \/* offset in index file of index record *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::name	./apue.2e/db/db.c	/^  char  *name;   \/* name db was opened under *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::nhash	./apue.2e/db/db.c	/^  DBHASH nhash;    \/* current hash table size *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::ptroff	./apue.2e/db/db.c	/^  off_t  ptroff; \/* chain ptr offset pointing to this idx record *\/$/;"	m	struct:__anon4	file:	access:public
+__anon4::ptrval	./apue.2e/db/db.c	/^  off_t  ptrval; \/* contents of chain ptr in index record *\/$/;"	m	struct:__anon4	file:	access:public
+__anon5::Debug	./apue.2e/calld/calld.h	/^  int	Debug;				\/* option from client *\/$/;"	m	struct:__anon5	access:public
+__anon5::childdone	./apue.2e/calld/calld.h	/^  int	childdone;	\/* nonzero when SIGCHLD from dialing child recvd:$/;"	m	struct:__anon5	access:public
+__anon5::fd	./apue.2e/calld/calld.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon5	access:public
+__anon5::foundone	./apue.2e/calld/calld.h	/^  long	foundone;	\/* true if we find a matching sysfile entry *\/$/;"	m	struct:__anon5	access:public
+__anon5::parity	./apue.2e/calld/calld.h	/^  enum parity parity;		\/* option from client *\/$/;"	m	struct:__anon5	typeref:enum:__anon5::parity	access:public
+__anon5::pid	./apue.2e/calld/calld.h	/^  pid_t	pid;		\/* child pid while dialing *\/$/;"	m	struct:__anon5	access:public
+__anon5::speed	./apue.2e/calld/calld.h	/^  char	speed[MAXSPEEDSTR];	\/* option from client *\/$/;"	m	struct:__anon5	access:public
+__anon5::sysftell	./apue.2e/calld/calld.h	/^  long	sysftell;	\/* next line to read in Systems file *\/$/;"	m	struct:__anon5	access:public
+__anon5::sysname	./apue.2e/calld/calld.h	/^  char	sysname[MAXSYSNAME];\/* option from client *\/$/;"	m	struct:__anon5	access:public
+__anon5::uid	./apue.2e/calld/calld.h	/^  uid_t	uid;		\/* client's user ID *\/$/;"	m	struct:__anon5	access:public
+__anon6::login	./apue.2e/calld/calld.h	/^  char	*login;		\/* uucp login chat (ignored) *\/$/;"	m	struct:__anon6	access:public
+__anon6::name	./apue.2e/calld/calld.h	/^  char	*name;		\/* system name *\/$/;"	m	struct:__anon6	access:public
+__anon6::phone	./apue.2e/calld/calld.h	/^  char	*phone;		\/* phone number or "-" if direct connect *\/$/;"	m	struct:__anon6	access:public
+__anon6::time	./apue.2e/calld/calld.h	/^  char	*time;		\/* (e.g., "Any") time to call (ignored) *\/$/;"	m	struct:__anon6	access:public
+__anon6::type	./apue.2e/calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") or system name if direct connect *\/$/;"	m	struct:__anon6	access:public
+__anon7::dialer	./apue.2e/calld/calld.h	/^  char	*dialer;	\/* name of dialer in Dialers *\/$/;"	m	struct:__anon7	access:public
+__anon7::line	./apue.2e/calld/calld.h	/^  char	*line;		\/* (e.g., "cua0") without preceding "\/dev\/" *\/$/;"	m	struct:__anon7	access:public
+__anon7::line2	./apue.2e/calld/calld.h	/^  char	*line2;		\/* (ignored) *\/$/;"	m	struct:__anon7	access:public
+__anon7::type	./apue.2e/calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") matched by type in Systems *\/$/;"	m	struct:__anon7	access:public
+__anon8::dialer	./apue.2e/calld/calld.h	/^  char	*dialer;	\/* matched by dialer in Devices *\/$/;"	m	struct:__anon8	access:public
+__anon8::expsend	./apue.2e/calld/calld.h	/^  char	*expsend;	\/* expect\/send chat *\/$/;"	m	struct:__anon8	access:public
+__anon8::sub	./apue.2e/calld/calld.h	/^  char	*sub;		\/* phone number substitution string (ignored) *\/$/;"	m	struct:__anon8	access:public
+__anon9::line	./apue.2e/calld/lock.c	/^  char	*line;	\/* points to malloc()ed area *\/$/;"	m	struct:__anon9	file:	access:public
+__anon9::pid	./apue.2e/calld/lock.c	/^  pid_t	pid;	\/* but unlock by process ID *\/$/;"	m	struct:__anon9	file:	access:public
+_db_alloc	./apue.2e/db/db.c	/^_db_alloc(int namelen)$/;"	f	file:	signature:(int namelen)
+_db_alloc	./apue.2e/db/db.c	/^static DB     *_db_alloc(int);$/;"	p	file:	signature:(int)
+_db_alloc	./project/apue_db/db.c	/^static DB       *_db_alloc(int);$/;"	p	file:	signature:(int)
+_db_alloc	./project/apue_db/db.c	/^static DB *_db_alloc(int namelen)$/;"	f	file:	signature:(int namelen)
+_db_dodelete	./apue.2e/db/db.c	/^_db_dodelete(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_dodelete	./apue.2e/db/db.c	/^static void    _db_dodelete(DB *);$/;"	p	file:	signature:(DB *)
+_db_dodelete	./project/apue_db/db.c	/^static void     _db_dodelete(DB *);$/;"	p	file:	signature:(DB *)
+_db_dodelete	./project/apue_db/db.c	/^static void _db_dodelete(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_find_and_lock	./apue.2e/db/db.c	/^_db_find_and_lock(DB *db, const char *key, int writelock)$/;"	f	file:	signature:(DB *db, const char *key, int writelock)
+_db_find_and_lock	./apue.2e/db/db.c	/^static int	    _db_find_and_lock(DB *, const char *, int);$/;"	p	file:	signature:(DB *, const char *, int)
+_db_find_and_lock	./project/apue_db/db.c	/^static int      _db_find_and_lock(DB *, const char *, int);$/;"	p	file:	signature:(DB *, const char *, int)
+_db_find_and_lock	./project/apue_db/db.c	/^static int _db_find_and_lock(DB *db, const char *key, int writelock)$/;"	f	file:	signature:(DB *db, const char *key, int writelock)
+_db_findfree	./apue.2e/db/db.c	/^_db_findfree(DB *db, int keylen, int datlen)$/;"	f	file:	signature:(DB *db, int keylen, int datlen)
+_db_findfree	./apue.2e/db/db.c	/^static int     _db_findfree(DB *, int, int);$/;"	p	file:	signature:(DB *, int, int)
+_db_findfree	./project/apue_db/db.c	/^static int      _db_findfree(DB *, int, int);$/;"	p	file:	signature:(DB *, int, int)
+_db_findfree	./project/apue_db/db.c	/^static int _db_findfree(DB *db, int keylen, int datlen)$/;"	f	file:	signature:(DB *db, int keylen, int datlen)
+_db_free	./apue.2e/db/db.c	/^_db_free(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_free	./apue.2e/db/db.c	/^static void    _db_free(DB *);$/;"	p	file:	signature:(DB *)
+_db_free	./project/apue_db/db.c	/^static void     _db_free(DB *);$/;"	p	file:	signature:(DB *)
+_db_free	./project/apue_db/db.c	/^static void _db_free(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_hash	./apue.2e/db/db.c	/^_db_hash(DB *db, const char *key)$/;"	f	file:	signature:(DB *db, const char *key)
+_db_hash	./apue.2e/db/db.c	/^static DBHASH  _db_hash(DB *, const char *);$/;"	p	file:	signature:(DB *, const char *)
+_db_hash	./project/apue_db/db.c	/^static DBHASH   _db_hash(DB *, const char *);$/;"	p	file:	signature:(DB *, const char *)
+_db_hash	./project/apue_db/db.c	/^static DBHASH _db_hash(DB *db, const char *key)$/;"	f	file:	signature:(DB *db, const char *key)
+_db_readdat	./apue.2e/db/db.c	/^_db_readdat(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_readdat	./apue.2e/db/db.c	/^static char   *_db_readdat(DB *);$/;"	p	file:	signature:(DB *)
+_db_readdat	./project/apue_db/db.c	/^static char     *_db_readdat(DB *);$/;"	p	file:	signature:(DB *)
+_db_readdat	./project/apue_db/db.c	/^static char *_db_readdat(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_readidx	./apue.2e/db/db.c	/^_db_readidx(DB *db, off_t offset)$/;"	f	file:	signature:(DB *db, off_t offset)
+_db_readidx	./apue.2e/db/db.c	/^static off_t   _db_readidx(DB *, off_t);$/;"	p	file:	signature:(DB *, off_t)
+_db_readidx	./project/apue_db/db.c	/^static off_t    _db_readidx(DB *, off_t);$/;"	p	file:	signature:(DB *, off_t)
+_db_readidx	./project/apue_db/db.c	/^static off_t _db_readidx(DB *db, off_t offset)$/;"	f	file:	signature:(DB *db, off_t offset)
+_db_readptr	./apue.2e/db/db.c	/^_db_readptr(DB *db, off_t offset)$/;"	f	file:	signature:(DB *db, off_t offset)
+_db_readptr	./apue.2e/db/db.c	/^static off_t   _db_readptr(DB *, off_t);$/;"	p	file:	signature:(DB *, off_t)
+_db_readptr	./project/apue_db/db.c	/^static off_t    _db_readptr(DB *, off_t);$/;"	p	file:	signature:(DB *, off_t)
+_db_readptr	./project/apue_db/db.c	/^static off_t _db_readptr(DB *db, off_t offset)$/;"	f	file:	signature:(DB *db, off_t offset)
+_db_writedat	./apue.2e/db/db.c	/^_db_writedat(DB *db, const char *data, off_t offset, int whence)$/;"	f	file:	signature:(DB *db, const char *data, off_t offset, int whence)
+_db_writedat	./apue.2e/db/db.c	/^static void    _db_writedat(DB *, const char *, off_t, int);$/;"	p	file:	signature:(DB *, const char *, off_t, int)
+_db_writedat	./project/apue_db/db.c	/^static void     _db_writedat(DB *, const char *, off_t, int);$/;"	p	file:	signature:(DB *, const char *, off_t, int)
+_db_writedat	./project/apue_db/db.c	/^static void _db_writedat(DB *db, const char *data, off_t offset, int whence)$/;"	f	file:	signature:(DB *db, const char *data, off_t offset, int whence)
+_db_writeidx	./apue.2e/db/db.c	/^_db_writeidx(DB *db, const char *key,$/;"	f	file:	signature:(DB *db, const char *key, off_t offset, int whence, off_t ptrval)
+_db_writeidx	./apue.2e/db/db.c	/^static void    _db_writeidx(DB *, const char *, off_t, int, off_t);$/;"	p	file:	signature:(DB *, const char *, off_t, int, off_t)
+_db_writeidx	./project/apue_db/db.c	/^static void     _db_writeidx(DB *, const char *, off_t, int, off_t);$/;"	p	file:	signature:(DB *, const char *, off_t, int, off_t)
+_db_writeidx	./project/apue_db/db.c	/^static void _db_writeidx(DB *db, const char *key, off_t offset, int whence, off_t ptrval)$/;"	f	file:	signature:(DB *db, const char *key, off_t offset, int whence, off_t ptrval)
+_db_writeptr	./apue.2e/db/db.c	/^_db_writeptr(DB *db, off_t offset, off_t ptrval)$/;"	f	file:	signature:(DB *db, off_t offset, off_t ptrval)
+_db_writeptr	./apue.2e/db/db.c	/^static void    _db_writeptr(DB *, off_t, off_t);$/;"	p	file:	signature:(DB *, off_t, off_t)
+_db_writeptr	./project/apue_db/db.c	/^static void     _db_writeptr(DB *, off_t, off_t);$/;"	p	file:	signature:(DB *, off_t, off_t)
+_db_writeptr	./project/apue_db/db.c	/^static void _db_writeptr(DB *db, off_t offset, off_t ptrval)$/;"	f	file:	signature:(DB *db, off_t offset, off_t ptrval)
+a	./11/example/11-3.c	/^	int 	a, b, c, d;$/;"	m	struct:foo	file:	access:public
+a	./apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+a	./apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+abort	./10/example/10-18.c	/^void abort( void )$/;"	f	signature:( void )
+abort	./apue.2e/signals/abort.c	/^abort(void)			\/* POSIX-style abort() function *\/$/;"	f	signature:(void)
+add	./apue.2e/termios/ttyname.c	/^add(char *dirname)$/;"	f	file:	signature:(char *dirname)
+add_job	./apue.2e/ipp/printd.c	/^add_job(struct printreq *reqp, long jobid)$/;"	f	signature:(struct printreq *reqp, long jobid)
+add_job	./apue.2e/ipp/printd.c	/^void		add_job(struct printreq *, long);$/;"	p	file:	signature:(struct printreq *, long)
+add_option	./apue.2e/ipp/printd.c	/^add_option(char *cp, int tag, char *optname, char *optval)$/;"	f	signature:(char *cp, int tag, char *optname, char *optval)
+add_worker	./apue.2e/ipp/printd.c	/^add_worker(pthread_t tid, int sockfd)$/;"	f	signature:(pthread_t tid, int sockfd)
+add_worker	./apue.2e/ipp/printd.c	/^void		add_worker(pthread_t, int);$/;"	p	file:	signature:(pthread_t, int)
+allset	./apue.2e/calld/loop.c	/^static fd_set	allset;$/;"	v	file:
+already_running	./apue.2e/daemons/reread.c	/^extern int already_running(void);$/;"	p	file:	signature:(void)
+already_running	./apue.2e/daemons/reread2.c	/^extern int already_running(void);$/;"	p	file:	signature:(void)
+already_running	./apue.2e/daemons/single.c	/^already_running(void)$/;"	f	signature:(void)
+array	./apue.2e/ipc/tshm.c	/^char	array[ARRAY_SIZE];	\/* uninitialized data = bss *\/$/;"	v
+attr	./apue.2e/threadctl/timeout.c	/^pthread_mutexattr_t attr;$/;"	v
+attr_group	./apue.2e/ipp/ipp.h	/^	char    attr_group[1];	\/* start of optional attributes group *\/$/;"	m	struct:ipp_hdr	access:public
+b	./11/example/11-3.c	/^	int 	a, b, c, d;$/;"	m	struct:foo	file:	access:public
+b	./apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+b	./apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+buf	./8/example/8-1.c	/^char 	buf[] = "a write to stdout\\n";$/;"	v
+buf	./apue.2e/advio/nonblockw.c	/^char	buf[500000];$/;"	v
+buf	./apue.2e/proc/fork1.c	/^char	buf[] = "a write to stdout\\n";$/;"	v
+buf	./process/src/forkt.c	/^char buf[] = "a write to stdout\\n";$/;"	v
+buf1	./3/example/3-2.c	/^char 	buf1[] = "abcdefghij";$/;"	v
+buf1	./apue.2e/file/hole.c	/^char	buf1[] = "abcdefghij";$/;"	v
+buf2	./3/example/3-2.c	/^char 	buf2[] = "ABCDEFGHIJ";$/;"	v
+buf2	./apue.2e/file/hole.c	/^char	buf2[] = "ABCDEFGHIJ";$/;"	v
+buf_args	./apue.2e/include/apue.h	/^int 	buf_args( char *, int (*func)( int, char ** ) );$/;"	p	signature:( char *, int (*func)( int, char ** ) )
+buf_args	./apue.2e/lib/apue.h	/^int 	buf_args( char *, int (*func)( int, char ** ) );$/;"	p	signature:( char *, int (*func)( int, char ** ) )
+buf_args	./apue.2e/lib/bufargs.c	/^buf_args(char *buf, int (*optfunc)(int, char **))$/;"	f	signature:(char *buf, int (*optfunc)(int, char **))
+buf_args	./apue.2e/sockets/apue.h	/^int 	buf_args( char *, int (*func)( int, char ** ) );$/;"	p	signature:( char *, int (*func)( int, char ** ) )
+buf_args	./apue.h	/^int 	buf_args( char *, int (*func)( int, char ** ) );$/;"	p	signature:( char *, int (*func)( int, char ** ) )
+build_qonstart	./apue.2e/ipp/printd.c	/^build_qonstart(void)$/;"	f	signature:(void)
+build_qonstart	./apue.2e/ipp/printd.c	/^void		build_qonstart(void);$/;"	p	file:	signature:(void)
+c	./11/example/11-3.c	/^	int 	a, b, c, d;$/;"	m	struct:foo	file:	access:public
+c	./apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+c	./apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+call	./apue.2e/call/call.c	/^call(const char *args)$/;"	f	signature:(const char *args)
+call	./apue.2e/call/call.h	/^int		call(const char *);$/;"	p	signature:(const char *)
+canjump	./10/example/10-14.c	/^static volatile sig_atomic_t 	canjump;$/;"	v	file:
+canjump	./apue.2e/signals/mask.c	/^static volatile sig_atomic_t	canjump;$/;"	v	file:
+caught_alrm	./apue.2e/calld/expectstr.c	/^static volatile sig_atomic_t	caught_alrm;$/;"	v	file:
+chainoff	./apue.2e/db/db.c	/^  off_t  chainoff; \/* offset of hash chain for this index record *\/$/;"	m	struct:__anon4	file:	access:public
+chainoff	./project/apue_db/db.c	/^    off_t   chainoff;       \/* 当前key的散列表偏移量 *\/$/;"	m	struct:__anon10	file:	access:public
+charatatime	./10/example/10-17.c	/^static void 	charatatime( char * );$/;"	p	file:	signature:( char * )
+charatatime	./10/example/10-17.c	/^static void charatatime( char * str )$/;"	f	file:	signature:( char * str )
+charatatime	./8/example/8-6.c	/^static void 	charatatime( char * );$/;"	p	file:	signature:( char * )
+charatatime	./8/example/8-6.c	/^static void charatatime( char *str )$/;"	f	file:	signature:( char *str )
+charatatime	./apue.2e/proc/tellwait1.c	/^charatatime(char *str)$/;"	f	file:	signature:(char *str)
+charatatime	./apue.2e/proc/tellwait1.c	/^static void charatatime(char *);$/;"	p	file:	signature:(char *)
+charatatime	./apue.2e/proc/tellwait2.c	/^charatatime(char *str)$/;"	f	file:	signature:(char *str)
+charatatime	./apue.2e/proc/tellwait2.c	/^static void charatatime(char *);$/;"	p	file:	signature:(char *)
+child	./apue.2e/threadctl/atfork.c	/^child(void)$/;"	f	signature:(void)
+child_dial	./apue.2e/calld/calld.h	/^void  child_dial(Client *);					\/* childdial.c *\/$/;"	p	signature:(Client *)
+child_dial	./apue.2e/calld/childdial.c	/^child_dial(Client *cliptr)$/;"	f	signature:(Client *cliptr)
+child_done	./apue.2e/calld/loop.c	/^child_done(int maxi)$/;"	f	file:	signature:(int maxi)
+child_done	./apue.2e/calld/loop.c	/^static void child_done(int);$/;"	p	file:	signature:(int)
+childdone	./apue.2e/calld/calld.h	/^  int	childdone;	\/* nonzero when SIGCHLD from dialing child recvd:$/;"	m	struct:__anon5	access:public
+childpid	./apue.2e/lib/popen.c	/^static pid_t	*childpid = NULL;$/;"	v	file:
+chld_flag	./apue.2e/calld/main.c	/^volatile sig_atomic_t chld_flag;$/;"	v
+cleanup	./11/example/11-4.c	/^void cleanup( void *arg )$/;"	f	signature:( void *arg )
+cleanup	./apue.2e/termios/ttyname.c	/^cleanup(void)$/;"	f	file:	signature:(void)
+cleanup	./apue.2e/threads/cleanup.c	/^cleanup(void *arg)$/;"	f	signature:(void *arg)
+cli_args	./apue.2e/calld/calld.h	/^int   cli_args(int, char **);				\/* cliargs.c *\/$/;"	p	signature:(int, char **)
+cli_args	./apue.2e/calld/cliargs.c	/^cli_args(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+cli_args	./apue.2e/opend.fe/cliargs.c	/^cli_args(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+cli_args	./apue.2e/opend.fe/opend.h	/^int		 cli_args(int, char **);$/;"	p	signature:(int, char **)
+cli_args	./apue.2e/opend/opend.h	/^int		 cli_args(int, char **);$/;"	p	signature:(int, char **)
+cli_conn	./apue.2e/include/apue.h	/^int 	cli_conn( const char * );$/;"	p	signature:( const char * )
+cli_conn	./apue.2e/lib/apue.h	/^int 	cli_conn( const char * );$/;"	p	signature:( const char * )
+cli_conn	./apue.2e/lib/cliconn.c	/^cli_conn(const char *name)$/;"	f	signature:(const char *name)
+cli_conn	./apue.2e/sockets/apue.h	/^int 	cli_conn( const char * );$/;"	p	signature:( const char * )
+cli_conn	./apue.2e/sockets/cliconn.c	/^cli_conn(const char *name)$/;"	f	signature:(const char *name)
+cli_conn	./apue.2e/streams/cliconn.c	/^cli_conn(const char *name)$/;"	f	signature:(const char *name)
+cli_conn	./apue.h	/^int 	cli_conn( const char * );$/;"	p	signature:( const char * )
+cli_done	./apue.2e/calld/loop.c	/^cli_done(int clifd)$/;"	f	file:	signature:(int clifd)
+cli_done	./apue.2e/calld/loop.c	/^static void	cli_done(int);$/;"	p	file:	signature:(int)
+client	./apue.2e/calld/main.c	/^Client		*client = NULL;$/;"	v
+client	./apue.2e/opend/main.c	/^Client	*client = NULL;$/;"	v
+client_add	./apue.2e/calld/calld.h	/^int   client_add(int, uid_t);				\/* client.c *\/$/;"	p	signature:(int, uid_t)
+client_add	./apue.2e/calld/client.c	/^client_add(int fd, uid_t uid)$/;"	f	signature:(int fd, uid_t uid)
+client_add	./apue.2e/opend/client.c	/^client_add(int fd, uid_t uid)$/;"	f	signature:(int fd, uid_t uid)
+client_add	./apue.2e/opend/opend.h	/^int		 client_add(int, uid_t);$/;"	p	signature:(int, uid_t)
+client_alloc	./apue.2e/calld/client.c	/^client_alloc(void)		\/* alloc more entries in the client[] array *\/$/;"	f	file:	signature:(void)
+client_alloc	./apue.2e/opend/client.c	/^client_alloc(void)		\/* alloc more entries in the client[] array *\/$/;"	f	file:	signature:(void)
+client_cleanup	./apue.2e/ipp/printd.c	/^client_cleanup(void *arg)$/;"	f	signature:(void *arg)
+client_cleanup	./apue.2e/ipp/printd.c	/^void		client_cleanup(void *);$/;"	p	file:	signature:(void *)
+client_del	./apue.2e/calld/calld.h	/^void  client_del(int);$/;"	p	signature:(int)
+client_del	./apue.2e/calld/client.c	/^client_del(int fd)$/;"	f	signature:(int fd)
+client_del	./apue.2e/opend/client.c	/^client_del(int fd)$/;"	f	signature:(int fd)
+client_del	./apue.2e/opend/opend.h	/^void	 client_del(int);$/;"	p	signature:(int)
+client_sigchld	./apue.2e/calld/calld.h	/^void  client_sigchld(pid_t, int);$/;"	p	signature:(pid_t, int)
+client_sigchld	./apue.2e/calld/client.c	/^client_sigchld(pid_t pid, int stat)$/;"	f	signature:(pid_t pid, int stat)
+client_size	./apue.2e/calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+client_size	./apue.2e/opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+client_thread	./apue.2e/ipp/printd.c	/^client_thread(void *arg)$/;"	f	signature:(void *arg)
+client_thread	./apue.2e/ipp/printd.c	/^void		*client_thread(void *);$/;"	p	file:	signature:(void *)
+clifd	./apue.2e/calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+clr_fl	./apue.2e/include/apue.h	/^void 	clr_fl( int, int );$/;"	p	signature:( int, int )
+clr_fl	./apue.2e/lib/apue.h	/^void 	clr_fl( int, int );$/;"	p	signature:( int, int )
+clr_fl	./apue.2e/lib/clrfl.c	/^clr_fl(int fd, int flags)$/;"	f	signature:(int fd, int flags)
+clr_fl	./apue.2e/sockets/apue.h	/^void 	clr_fl( int, int );$/;"	p	signature:( int, int )
+clr_fl	./apue.h	/^void 	clr_fl( int, int );$/;"	p	signature:( int, int )
+clrasync	./apue.2e/exercises/asyncsocket.c	/^clrasync(int sockfd)$/;"	f	signature:(int sockfd)
+cmd_add	./7/example/7-4.c	/^void 	cmd_add( void );$/;"	p	file:	signature:( void )
+cmd_add	./7/example/7-4.c	/^void cmd_add( void )$/;"	f	signature:( void )
+cmd_add	./apue.2e/environ/cmd1.c	/^cmd_add(void)$/;"	f	signature:(void)
+cmd_add	./apue.2e/environ/cmd1.c	/^void	cmd_add(void);$/;"	p	file:	signature:(void)
+cmd_add	./apue.2e/environ/cmd2.c	/^cmd_add(void)$/;"	f	signature:(void)
+cmdargs	./apue.2e/call/takeput.c	/^static char	cmdargs[MAXLINE];$/;"	v	file:
+cmptr	./apue.2e/lib/recvfd.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	./apue.2e/lib/sendfd.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	./apue.2e/sockets/recvfd.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	./apue.2e/sockets/recvfd2.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	./apue.2e/sockets/sendfd.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	./apue.2e/sockets/sendfd2.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cnt_delerr	./apue.2e/db/db.c	/^  COUNT  cnt_delerr;   \/* delete error *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_delerr	./project/apue_db/db.c	/^    COUNT   cnt_delerr;     \/* 删除失败 *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_delok	./apue.2e/db/db.c	/^  COUNT  cnt_delok;    \/* delete OK *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_delok	./project/apue_db/db.c	/^    COUNT   cnt_delok;      \/* 删除成功 *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_fetcherr	./apue.2e/db/db.c	/^  COUNT  cnt_fetcherr; \/* fetch error *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_fetcherr	./project/apue_db/db.c	/^    COUNT   cnt_fetcherr;   \/* 访问失败 *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_fetchok	./apue.2e/db/db.c	/^  COUNT  cnt_fetchok;  \/* fetch OK *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_fetchok	./project/apue_db/db.c	/^    COUNT   cnt_fetchok;    \/* 访问成功 *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_nextrec	./apue.2e/db/db.c	/^  COUNT  cnt_nextrec;  \/* nextrec *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_nextrec	./project/apue_db/db.c	/^    COUNT   cnt_nextrec;    \/* 读取下一条成功 *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_stor1	./apue.2e/db/db.c	/^  COUNT  cnt_stor1;    \/* store: DB_INSERT, no empty, appended *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_stor1	./project/apue_db/db.c	/^    COUNT   cnt_stor1;      \/* 追加数据 *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_stor2	./apue.2e/db/db.c	/^  COUNT  cnt_stor2;    \/* store: DB_INSERT, found empty, reused *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_stor2	./project/apue_db/db.c	/^    COUNT   cnt_stor2;      \/* 在已删除key的位置插入数据 *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_stor3	./apue.2e/db/db.c	/^  COUNT  cnt_stor3;    \/* store: DB_REPLACE, diff len, appended *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_stor3	./project/apue_db/db.c	/^    COUNT   cnt_stor3;      \/* 删除已存在的key后重新插入 *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_stor4	./apue.2e/db/db.c	/^  COUNT  cnt_stor4;    \/* store: DB_REPLACE, same len, overwrote *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_stor4	./project/apue_db/db.c	/^    COUNT   cnt_stor4;      \/* 替换已存在的key *\/$/;"	m	struct:__anon10	file:	access:public
+cnt_storerr	./apue.2e/db/db.c	/^  COUNT  cnt_storerr;  \/* store error *\/$/;"	m	struct:__anon4	file:	access:public
+cnt_storerr	./project/apue_db/db.c	/^    COUNT   cnt_storerr;    \/* 已存在，插入失败 *\/$/;"	m	struct:__anon10	file:	access:public
+compt2ulong	./apue.2e/proc/pracct.c	/^compt2ulong(comp_t comptime)	\/* convert comp_t to unsigned long *\/$/;"	f	file:	signature:(comp_t comptime)
+configlock	./apue.2e/ipp/printd.c	/^pthread_mutex_t		configlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+connect_retry	./apue.2e/ipp/print.h	/^extern int connect_retry(int, const struct sockaddr *, socklen_t);$/;"	p	signature:(int, const struct sockaddr *, socklen_t)
+connect_retry	./apue.2e/sockets/clconn.c	/^connect_retry(int sockfd, const struct sockaddr *addr, socklen_t alen)$/;"	f	signature:(int sockfd, const struct sockaddr *addr, socklen_t alen)
+connect_retry	./apue.2e/sockets/ruptime.c	/^extern int connect_retry(int, const struct sockaddr *, socklen_t);$/;"	p	file:	signature:(int, const struct sockaddr *, socklen_t)
+csopen	./apue.2e/open.fe/open.c	/^csopen(char *name, int oflag)$/;"	f	signature:(char *name, int oflag)
+csopen	./apue.2e/open.fe/open.h	/^int		csopen(char *, int);$/;"	p	signature:(char *, int)
+csopen	./apue.2e/open/open.c	/^csopen(char *name, int oflag)$/;"	f	signature:(char *name, int oflag)
+csopen	./apue.2e/open/open.h	/^int		csopen(char *, int);$/;"	p	signature:(char *, int)
+ctermid	./apue.2e/termios/ctermid.c	/^ctermid(char *str)$/;"	f	signature:(char *str)
+ctermid_name	./apue.2e/termios/ctermid.c	/^static char	ctermid_name[L_ctermid];$/;"	v	file:
+ctl_str	./apue.2e/calld/calld.h	/^char  *ctl_str(unsigned char);				\/* ctlstr.c *\/$/;"	p	signature:(unsigned char)
+ctl_str	./apue.2e/calld/ctlstr.c	/^ctl_str(unsigned char c)$/;"	f	signature:(unsigned char c)
+d	./11/example/11-3.c	/^	int 	a, b, c, d;$/;"	m	struct:foo	file:	access:public
+d	./apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+d	./apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+d_name	./apue.2e/termios/ttyname.c	/^	char			*d_name;$/;"	m	struct:devdir	file:	access:public
+d_next	./apue.2e/termios/ttyname.c	/^	struct devdir	*d_next;$/;"	m	struct:devdir	typeref:struct:devdir::devdir	file:	access:public
+daemonize	./13/example/13-1.c	/^void daemonize( const char *cmd )$/;"	f	signature:( const char *cmd )
+daemonize	./apue.2e/daemons/init.c	/^daemonize(const char *cmd)$/;"	f	signature:(const char *cmd)
+daemonize	./apue.2e/include/apue.h	/^void 	daemonize( const char * );$/;"	p	signature:( const char * )
+daemonize	./apue.2e/lib/apue.h	/^void 	daemonize( const char * );$/;"	p	signature:( const char * )
+daemonize	./apue.2e/lib/daemonize.c	/^daemonize(const char *cmd)$/;"	f	signature:(const char *cmd)
+daemonize	./apue.2e/sockets/apue.h	/^void 	daemonize( const char * );$/;"	p	signature:( const char * )
+daemonize	./apue.h	/^void 	daemonize( const char * );$/;"	p	signature:( const char * )
+daemonize	./process/src/daemonize.c	/^void daemonize()$/;"	f
+datbuf	./apue.2e/db/db.c	/^  char  *datbuf; \/* malloc'ed buffer for data record*\/$/;"	m	struct:__anon4	file:	access:public
+datbuf	./project/apue_db/db.c	/^    char    *datbuf;        \/* 数据文件缓冲区 *\/$/;"	m	struct:__anon10	file:	access:public
+datfd	./apue.2e/db/db.c	/^  int    datfd;  \/* fd for data file *\/$/;"	m	struct:__anon4	file:	access:public
+datfd	./project/apue_db/db.c	/^    int     datfd;          \/* 数据文件的描述符 *\/$/;"	m	struct:__anon10	file:	access:public
+datlen	./apue.2e/db/db.c	/^  size_t datlen; \/* length of data record *\/$/;"	m	struct:__anon4	file:	access:public
+datlen	./project/apue_db/db.c	/^    size_t  datlen;         \/* 数据长度 *\/$/;"	m	struct:__anon10	file:	access:public
+datoff	./apue.2e/db/db.c	/^  off_t  datoff; \/* offset in data file of data record *\/$/;"	m	struct:__anon4	file:	access:public
+datoff	./project/apue_db/db.c	/^    off_t   datoff;         \/* 数据偏移量 *\/$/;"	m	struct:__anon10	file:	access:public
+db_close	./apue.2e/db/apue_db.h	/^void      db_close(DBHANDLE);$/;"	p	signature:(DBHANDLE)
+db_close	./apue.2e/db/db.c	/^db_close(DBHANDLE h)$/;"	f	signature:(DBHANDLE h)
+db_close	./project/apue_db/apue_db.h	/^void        db_close(DBHANDLE);$/;"	p	signature:(DBHANDLE)
+db_close	./project/apue_db/db.c	/^void db_close(DBHANDLE h)$/;"	f	signature:(DBHANDLE h)
+db_delete	./apue.2e/db/apue_db.h	/^int       db_delete(DBHANDLE, const char *);$/;"	p	signature:(DBHANDLE, const char *)
+db_delete	./apue.2e/db/db.c	/^db_delete(DBHANDLE h, const char *key)$/;"	f	signature:(DBHANDLE h, const char *key)
+db_delete	./project/apue_db/apue_db.h	/^int         db_delete(DBHANDLE, const char *);$/;"	p	signature:(DBHANDLE, const char *)
+db_delete	./project/apue_db/db.c	/^int db_delete(DBHANDLE h, const char *key)$/;"	f	signature:(DBHANDLE h, const char *key)
+db_fetch	./apue.2e/db/apue_db.h	/^char     *db_fetch(DBHANDLE, const char *);$/;"	p	signature:(DBHANDLE, const char *)
+db_fetch	./apue.2e/db/db.c	/^db_fetch(DBHANDLE h, const char *key)$/;"	f	signature:(DBHANDLE h, const char *key)
+db_fetch	./project/apue_db/apue_db.h	/^char        *db_fetch(DBHANDLE, const char *);$/;"	p	signature:(DBHANDLE, const char *)
+db_fetch	./project/apue_db/db.c	/^char *db_fetch(DBHANDLE h, const char *key)$/;"	f	signature:(DBHANDLE h, const char *key)
+db_nextrec	./apue.2e/db/apue_db.h	/^char     *db_nextrec(DBHANDLE, char *);$/;"	p	signature:(DBHANDLE, char *)
+db_nextrec	./apue.2e/db/db.c	/^db_nextrec(DBHANDLE h, char *key)$/;"	f	signature:(DBHANDLE h, char *key)
+db_nextrec	./project/apue_db/apue_db.h	/^char        *db_nextrec(DBHANDLE, char *);$/;"	p	signature:(DBHANDLE, char *)
+db_nextrec	./project/apue_db/db.c	/^char *db_nextrec(DBHANDLE h, char *key)$/;"	f	signature:(DBHANDLE h, char *key)
+db_open	./apue.2e/db/apue_db.h	/^DBHANDLE  db_open(const char *, int, ...);$/;"	p	signature:(const char *, int, ...)
+db_open	./apue.2e/db/db.c	/^db_open(const char *pathname, int oflag, ...)$/;"	f	signature:(const char *pathname, int oflag, ...)
+db_open	./project/apue_db/apue_db.h	/^DBHANDLE    db_open(const char *, int, ...);$/;"	p	signature:(const char *, int, ...)
+db_open	./project/apue_db/db.c	/^DBHANDLE db_open(const char *pathname, int oflag, ...)$/;"	f	signature:(const char *pathname, int oflag, ...)
+db_rewind	./apue.2e/db/apue_db.h	/^void      db_rewind(DBHANDLE);$/;"	p	signature:(DBHANDLE)
+db_rewind	./apue.2e/db/db.c	/^db_rewind(DBHANDLE h)$/;"	f	signature:(DBHANDLE h)
+db_rewind	./project/apue_db/apue_db.h	/^void        db_rewind(DBHANDLE);$/;"	p	signature:(DBHANDLE)
+db_rewind	./project/apue_db/db.c	/^void db_rewind(DBHANDLE h)$/;"	f	signature:(DBHANDLE h)
+db_store	./apue.2e/db/apue_db.h	/^int       db_store(DBHANDLE, const char *, const char *, int);$/;"	p	signature:(DBHANDLE, const char *, const char *, int)
+db_store	./apue.2e/db/db.c	/^db_store(DBHANDLE h, const char *key, const char *data, int flag)$/;"	f	signature:(DBHANDLE h, const char *key, const char *data, int flag)
+db_store	./project/apue_db/apue_db.h	/^int         db_store(DBHANDLE, const char *, const char *, int);$/;"	p	signature:(DBHANDLE, const char *, const char *, int)
+db_store	./project/apue_db/db.c	/^int db_store(DBHANDLE h, const char *key, const char *data, int flag)$/;"	f	signature:(DBHANDLE h, const char *key, const char *data, int flag)
+debug	./apue.2e/opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+dev_find	./apue.2e/calld/calld.h	/^int   dev_find(Devices *, const Systems *);	\/* devfile.c *\/$/;"	p	signature:(Devices *, const Systems *)
+dev_find	./apue.2e/calld/devfile.c	/^dev_find(Devices *devptr, const Systems *sysptr)$/;"	f	signature:(Devices *devptr, const Systems *sysptr)
+dev_next	./apue.2e/calld/calld.h	/^int   dev_next(Devices *);$/;"	p	signature:(Devices *)
+dev_next	./apue.2e/calld/devfile.c	/^dev_next(Devices *devptr)	\/* pointers in structure are filled in *\/$/;"	f	signature:(Devices *devptr)
+dev_rew	./apue.2e/calld/calld.h	/^void  dev_rew(void);$/;"	p	signature:(void)
+dev_rew	./apue.2e/calld/devfile.c	/^dev_rew(void)$/;"	f	signature:(void)
+devdir	./apue.2e/termios/ttyname.c	/^struct devdir {$/;"	s	file:
+devdir::d_name	./apue.2e/termios/ttyname.c	/^	char			*d_name;$/;"	m	struct:devdir	file:	access:public
+devdir::d_next	./apue.2e/termios/ttyname.c	/^	struct devdir	*d_next;$/;"	m	struct:devdir	typeref:struct:devdir::devdir	file:	access:public
+devices	./apue.2e/calld/main.c	/^Devices		devices;$/;"	v
+devline	./apue.2e/calld/devfile.c	/^static char	devline[MAXLINE];$/;"	v	file:
+devlineno	./apue.2e/calld/devfile.c	/^static int	devlineno;			\/* for error messages *\/$/;"	v	file:
+dial_find	./apue.2e/calld/calld.h	/^int   dial_find(Dialers *, const Devices *); \/* dialfile.c *\/$/;"	p	signature:(Dialers *, const Devices *)
+dial_find	./apue.2e/calld/dialfile.c	/^dial_find(Dialers *dialptr, const Devices *devptr)$/;"	f	signature:(Dialers *dialptr, const Devices *devptr)
+dial_next	./apue.2e/calld/calld.h	/^int   dial_next(Dialers *);$/;"	p	signature:(Dialers *)
+dial_next	./apue.2e/calld/dialfile.c	/^dial_next(Dialers *dialptr)	\/* pointers in structure are filled in *\/$/;"	f	signature:(Dialers *dialptr)
+dial_rew	./apue.2e/calld/calld.h	/^void  dial_rew(void);$/;"	p	signature:(void)
+dial_rew	./apue.2e/calld/dialfile.c	/^dial_rew(void)$/;"	f	signature:(void)
+dialer	./apue.2e/calld/calld.h	/^  char	*dialer;	\/* matched by dialer in Devices *\/$/;"	m	struct:__anon8	access:public
+dialer	./apue.2e/calld/calld.h	/^  char	*dialer;	\/* name of dialer in Dialers *\/$/;"	m	struct:__anon7	access:public
+dialers	./apue.2e/calld/main.c	/^Dialers		dialers;$/;"	v
+dialline	./apue.2e/calld/dialfile.c	/^static char	dialline[MAXLINE];$/;"	v	file:
+diallineno	./apue.2e/calld/dialfile.c	/^static int	diallineno;			\/* for error messages *\/$/;"	v	file:
+do_cmd	./8/example/8-18.c	/^static void 	do_cmd( char * );$/;"	p	file:	signature:( char * )
+do_cmd	./8/example/8-18.c	/^static void do_cmd( char *cmd )$/;"	f	file:	signature:( char *cmd )
+do_cmd	./apue.2e/proc/times1.c	/^do_cmd(char *cmd)		\/* execute and time the "cmd" *\/$/;"	f	file:	signature:(char *cmd)
+do_cmd	./apue.2e/proc/times1.c	/^static void	do_cmd(char *);$/;"	p	file:	signature:(char *)
+do_driver	./apue.2e/pty/driver.c	/^do_driver(char *driver)$/;"	f	signature:(char *driver)
+do_driver	./apue.2e/pty/main.c	/^void		do_driver(char *);	\/* in the file driver.c *\/$/;"	p	file:	signature:(char *)
+do_line	./7/example/7-4.c	/^void 	do_line( char * );$/;"	p	file:	signature:( char * )
+do_line	./7/example/7-4.c	/^void do_line( char *ptr )$/;"	f	signature:( char *ptr )
+do_line	./apue.2e/environ/cmd1.c	/^do_line(char *ptr)		\/* process one line of input *\/$/;"	f	signature:(char *ptr)
+do_line	./apue.2e/environ/cmd1.c	/^void	do_line(char *);$/;"	p	file:	signature:(char *)
+doescape	./apue.2e/call/call.h	/^int		doescape(int);$/;"	p	signature:(int)
+doescape	./apue.2e/call/escape.c	/^doescape(int remfd)$/;"	f	signature:(int remfd)
+doit	./7/example/7-8.c	28;"	d	file:
+doit	./apue.2e/environ/getrlimit.c	10;"	d	file:
+doit	./process/src/rlimit.c	21;"	d	file:
+dopath	./4/example/4-7.c	/^static int 	dopath( Myfunc * );$/;"	p	file:	signature:( Myfunc * )
+dopath	./4/example/4-7.c	/^static int dopath( Myfunc *func )$/;"	f	file:	signature:( Myfunc *func )
+dopath	./apue.2e/file/ftw4.c	/^dopath(Myfunc* func)$/;"	f	file:	signature:(Myfunc* func)
+dopath	./apue.2e/file/ftw4.c	/^static int		dopath(Myfunc *);$/;"	p	file:	signature:(Myfunc *)
+dst	./apue.2e/call/main.c	/^char	*dst;$/;"	v
+enqueue_msg	./apue.2e/threads/condvar.c	/^enqueue_msg(struct msg *mp)$/;"	f	signature:(struct msg *mp)
+env_alrm	./10/example/10-5.c	/^static jmp_buf 	env_alrm;$/;"	v	file:
+env_alrm	./10/example/10-8.c	/^static jmp_buf 	env_alrm;$/;"	v	file:
+env_alrm	./apue.2e/signals/read2.c	/^static jmp_buf	env_alrm;$/;"	v	file:
+env_alrm	./apue.2e/signals/sleep2.c	/^static jmp_buf	env_alrm;$/;"	v	file:
+env_init	./8/example/8-8.c	/^char 	*env_init[] = { "USER=unknown", "PATH=\/tmp", NULL };$/;"	v
+env_init	./apue.2e/proc/exec1.c	/^char	*env_init[] = { "USER=unknown", "PATH=\/tmp", NULL };$/;"	v
+env_mutex	./apue.2e/threadctl/getenv2.c	/^pthread_mutex_t env_mutex;$/;"	v
+env_mutex	./apue.2e/threadctl/getenv3.c	/^pthread_mutex_t env_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+envbuf	./apue.2e/threadctl/getenv1.c	/^static char envbuf[ARG_MAX];$/;"	v	file:
+err_doit	./apue.2e/lib/error.c	/^err_doit(int errnoflag, int error, const char *fmt, va_list ap)$/;"	f	file:	signature:(int errnoflag, int error, const char *fmt, va_list ap)
+err_doit	./apue.2e/lib/error.c	/^static void	err_doit(int, int, const char *, va_list);$/;"	p	file:	signature:(int, int, const char *, va_list)
+err_dump	./apue.2e/include/apue.h	/^void 	err_dump( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_dump	./apue.2e/lib/apue.h	/^void 	err_dump( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_dump	./apue.2e/lib/error.c	/^err_dump(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_exit	./apue.2e/include/apue.h	/^void 	err_exit( int, const char *, ... );$/;"	p	signature:( int, const char *, ... )
+err_exit	./apue.2e/lib/apue.h	/^void 	err_exit( int, const char *, ... );$/;"	p	signature:( int, const char *, ... )
+err_exit	./apue.2e/lib/error.c	/^err_exit(int error, const char *fmt, ...)$/;"	f	signature:(int error, const char *fmt, ...)
+err_msg	./apue.2e/include/apue.h	/^void 	err_msg( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_msg	./apue.2e/lib/apue.h	/^void 	err_msg( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_msg	./apue.2e/lib/error.c	/^err_msg(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_quit	./apue.2e/include/apue.h	/^void 	err_quit( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_quit	./apue.2e/lib/apue.h	/^void 	err_quit( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_quit	./apue.2e/lib/error.c	/^err_quit(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_ret	./apue.2e/include/apue.h	/^void 	err_ret( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_ret	./apue.2e/lib/apue.h	/^void 	err_ret( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_ret	./apue.2e/lib/error.c	/^err_ret(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_sys	./apue.2e/include/apue.h	/^void 	err_sys( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_sys	./apue.2e/lib/apue.h	/^void 	err_sys( const char *, ... );$/;"	p	signature:( const char *, ... )
+err_sys	./apue.2e/lib/error.c	/^err_sys(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+errmsg	./apue.2e/calld/main.c	/^char		errmsg[MAXLINE];$/;"	v
+errmsg	./apue.2e/opend.fe/main.c	/^char	 errmsg[MAXLINE];$/;"	v
+errmsg	./apue.2e/opend/main.c	/^char	 errmsg[MAXLINE];$/;"	v
+escapec	./apue.2e/call/main.c	/^char	 escapec = '~';$/;"	v
+exp_read	./apue.2e/calld/expectstr.c	/^exp_read(int fd, char *buf)$/;"	f	signature:(int fd, char *buf)
+expalarm	./apue.2e/calld/expectstr.c	/^static int		expalarm = EXPALRM;$/;"	v	file:
+expect_str	./apue.2e/calld/calld.h	/^int   expect_str(int, char *);				\/* expectstr.c *\/$/;"	p	signature:(int, char *)
+expect_str	./apue.2e/calld/expectstr.c	/^expect_str(int fd, char *ptr)$/;"	f	signature:(int fd, char *ptr)
+expsend	./apue.2e/calld/calld.h	/^  char	*expsend;	\/* expect\/send chat *\/$/;"	m	struct:__anon8	access:public
+f1	./7/example/7-6.c	/^static void 	f1(int, int, int, int);$/;"	p	file:	signature:(int, int, int, int)
+f1	./7/example/7-6.c	/^static void f1( int i, int j, int k, int l )$/;"	f	file:	signature:( int i, int j, int k, int l )
+f1	./8/test/2.c	/^static void 	f1(void), f2(void);$/;"	p	file:	signature:(void)
+f1	./8/test/2.c	/^static void f1( void )$/;"	f	file:	signature:( void )
+f1	./apue.2e/environ/testjmp.c	/^f1(int i, int j, int k, int l)$/;"	f	file:	signature:(int i, int j, int k, int l)
+f1	./apue.2e/environ/testjmp.c	/^static void	f1(int, int, int, int);$/;"	p	file:	signature:(int, int, int, int)
+f1	./apue.2e/proc/vfork3.c	/^f1(void)$/;"	f	file:	signature:(void)
+f1	./apue.2e/proc/vfork3.c	/^static void	f1(void), f2(void);$/;"	p	file:	signature:(void)
+f2	./7/example/7-6.c	/^static void 	f2(void);$/;"	p	file:	signature:(void)
+f2	./7/example/7-6.c	/^static void f2( void )$/;"	f	file:	signature:( void )
+f2	./8/test/2.c	/^static void 	f1(void), f2(void);$/;"	p	file:	signature:(void)
+f2	./8/test/2.c	/^static void f2( void )$/;"	f	file:	signature:( void )
+f2	./apue.2e/environ/testjmp.c	/^f2(void)$/;"	f	file:	signature:(void)
+f2	./apue.2e/environ/testjmp.c	/^static void	f2(void);$/;"	p	file:	signature:(void)
+f2	./apue.2e/proc/vfork3.c	/^f2(void)$/;"	f	file:	signature:(void)
+f2	./apue.2e/proc/vfork3.c	/^static void	f1(void), f2(void);$/;"	p	file:	signature:(void)
+f_count	./apue.2e/threads/mutex1.c	/^	int             f_count;$/;"	m	struct:foo	file:	access:public
+f_count	./apue.2e/threads/mutex2.c	/^	int             f_count;$/;"	m	struct:foo	file:	access:public
+f_count	./apue.2e/threads/mutex3.c	/^	int             f_count; \/* protected by hashlock *\/$/;"	m	struct:foo	file:	access:public
+f_id	./apue.2e/threads/mutex2.c	/^	int             f_id;$/;"	m	struct:foo	file:	access:public
+f_id	./apue.2e/threads/mutex3.c	/^	int             f_id;$/;"	m	struct:foo	file:	access:public
+f_lock	./apue.2e/threads/mutex1.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+f_lock	./apue.2e/threads/mutex2.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+f_lock	./apue.2e/threads/mutex3.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+f_next	./apue.2e/threads/mutex2.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:	access:public
+f_next	./apue.2e/threads/mutex3.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:	access:public
+fd	./apue.2e/calld/calld.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon5	access:public
+fd	./apue.2e/opend/opend.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon2	access:public
+fh	./apue.2e/threads/mutex2.c	/^struct foo *fh[NHASH];$/;"	v	typeref:struct:foo
+fh	./apue.2e/threads/mutex3.c	/^struct foo *fh[NHASH];$/;"	v	typeref:struct:foo
+find_line	./apue.2e/calld/lock.c	/^find_line(char *line)$/;"	f	file:	signature:(char *line)
+flags	./apue.2e/ipp/print.h	/^	long flags;					\/* see below *\/$/;"	m	struct:printreq	access:public
+foo	./11/example/11-3.c	/^struct foo {$/;"	s	file:
+foo	./apue.2e/exercises/goodexit.c	/^struct foo {$/;"	s	file:
+foo	./apue.2e/threads/badexit2.c	/^struct foo {$/;"	s	file:
+foo	./apue.2e/threads/mutex1.c	/^struct foo {$/;"	s	file:
+foo	./apue.2e/threads/mutex2.c	/^struct foo {$/;"	s	file:
+foo	./apue.2e/threads/mutex3.c	/^struct foo {$/;"	s	file:
+foo::a	./11/example/11-3.c	/^	int 	a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::a	./apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::a	./apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::b	./11/example/11-3.c	/^	int 	a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::b	./apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::b	./apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::c	./11/example/11-3.c	/^	int 	a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::c	./apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::c	./apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::d	./11/example/11-3.c	/^	int 	a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::d	./apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::d	./apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::f_count	./apue.2e/threads/mutex1.c	/^	int             f_count;$/;"	m	struct:foo	file:	access:public
+foo::f_count	./apue.2e/threads/mutex2.c	/^	int             f_count;$/;"	m	struct:foo	file:	access:public
+foo::f_count	./apue.2e/threads/mutex3.c	/^	int             f_count; \/* protected by hashlock *\/$/;"	m	struct:foo	file:	access:public
+foo::f_id	./apue.2e/threads/mutex2.c	/^	int             f_id;$/;"	m	struct:foo	file:	access:public
+foo::f_id	./apue.2e/threads/mutex3.c	/^	int             f_id;$/;"	m	struct:foo	file:	access:public
+foo::f_lock	./apue.2e/threads/mutex1.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+foo::f_lock	./apue.2e/threads/mutex2.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+foo::f_lock	./apue.2e/threads/mutex3.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+foo::f_next	./apue.2e/threads/mutex2.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:	access:public
+foo::f_next	./apue.2e/threads/mutex3.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:	access:public
+foo_alloc	./apue.2e/threads/mutex1.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f	signature:(void)
+foo_alloc	./apue.2e/threads/mutex2.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f	signature:(void)
+foo_alloc	./apue.2e/threads/mutex3.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f	signature:(void)
+foo_find	./apue.2e/threads/mutex2.c	/^foo_find(int id) \/* find an existing object *\/$/;"	f	signature:(int id)
+foo_find	./apue.2e/threads/mutex3.c	/^foo_find(int id) \/* find a existing object *\/$/;"	f	signature:(int id)
+foo_hold	./apue.2e/threads/mutex1.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_hold	./apue.2e/threads/mutex2.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_hold	./apue.2e/threads/mutex3.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_rele	./apue.2e/threads/mutex1.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_rele	./apue.2e/threads/mutex2.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_rele	./apue.2e/threads/mutex3.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foundone	./apue.2e/calld/calld.h	/^  long	foundone;	\/* true if we find a matching sysfile entry *\/$/;"	m	struct:__anon5	access:public
+fpdev	./apue.2e/calld/devfile.c	/^static FILE	*fpdev = NULL;$/;"	v	file:
+fpdial	./apue.2e/calld/dialfile.c	/^static FILE	*fpdial = NULL;$/;"	v	file:
+fpsys	./apue.2e/calld/sysfile.c	/^static FILE	*fpsys = NULL;$/;"	v	file:
+fullpath	./4/example/4-7.c	/^static char 	*fullpath;$/;"	v	file:
+fullpath	./apue.2e/file/ftw4.c	/^static char	*fullpath;		\/* contains full pathname for every file *\/$/;"	v	file:
+get_newjobno	./apue.2e/ipp/printd.c	/^get_newjobno(void)$/;"	f	signature:(void)
+get_newjobno	./apue.2e/ipp/printd.c	/^long		get_newjobno(void);$/;"	p	file:	signature:(void)
+get_printaddr	./apue.2e/ipp/print.h	/^extern struct addrinfo *get_printaddr(void);$/;"	p	signature:(void)
+get_printaddr	./apue.2e/ipp/util.c	/^get_printaddr(void)$/;"	f	signature:(void)
+get_printserver	./apue.2e/ipp/print.h	/^extern char *get_printserver(void);$/;"	p	signature:(void)
+get_printserver	./apue.2e/ipp/util.c	/^get_printserver(void)$/;"	f	signature:(void)
+get_token	./7/example/7-4.c	/^int 	get_token( void );$/;"	p	file:	signature:( void )
+get_token	./7/example/7-4.c	/^int get_token( void )$/;"	f	signature:( void )
+get_token	./apue.2e/environ/cmd1.c	/^get_token(void)$/;"	f	signature:(void)
+get_token	./apue.2e/environ/cmd1.c	/^int		get_token(void);$/;"	p	file:	signature:(void)
+getaddrlist	./apue.2e/ipp/print.h	/^extern int getaddrlist(const char *, const char *,$/;"	p	signature:(const char *, const char *, struct addrinfo **)
+getaddrlist	./apue.2e/ipp/util.c	/^getaddrlist(const char *host, const char *service,$/;"	f	signature:(const char *host, const char *service, struct addrinfo **ailistpp)
+getenv	./apue.2e/threadctl/getenv1.c	/^getenv(const char *name)$/;"	f	signature:(const char *name)
+getenv	./apue.2e/threadctl/getenv3.c	/^getenv(const char *name)$/;"	f	signature:(const char *name)
+getenv_r	./apue.2e/threadctl/getenv2.c	/^getenv_r(const char *name, char *buf, int buflen)$/;"	f	signature:(const char *name, char *buf, int buflen)
+getpass	./apue.2e/termios/getpass.c	/^getpass(const char *prompt)$/;"	f	signature:(const char *prompt)
+getpass	./apue.2e/termios/t_getpass.c	/^char	*getpass(const char *);$/;"	p	file:	signature:(const char *)
+getpwnam	./6/example/6-1.c	/^struct passwd *getpwnam( const char *name )$/;"	f	signature:( const char *name )
+getpwnam	./apue.2e/datafiles/getpwnam.c	/^getpwnam(const char *name)$/;"	f	signature:(const char *name)
+glob	./8/example/8-1.c	/^int 	glob = 6;$/;"	v
+glob	./8/example/8-2.c	/^int 	glob = 6;$/;"	v
+glob	./8/test/1.c	/^int 	glob = 6;$/;"	v
+glob	./apue.2e/proc/fork1.c	/^int		glob = 6;		\/* external variable in initialized data *\/$/;"	v
+glob	./apue.2e/proc/vfork1.c	/^int		glob = 6;		\/* external variable in initialized data *\/$/;"	v
+glob	./process/src/forkt.c	/^int glob = 6;$/;"	v
+glob	./process/src/t_vfork.c	/^int glob = 6;$/;"	v
+globval	./7/example/7-6.c	/^static int 	globval;$/;"	v	file:
+globval	./apue.2e/environ/testjmp.c	/^static int		globval;$/;"	v	file:
+grantpt	./apue.2e/lib/bsd_ptyopen.c	/^grantpt(int fdm)$/;"	f	signature:(int fdm)
+grantpt	./apue.2e/lib/linux_ptyopen.c	/^grantpt(int fdm)$/;"	f	signature:(int fdm)
+hashlock	./apue.2e/threads/mutex2.c	/^pthread_mutex_t hashlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+hashlock	./apue.2e/threads/mutex3.c	/^pthread_mutex_t hashlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+hashoff	./apue.2e/db/db.c	/^  off_t  hashoff;  \/* offset in index file of hash table *\/$/;"	m	struct:__anon4	file:	access:public
+hashoff	./project/apue_db/db.c	/^    off_t   hashoff;        \/* 散列表项的长度 *\/$/;"	m	struct:__anon10	file:	access:public
+head	./apue.2e/termios/ttyname.c	/^static struct devdir	*head;$/;"	v	typeref:struct:devdir	file:
+idxbuf	./apue.2e/db/db.c	/^  char  *idxbuf; \/* malloc'ed buffer for index record *\/$/;"	m	struct:__anon4	file:	access:public
+idxbuf	./project/apue_db/db.c	/^    char    *idxbuf;        \/* 索引文件缓冲区 *\/$/;"	m	struct:__anon10	file:	access:public
+idxfd	./apue.2e/db/db.c	/^  int    idxfd;  \/* fd for index file *\/$/;"	m	struct:__anon4	file:	access:public
+idxfd	./project/apue_db/db.c	/^    int     idxfd;          \/* 索引文件的描述符 *\/$/;"	m	struct:__anon10	file:	access:public
+idxlen	./apue.2e/db/db.c	/^  size_t idxlen; \/* length of index record *\/$/;"	m	struct:__anon4	file:	access:public
+idxlen	./project/apue_db/db.c	/^    size_t  idxlen;         \/* 索引记录的长度 *\/$/;"	m	struct:__anon10	file:	access:public
+idxoff	./apue.2e/db/db.c	/^  off_t  idxoff; \/* offset in index file of index record *\/$/;"	m	struct:__anon4	file:	access:public
+idxoff	./project/apue_db/db.c	/^    off_t   idxoff;         \/* 索引记录的偏移量 *\/$/;"	m	struct:__anon10	file:	access:public
+init_done	./apue.2e/threadctl/getenv2.c	/^static pthread_once_t init_done = PTHREAD_ONCE_INIT;$/;"	v	file:
+init_done	./apue.2e/threadctl/getenv3.c	/^static pthread_once_t init_done = PTHREAD_ONCE_INIT;$/;"	v	file:
+init_printer	./apue.2e/ipp/printd.c	/^init_printer(void)$/;"	f	signature:(void)
+init_printer	./apue.2e/ipp/printd.c	/^void		init_printer(void);$/;"	p	file:	signature:(void)
+init_request	./apue.2e/ipp/printd.c	/^init_request(void)$/;"	f	signature:(void)
+init_request	./apue.2e/ipp/printd.c	/^void		init_request(void);$/;"	p	file:	signature:(void)
+initserver	./apue.2e/ipp/print.h	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	signature:(int, struct sockaddr *, socklen_t, int)
+initserver	./apue.2e/sockets/initsrv1.c	/^initserver(int type, const struct sockaddr *addr, socklen_t alen,$/;"	f	signature:(int type, const struct sockaddr *addr, socklen_t alen, int qlen)
+initserver	./apue.2e/sockets/initsrv2.c	/^initserver(int type, const struct sockaddr *addr, socklen_t alen,$/;"	f	signature:(int type, const struct sockaddr *addr, socklen_t alen, int qlen)
+initserver	./apue.2e/sockets/ruptimed-dg.c	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	file:	signature:(int, struct sockaddr *, socklen_t, int)
+initserver	./apue.2e/sockets/ruptimed-fd.c	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	file:	signature:(int, struct sockaddr *, socklen_t, int)
+initserver	./apue.2e/sockets/ruptimed.c	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	file:	signature:(int, struct sockaddr *, socklen_t, int)
+ipp_hdr	./apue.2e/ipp/ipp.h	/^struct ipp_hdr {$/;"	s
+ipp_hdr::__anon1::op	./apue.2e/ipp/ipp.h	/^		int16_t op;	\/* operation ID *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+ipp_hdr::__anon1::st	./apue.2e/ipp/ipp.h	/^		int16_t st;	\/* status *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+ipp_hdr::attr_group	./apue.2e/ipp/ipp.h	/^	char    attr_group[1];	\/* start of optional attributes group *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::major_version	./apue.2e/ipp/ipp.h	/^	int8_t  major_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::minor_version	./apue.2e/ipp/ipp.h	/^	int8_t  minor_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::request_id	./apue.2e/ipp/ipp.h	/^	int32_t request_id;		\/* request ID *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::u	./apue.2e/ipp/ipp.h	/^	} u;$/;"	m	struct:ipp_hdr	typeref:union:ipp_hdr::__anon1	access:public
+is_locked	./apue.2e/calld/calld.h	/^pid_t is_locked(char *);					\/* lock.c *\/$/;"	p	signature:(char *)
+is_locked	./apue.2e/calld/lock.c	/^is_locked(char *line)$/;"	f	signature:(char *line)
+is_read_lockable	./apue.2e/include/apue.h	107;"	d
+is_read_lockable	./apue.2e/lib/apue.h	107;"	d
+is_read_lockable	./apue.2e/sockets/apue.h	107;"	d
+is_read_lockable	./apue.h	107;"	d
+is_write_lockable	./apue.2e/include/apue.h	109;"	d
+is_write_lockable	./apue.2e/lib/apue.h	109;"	d
+is_write_lockable	./apue.2e/sockets/apue.h	109;"	d
+is_write_lockable	./apue.h	109;"	d
+isastream	./apue.2e/streams/isastream.c	/^isastream(int fd)$/;"	f	signature:(int fd)
+isatty	./apue.2e/termios/isatty.c	/^isatty(int fd)$/;"	f	signature:(int fd)
+j_id	./apue.2e/threads/rwlock.c	/^	pthread_t   j_id;   \/* tells which thread handles this job *\/$/;"	m	struct:job	file:	access:public
+j_next	./apue.2e/threads/rwlock.c	/^	struct job *j_next;$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+j_prev	./apue.2e/threads/rwlock.c	/^	struct job *j_prev;$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+jmpbuf	./10/example/10-14.c	/^static sigjmp_buf 		jmpbuf;$/;"	v	file:
+jmpbuf	./apue.2e/signals/mask.c	/^static sigjmp_buf				jmpbuf;$/;"	v	file:
+jmpbuffer	./7/example/7-4.c	/^jmp_buf 	jmpbuffer;$/;"	v
+jmpbuffer	./7/example/7-6.c	/^static jmp_buf 	jmpbuffer;$/;"	v	file:
+jmpbuffer	./apue.2e/environ/cmd2.c	/^jmp_buf	jmpbuffer;$/;"	v
+jmpbuffer	./apue.2e/environ/testjmp.c	/^static jmp_buf	jmpbuffer;$/;"	v	file:
+job	./apue.2e/ipp/printd.c	/^struct job {$/;"	s	file:
+job	./apue.2e/threads/rwlock.c	/^struct job {$/;"	s	file:
+job::j_id	./apue.2e/threads/rwlock.c	/^	pthread_t   j_id;   \/* tells which thread handles this job *\/$/;"	m	struct:job	file:	access:public
+job::j_next	./apue.2e/threads/rwlock.c	/^	struct job *j_next;$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::j_prev	./apue.2e/threads/rwlock.c	/^	struct job *j_prev;$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::jobid	./apue.2e/ipp/printd.c	/^	long             jobid;		\/* job ID *\/$/;"	m	struct:job	file:	access:public
+job::next	./apue.2e/ipp/printd.c	/^	struct job      *next;		\/* next in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::prev	./apue.2e/ipp/printd.c	/^	struct job      *prev;		\/* previous in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::req	./apue.2e/ipp/printd.c	/^	struct printreq  req;		\/* copy of print request *\/$/;"	m	struct:job	typeref:struct:job::printreq	file:	access:public
+job_append	./apue.2e/threads/rwlock.c	/^job_append(struct queue *qp, struct job *jp)$/;"	f	signature:(struct queue *qp, struct job *jp)
+job_find	./apue.2e/threads/rwlock.c	/^job_find(struct queue *qp, pthread_t id)$/;"	f	signature:(struct queue *qp, pthread_t id)
+job_insert	./apue.2e/threads/rwlock.c	/^job_insert(struct queue *qp, struct job *jp)$/;"	f	signature:(struct queue *qp, struct job *jp)
+job_remove	./apue.2e/threads/rwlock.c	/^job_remove(struct queue *qp, struct job *jp)$/;"	f	signature:(struct queue *qp, struct job *jp)
+jobfd	./apue.2e/ipp/printd.c	/^int					jobfd;$/;"	v
+jobhead	./apue.2e/ipp/printd.c	/^struct job				*jobhead, *jobtail;$/;"	v	typeref:struct:job
+jobid	./apue.2e/ipp/print.h	/^	long jobid;					\/* job ID *\/$/;"	m	struct:printresp	access:public
+jobid	./apue.2e/ipp/printd.c	/^	long             jobid;		\/* job ID *\/$/;"	m	struct:job	file:	access:public
+joblock	./apue.2e/ipp/printd.c	/^pthread_mutex_t		joblock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+jobnm	./apue.2e/ipp/print.h	/^	char jobnm[JOBNM_MAX];		\/* job's name *\/$/;"	m	struct:printreq	access:public
+jobtail	./apue.2e/ipp/printd.c	/^struct job				*jobhead, *jobtail;$/;"	v	typeref:struct:
+jobwait	./apue.2e/ipp/printd.c	/^pthread_cond_t			jobwait = PTHREAD_COND_INITIALIZER;$/;"	v
+key	./apue.2e/threadctl/getenv3.c	/^static pthread_key_t key;$/;"	v	file:
+kill_workers	./apue.2e/ipp/printd.c	/^kill_workers(void)$/;"	f	signature:(void)
+kill_workers	./apue.2e/ipp/printd.c	/^void		kill_workers(void);$/;"	p	file:	signature:(void)
+line	./apue.2e/calld/calld.h	/^  char	*line;		\/* (e.g., "cua0") without preceding "\/dev\/" *\/$/;"	m	struct:__anon7	access:public
+line	./apue.2e/calld/lock.c	/^  char	*line;	\/* points to malloc()ed area *\/$/;"	m	struct:__anon9	file:	access:public
+line2	./apue.2e/calld/calld.h	/^  char	*line2;		\/* (ignored) *\/$/;"	m	struct:__anon7	access:public
+lock	./apue.2e/calld/lock.c	/^static Lock	*lock = NULL;	\/* the malloc'ed\/realloc'ed array *\/$/;"	v	file:
+lock	./apue.2e/threadctl/suspend.c	/^pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock1	./apue.2e/threadctl/atfork.c	/^pthread_mutex_t lock1 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock2	./apue.2e/threadctl/atfork.c	/^pthread_mutex_t lock2 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock_reg	./apue.2e/include/apue.h	/^int 	lock_reg( int, int, int, off_t, int, off_t );$/;"	p	signature:( int, int, int, off_t, int, off_t )
+lock_reg	./apue.2e/lib/apue.h	/^int 	lock_reg( int, int, int, off_t, int, off_t );$/;"	p	signature:( int, int, int, off_t, int, off_t )
+lock_reg	./apue.2e/lib/lockreg.c	/^lock_reg(int fd, int cmd, int type, off_t offset, int whence, off_t len)$/;"	f	signature:(int fd, int cmd, int type, off_t offset, int whence, off_t len)
+lock_reg	./apue.2e/sockets/apue.h	/^int 	lock_reg( int, int, int, off_t, int, off_t );$/;"	p	signature:( int, int, int, off_t, int, off_t )
+lock_reg	./apue.h	/^int 	lock_reg( int, int, int, off_t, int, off_t );$/;"	p	signature:( int, int, int, off_t, int, off_t )
+lock_rel	./apue.2e/calld/calld.h	/^void  lock_rel(pid_t);$/;"	p	signature:(pid_t)
+lock_rel	./apue.2e/calld/lock.c	/^lock_rel(pid_t pid)$/;"	f	signature:(pid_t pid)
+lock_set	./apue.2e/calld/calld.h	/^void  lock_set(char *, pid_t);$/;"	p	signature:(char *, pid_t)
+lock_set	./apue.2e/calld/lock.c	/^lock_set(char *line, pid_t pid)$/;"	f	signature:(char *line, pid_t pid)
+lock_size	./apue.2e/calld/lock.c	/^static int	 lock_size;		\/* #entries in lock[] *\/$/;"	v	file:
+lock_test	./apue.2e/include/apue.h	/^pid_t 	lock_test( int, int, off_t, int, off_t );$/;"	p	signature:( int, int, off_t, int, off_t )
+lock_test	./apue.2e/lib/apue.h	/^pid_t 	lock_test( int, int, off_t, int, off_t );$/;"	p	signature:( int, int, off_t, int, off_t )
+lock_test	./apue.2e/lib/locktest.c	/^lock_test(int fd, int type, off_t offset, int whence, off_t len)$/;"	f	signature:(int fd, int type, off_t offset, int whence, off_t len)
+lock_test	./apue.2e/sockets/apue.h	/^pid_t 	lock_test( int, int, off_t, int, off_t );$/;"	p	signature:( int, int, off_t, int, off_t )
+lock_test	./apue.h	/^pid_t 	lock_test( int, int, off_t, int, off_t );$/;"	p	signature:( int, int, off_t, int, off_t )
+lockabyte	./apue.2e/lock/deadlock.c	/^lockabyte(const char *name, int fd, off_t offset)$/;"	f	file:	signature:(const char *name, int fd, off_t offset)
+lockabyte	./io/src/deadlock.c	/^static void lockabyte(const char *name, int fd, off_t offset)$/;"	f	file:	signature:(const char *name, int fd, off_t offset)
+lockfile	./apue.2e/daemons/lockfile.c	/^lockfile(int fd)$/;"	f	signature:(int fd)
+lockfile	./apue.2e/daemons/reread2.c	/^extern int lockfile(int);$/;"	p	file:	signature:(int)
+lockfile	./apue.2e/daemons/single.c	/^extern int lockfile(int);$/;"	p	file:	signature:(int)
+log_doit	./apue.2e/lib/errorlog.c	/^log_doit(int errnoflag, int priority, const char *fmt, va_list ap)$/;"	f	file:	signature:(int errnoflag, int priority, const char *fmt, va_list ap)
+log_doit	./apue.2e/lib/errorlog.c	/^static void	log_doit(int, int, const char *, va_list ap);$/;"	p	file:	signature:(int, int, const char *, va_list ap)
+log_msg	./apue.2e/include/apue.h	/^void 	log_msg( const char *, ... );$/;"	p	signature:( const char *, ... )
+log_msg	./apue.2e/lib/apue.h	/^void 	log_msg( const char *, ... );$/;"	p	signature:( const char *, ... )
+log_msg	./apue.2e/lib/errorlog.c	/^log_msg(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+log_open	./apue.2e/include/apue.h	/^void 	log_open( const char *, int, int );$/;"	p	signature:( const char *, int, int )
+log_open	./apue.2e/lib/apue.h	/^void 	log_open( const char *, int, int );$/;"	p	signature:( const char *, int, int )
+log_open	./apue.2e/lib/errorlog.c	/^log_open(const char *ident, int option, int facility)$/;"	f	signature:(const char *ident, int option, int facility)
+log_quit	./apue.2e/include/apue.h	/^void 	log_quit( const char *, ... );$/;"	p	signature:( const char *, ... )
+log_quit	./apue.2e/lib/apue.h	/^void 	log_quit( const char *, ... );$/;"	p	signature:( const char *, ... )
+log_quit	./apue.2e/lib/errorlog.c	/^log_quit(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+log_ret	./apue.2e/include/apue.h	/^void 	log_ret( const char *, ... );$/;"	p	signature:( const char *, ... )
+log_ret	./apue.2e/lib/apue.h	/^void 	log_ret( const char *, ... );$/;"	p	signature:( const char *, ... )
+log_ret	./apue.2e/lib/errorlog.c	/^log_ret(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+log_sys	./apue.2e/include/apue.h	/^void 	log_sys( const char *, ... );$/;"	p	signature:( const char *, ... )
+log_sys	./apue.2e/lib/apue.h	/^void 	log_sys( const char *, ... );$/;"	p	signature:( const char *, ... )
+log_sys	./apue.2e/lib/errorlog.c	/^log_sys(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+log_to_stderr	./apue.2e/calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+log_to_stderr	./apue.2e/ipp/print.c	/^int log_to_stderr = 1;$/;"	v
+log_to_stderr	./apue.2e/ipp/printd.c	/^int					log_to_stderr = 0;$/;"	v
+log_to_stderr	./apue.2e/opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+login	./apue.2e/calld/calld.h	/^  char	*login;		\/* uucp login chat (ignored) *\/$/;"	m	struct:__anon6	access:public
+loop	./apue.2e/call/call.h	/^void	loop(int);$/;"	p	signature:(int)
+loop	./apue.2e/call/loop.poll.c	/^loop(int remfd)$/;"	f	signature:(int remfd)
+loop	./apue.2e/calld/calld.h	/^void  loop(void);							\/* loop.c *\/$/;"	p	signature:(void)
+loop	./apue.2e/calld/loop.c	/^loop(void)$/;"	f	signature:(void)
+loop	./apue.2e/opend/loop.poll.c	/^loop(void)$/;"	f	signature:(void)
+loop	./apue.2e/opend/loop.select.c	/^loop(void)$/;"	f	signature:(void)
+loop	./apue.2e/opend/opend.h	/^void	 loop(void);$/;"	p	signature:(void)
+loop	./apue.2e/pty/loop.c	/^loop(int ptym, int ignoreeof)$/;"	f	signature:(int ptym, int ignoreeof)
+loop	./apue.2e/pty/main.c	/^void		loop(int, int);		\/* in the file loop.c *\/$/;"	p	file:	signature:(int, int)
+m_next	./apue.2e/threads/condvar.c	/^	struct msg *m_next;$/;"	m	struct:msg	typeref:struct:msg::msg	file:	access:public
+main	./1/example/cmd.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./1/example/copy.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./1/example/err.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./1/example/my_ls.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./1/example/pid.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./1/example/uid.c	/^int main( void )$/;"	f	signature:( void )
+main	./10/example/10-1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-11.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-14.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-15.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-16.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-17.c	/^int main( void )$/;"	f	signature:( void )
+main	./10/example/10-2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-21.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-22.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-3.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-4.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-5.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-7.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./10/example/10-8.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./11/example/11-1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./11/example/11-2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./11/example/11-3.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./11/example/11-4.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./13/example/13-1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./2/example/2-2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./2/example/test.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./3/example/3-1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./3/example/3-2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./3/example/3-3.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./3/example/3-4.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./3/example/3-5.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./3/example/test.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-10.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-3.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-4.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-5.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-6.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-7.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-8.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./4/example/4-9.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./5/example/5-1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./5/example/5-2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./5/example/5-3.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./5/example/5-4.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./5/example/5-5.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./7/example/7-1.c	/^main()$/;"	f
+main	./7/example/7-2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./7/example/7-3.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./7/example/7-4.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./7/example/7-6.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./7/example/7-8.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-10.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-13.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-14.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-15.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-16.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-18.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-3.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-5.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-6.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-8.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/8-9.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/example/test.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/test/1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/test/2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/test/6.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./8/test/7.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./9/example/2.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./9/example/9-1.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	./apue.2e/advio/catgetmsg.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/advio/devzero.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/advio/mcopy.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/advio/nonblockw.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/advio/pendlock.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/call/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/calld/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/daemons/reread.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/daemons/reread2.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/db/t4.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/environ/cmd1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/environ/cmd2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/environ/doatexit.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/environ/getrlimit.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/environ/hello1.c	/^main()$/;"	f
+main	./apue.2e/environ/testjmp.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/exercises/getlogin.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/exercises/getpw44bsd.c	/^main(void)		\/* FreeBSD\/Mac OS X version *\/$/;"	f	signature:(void)
+main	./apue.2e/exercises/getpwsvr4.c	/^main(void)		\/* Linux\/Solaris version *\/$/;"	f	signature:(void)
+main	./apue.2e/exercises/goodexit.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/exercises/prtime.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/exercises/sizepipe.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/access.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/file/cdpwd.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/changemod.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/devrdev.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/file/fileflags.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/file/filetype.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/file/ftw4.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/file/hello.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/hole.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/longpath.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/ls1.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/file/mycd.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/seek.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/testerror.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/file/uidgid.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/umask.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/unlink.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/file/zap.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/ipc/add2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipc/add2stdio.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipc/fifo1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipc/myuclc.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipc/pipe1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipc/pipe2.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/ipc/pipe4.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipc/popen1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipc/popen2.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/ipc/spipe4.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipc/tshm.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/ipp/print.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/ipp/printd.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/lock/deadlock.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/lock/mandatory.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/mycat/fgetsfputs.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/mycat/getcputc.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/mycat/mycat.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/open.fe/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/opend.fe/main.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/opend/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/proc/echoall.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/proc/echoarg.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/proc/exec1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/exec2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/fork1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/fork2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/pracct.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/proc/pruids.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/shell1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/shell2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/systest1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/systest2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/systest3.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/proc/tellwait1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/tellwait2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/test1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/times1.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/proc/vfork1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/vfork3.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/wait1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/proc/zombie.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/pty/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/sess/orphan3.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/child.c	/^main()$/;"	f
+main	./apue.2e/signals/critical.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/mask.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/read1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/read2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/reenter.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/sigtstp.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/sigusr.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/suspend1.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/suspend2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/signals/tsleep2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/sockets/bindunix.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/sockets/bo.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/sockets/findsvc.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/sockets/ruptime-dg.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/sockets/ruptime.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/sockets/ruptimed-dg.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/sockets/ruptimed-fd.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/sockets/ruptimed.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/stdio/buf.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/stdio/tempfiles.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/stdio/tempnam.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/streams/strlist.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/streams/t_isastream.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	./apue.2e/termios/csize.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/termios/settty.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/termios/t_getpass.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/termios/t_isatty.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/termios/t_raw.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/termios/t_ttyname.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/termios/winch.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/threadctl/atfork.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/threadctl/suspend.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/threadctl/timeout.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/threads/badexit2.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/threads/cleanup.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/threads/exitstatus.c	/^main(void)$/;"	f	signature:(void)
+main	./apue.2e/threads/threadid.c	/^main(void)$/;"	f	signature:(void)
+main	./io/src/deadlock.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/args.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/atexit.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/daemonize.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/forkt.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/getopt.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/main.c	/^main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/pg.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/rlimit.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/session.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/t.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+main	./process/src/t_vfork.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/test2.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./process/src/xxx.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./project/apue_db/test_db.c	/^int main(int argc, const char* argv[])$/;"	f	signature:(int argc, const char* argv[])
+main	./test.c	/^int main( void )$/;"	f	signature:( void )
+major_version	./apue.2e/ipp/ipp.h	/^	int8_t  major_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+makethread	./apue.2e/threadctl/detach.c	/^makethread(void *(*fn)(void *), void *arg)$/;"	f	signature:(void *(*fn)(void *), void *arg)
+makethread	./apue.2e/threadctl/timeout.c	/^extern int makethread(void *(*)(void *), void *);$/;"	p	file:	signature:(void *(*)(void *), void *)
+mask	./apue.2e/daemons/reread.c	/^sigset_t	mask;$/;"	v
+mask	./apue.2e/ipp/printd.c	/^sigset_t				mask;$/;"	v
+mask	./apue.2e/threadctl/suspend.c	/^sigset_t	mask;$/;"	v
+max	./apue.2e/include/apue.h	55;"	d
+max	./apue.2e/lib/apue.h	55;"	d
+max	./apue.2e/sockets/apue.h	55;"	d
+max	./apue.h	55;"	d
+maxfd	./apue.2e/lib/popen.c	/^static int		maxfd;$/;"	v	file:
+min	./apue.2e/include/apue.h	54;"	d
+min	./apue.2e/lib/apue.h	54;"	d
+min	./apue.2e/sockets/apue.h	54;"	d
+min	./apue.h	54;"	d
+minor_version	./apue.2e/ipp/ipp.h	/^	int8_t  minor_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+msg	./apue.2e/ipp/print.h	/^	char msg[MSGLEN_MAX];		\/* error message *\/$/;"	m	struct:printresp	access:public
+msg	./apue.2e/threads/condvar.c	/^struct msg {$/;"	s	file:
+msg::m_next	./apue.2e/threads/condvar.c	/^	struct msg *m_next;$/;"	m	struct:msg	typeref:struct:msg::msg	file:	access:public
+mutex	./apue.2e/threadctl/timeout.c	/^pthread_mutex_t mutex;$/;"	v
+my_alarm	./10/example/10-2.c	/^static void my_alarm( int signo )$/;"	f	file:	signature:( int signo )
+my_alarm	./apue.2e/signals/reenter.c	/^my_alarm(int signo)$/;"	f	file:	signature:(int signo)
+my_exit1	./7/example/7-2.c	/^static void 	my_exit1(void);$/;"	p	file:	signature:(void)
+my_exit1	./7/example/7-2.c	/^static void my_exit1(void)$/;"	f	file:	signature:(void)
+my_exit1	./apue.2e/environ/doatexit.c	/^my_exit1(void)$/;"	f	file:	signature:(void)
+my_exit1	./apue.2e/environ/doatexit.c	/^static void	my_exit1(void);$/;"	p	file:	signature:(void)
+my_exit1	./process/src/atexit.c	/^static void my_exit1(void)$/;"	f	file:	signature:(void)
+my_exit1	./process/src/atexit.c	/^static void my_exit1(void);$/;"	p	file:	signature:(void)
+my_exit2	./7/example/7-2.c	/^static void 	my_exit2(void);$/;"	p	file:	signature:(void)
+my_exit2	./7/example/7-2.c	/^static void my_exit2(void)$/;"	f	file:	signature:(void)
+my_exit2	./apue.2e/environ/doatexit.c	/^my_exit2(void)$/;"	f	file:	signature:(void)
+my_exit2	./apue.2e/environ/doatexit.c	/^static void	my_exit2(void);$/;"	p	file:	signature:(void)
+my_exit2	./process/src/atexit.c	/^static void my_exit2(void)$/;"	f	file:	signature:(void)
+my_exit2	./process/src/atexit.c	/^static void my_exit2(void);$/;"	p	file:	signature:(void)
+my_system	./8/example/8-12.c	/^int my_system( const char *cmdstring )$/;"	f	signature:( const char *cmdstring )
+myftw	./4/example/4-7.c	/^static int 	myftw( char *, Myfunc * );$/;"	p	file:	signature:( char *, Myfunc * )
+myftw	./4/example/4-7.c	/^static int myftw( char *pathname, Myfunc *func )$/;"	f	file:	signature:( char *pathname, Myfunc *func )
+myftw	./apue.2e/file/ftw4.c	/^myftw(char *pathname, Myfunc *func)$/;"	f	file:	signature:(char *pathname, Myfunc *func)
+myftw	./apue.2e/file/ftw4.c	/^static int		myftw(char *, Myfunc *);$/;"	p	file:	signature:(char *, Myfunc *)
+myfunc	./4/example/4-7.c	/^static Myfunc 	myfunc;$/;"	v	file:
+myfunc	./4/example/4-7.c	/^static myfunc( const char *pathname, const struct stat *statptr, int type )$/;"	f	file:	signature:( const char *pathname, const struct stat *statptr, int type )
+myfunc	./apue.2e/file/ftw4.c	/^myfunc(const char *pathname, const struct stat *statptr, int type)$/;"	f	file:	signature:(const char *pathname, const struct stat *statptr, int type)
+myfunc	./apue.2e/file/ftw4.c	/^static Myfunc	myfunc;$/;"	v	file:
+name	./apue.2e/calld/calld.h	/^  char	*name;		\/* system name *\/$/;"	m	struct:__anon6	access:public
+name	./apue.2e/db/db.c	/^  char  *name;   \/* name db was opened under *\/$/;"	m	struct:__anon4	file:	access:public
+name	./project/apue_db/db.c	/^    char    *name;          \/* 数据库名缓冲区 *\/$/;"	m	struct:__anon10	file:	access:public
+nblk	./4/example/4-7.c	/^static long nreg, ndir, nchr, nblk, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nblk	./apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nchr	./4/example/4-7.c	/^static long nreg, ndir, nchr, nblk, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nchr	./apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ndir	./4/example/4-7.c	/^static long nreg, ndir, nchr, nblk, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ndir	./apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+newmask	./10/example/10-17.c	/^static sigset_t 		newmask, oldmask, zeromask;$/;"	v	file:
+newmask	./apue.2e/lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:
+next	./apue.2e/ipp/printd.c	/^	struct job      *next;		\/* next in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+next	./apue.2e/ipp/printd.c	/^	struct worker_thread  *next;	\/* next in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+nextjob	./apue.2e/ipp/printd.c	/^long					nextjob;$/;"	v
+nfifo	./4/example/4-7.c	/^static long nreg, ndir, nchr, nblk, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nfifo	./apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nhash	./apue.2e/db/db.c	/^  DBHASH nhash;    \/* current hash table size *\/$/;"	m	struct:__anon4	file:	access:public
+nhash	./project/apue_db/db.c	/^    DBHASH  nhash;          \/* 散列表的长度 *\/$/;"	m	struct:__anon10	file:	access:public
+nlocks	./apue.2e/calld/lock.c	/^static int	 nlocks;		\/* #entries currently used in lock[] *\/$/;"	v	file:
+nreg	./4/example/4-7.c	/^static long nreg, ndir, nchr, nblk, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nreg	./apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ns_pipe	./apue.2e/lib/nspipe.c	/^ns_pipe(const char *name, int fd[2])$/;"	f	signature:(const char *name, int fd[2])
+nslink	./4/example/4-7.c	/^static long nreg, ndir, nchr, nblk, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nslink	./apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nsock	./4/example/4-7.c	/^static long nreg, ndir, nchr, nblk, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nsock	./apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ntid	./11/example/11-1.c	/^pthread_t 	ntid;$/;"	v
+ntid	./apue.2e/threads/threadid.c	/^pthread_t ntid;$/;"	v
+ntot	./4/example/4-7.c	/^static long nreg, ndir, nchr, nblk, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ntot	./apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+oflag	./apue.2e/opend.fe/main.c	/^int		 oflag;$/;"	v
+oflag	./apue.2e/opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+oldmask	./10/example/10-17.c	/^static sigset_t 		newmask, oldmask, zeromask;$/;"	v	file:
+oldmask	./apue.2e/lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:
+op	./apue.2e/ipp/ipp.h	/^		int16_t op;	\/* operation ID *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+op_close	./apue.2e/lib/semaph.c	/^static struct sembuf	op_close[3] = {$/;"	v	typeref:struct:sembuf	file:
+op_endcreate	./apue.2e/lib/semaph.c	/^static struct sembuf	op_endcreate[2] = {$/;"	v	typeref:struct:sembuf	file:
+op_lock	./apue.2e/lib/semaph.c	/^static struct sembuf	op_lock[2] = {$/;"	v	typeref:struct:sembuf	file:
+op_op	./apue.2e/lib/semaph.c	/^static struct sembuf	op_op[1] = {$/;"	v	typeref:struct:sembuf	file:
+op_open	./apue.2e/lib/semaph.c	/^static struct sembuf	op_open[1] = {$/;"	v	typeref:struct:sembuf	file:
+op_unlock	./apue.2e/lib/semaph.c	/^static struct sembuf	op_unlock[1] = {$/;"	v	typeref:struct:sembuf	file:
+open_data	./apue.2e/environ/opendata.c	/^open_data(void)$/;"	f	signature:(void)
+open_max	./apue.2e/exercises/openmax.c	/^open_max(void)$/;"	f	signature:(void)
+open_max	./apue.2e/include/apue.h	/^long 	open_max( void );$/;"	p	signature:( void )
+open_max	./apue.2e/lib/apue.h	/^long 	open_max( void );$/;"	p	signature:( void )
+open_max	./apue.2e/lib/openmax.c	/^open_max(void)$/;"	f	signature:(void)
+open_max	./apue.2e/sockets/apue.h	/^long 	open_max( void );$/;"	p	signature:( void )
+open_max	./apue.h	/^long 	open_max( void );$/;"	p	signature:( void )
+openmax	./apue.2e/lib/openmax.c	/^static long	openmax = 0;$/;"	v	file:
+openmax	./apue.2e/lib/openmax.c	/^static long	openmax = OPEN_MAX;$/;"	v	file:
+operation	./apue.2e/ipp/ipp.h	121;"	d
+parent	./apue.2e/threadctl/atfork.c	/^parent(void)$/;"	f	signature:(void)
+parity	./apue.2e/calld/calld.h	/^  enum parity parity;		\/* option from client *\/$/;"	m	struct:__anon5	typeref:enum:__anon5::parity	access:public
+parity	./apue.2e/calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	g
+parity	./apue.2e/calld/main.c	/^enum parity parity = NONE;$/;"	v	typeref:enum:parity
+path_alloc	./apue.2e/include/apue.h	/^char 	*path_alloc( int * );$/;"	p	signature:( int * )
+path_alloc	./apue.2e/lib/apue.h	/^char 	*path_alloc( int * );$/;"	p	signature:( int * )
+path_alloc	./apue.2e/lib/pathalloc.c	/^path_alloc(int *sizep) \/* also return allocated size, if nonnull *\/$/;"	f	signature:(int *sizep)
+path_alloc	./apue.2e/sockets/apue.h	/^char 	*path_alloc( int * );$/;"	p	signature:( int * )
+path_alloc	./apue.h	/^char 	*path_alloc( int * );$/;"	p	signature:( int * )
+pathmax	./apue.2e/lib/pathalloc.c	/^static int	pathmax = 0;$/;"	v	file:
+pathmax	./apue.2e/lib/pathalloc.c	/^static int	pathmax = PATH_MAX;$/;"	v	file:
+pathname	./apue.2e/opend.fe/main.c	/^char	*pathname;$/;"	v
+pathname	./apue.2e/opend/main.c	/^char	*pathname;$/;"	v
+pathname	./apue.2e/termios/ttyname.c	/^static char				pathname[_POSIX_PATH_MAX + 1];$/;"	v	file:
+pclose	./apue.2e/lib/popen.c	/^pclose(FILE *fp)$/;"	f	signature:(FILE *fp)
+pfd1	./apue.2e/ipc/tellwait.c	/^static int	pfd1[2], pfd2[2];$/;"	v	file:
+pfd2	./apue.2e/ipc/tellwait.c	/^static int	pfd1[2], pfd2[2];$/;"	v	file:
+phone	./apue.2e/calld/calld.h	/^  char	*phone;		\/* phone number or "-" if direct connect *\/$/;"	m	struct:__anon6	access:public
+pid	./apue.2e/calld/calld.h	/^  pid_t	pid;		\/* child pid while dialing *\/$/;"	m	struct:__anon5	access:public
+pid	./apue.2e/calld/lock.c	/^  pid_t	pid;	\/* but unlock by process ID *\/$/;"	m	struct:__anon9	file:	access:public
+popen	./apue.2e/lib/popen.c	/^popen(const char *cmdstring, const char *type)$/;"	f	signature:(const char *cmdstring, const char *type)
+posix_openpt	./apue.2e/lib/bsd_ptyopen.c	/^posix_openpt(int oflag)$/;"	f	signature:(int oflag)
+posix_openpt	./apue.2e/lib/linux_ptyopen.c	/^posix_openpt(int oflag)$/;"	f	signature:(int oflag)
+posix_version	./apue.2e/lib/pathalloc.c	/^static long	posix_version = 0;$/;"	v	file:
+pr_exit	./apue.2e/include/apue.h	/^void 	pr_exit( int );$/;"	p	signature:( int )
+pr_exit	./apue.2e/lib/apue.h	/^void 	pr_exit( int );$/;"	p	signature:( int )
+pr_exit	./apue.2e/lib/prexit.c	/^pr_exit(int status)$/;"	f	signature:(int status)
+pr_exit	./apue.2e/sockets/apue.h	/^void 	pr_exit( int );$/;"	p	signature:( int )
+pr_exit	./apue.h	/^void 	pr_exit( int );$/;"	p	signature:( int )
+pr_ids	./9/example/2.c	/^static void pr_ids( char *name )$/;"	f	file:	signature:( char *name )
+pr_ids	./9/example/9-1.c	/^static void pr_ids( char *name )$/;"	f	file:	signature:( char *name )
+pr_ids	./apue.2e/sess/orphan3.c	/^pr_ids(char *name)$/;"	f	file:	signature:(char *name)
+pr_ids	./process/src/pg.c	/^static void pr_ids(char *name)$/;"	f	file:	signature:(char *name)
+pr_ids	./process/src/test2.c	/^static void pr_ids(char *name)$/;"	f	file:	signature:(char *name)
+pr_limits	./7/example/7-8.c	/^static void 	pr_limits(char *, int);$/;"	p	file:	signature:(char *, int)
+pr_limits	./7/example/7-8.c	/^static void pr_limits( char *name, int resource )$/;"	f	file:	signature:( char *name, int resource )
+pr_limits	./apue.2e/environ/getrlimit.c	/^pr_limits(char *name, int resource)$/;"	f	file:	signature:(char *name, int resource)
+pr_limits	./apue.2e/environ/getrlimit.c	/^static void	pr_limits(char *, int);$/;"	p	file:	signature:(char *, int)
+pr_limits	./process/src/rlimit.c	/^static void pr_limits(char *, int);$/;"	p	file:	signature:(char *, int)
+pr_limits	./process/src/rlimit.c	/^static void pr_limits(char *name, int resource)$/;"	f	file:	signature:(char *name, int resource)
+pr_mask	./apue.2e/include/apue.h	/^void 	pr_mask( const char * );$/;"	p	signature:( const char * )
+pr_mask	./apue.2e/lib/apue.h	/^void 	pr_mask( const char * );$/;"	p	signature:( const char * )
+pr_mask	./apue.2e/lib/prmask.c	/^pr_mask(const char *str)$/;"	f	signature:(const char *str)
+pr_mask	./apue.2e/sockets/apue.h	/^void 	pr_mask( const char * );$/;"	p	signature:( const char * )
+pr_mask	./apue.h	/^void 	pr_mask( const char * );$/;"	p	signature:( const char * )
+pr_pathconf	./2/example/2-2.c	/^static void 	pr_pathconf( char *, char *, int );$/;"	p	file:	signature:( char *, char *, int )
+pr_pathconf	./2/example/2-2.c	/^static void pr_pathconf( char *mesg, char *path, int name )$/;"	f	file:	signature:( char *mesg, char *path, int name )
+pr_stdio	./5/example/5-3.c	/^void pr_stdio( const char *, FILE * );$/;"	p	file:	signature:( const char *, FILE * )
+pr_stdio	./5/example/5-3.c	/^void pr_stdio( const char *name, FILE *fp )$/;"	f	signature:( const char *name, FILE *fp )
+pr_stdio	./apue.2e/stdio/buf.c	/^pr_stdio(const char *name, FILE *fp)$/;"	f	signature:(const char *name, FILE *fp)
+pr_stdio	./apue.2e/stdio/buf.c	/^void	pr_stdio(const char *, FILE *);$/;"	p	file:	signature:(const char *, FILE *)
+pr_sysconf	./2/example/2-2.c	/^static void 	pr_sysconf( char *, int );$/;"	p	file:	signature:( char *, int )
+pr_sysconf	./2/example/2-2.c	/^static void pr_sysconf( char *mesg, int name )$/;"	f	file:	signature:( char *mesg, int name )
+pr_times	./8/example/8-18.c	/^static void 	pr_times( clock_t, struct tms *, struct tms * );$/;"	p	file:	signature:( clock_t, struct tms *, struct tms * )
+pr_times	./8/example/8-18.c	/^static void pr_times( clock_t real, struct tms *tmsstart, struct tms *tmsend )$/;"	f	file:	signature:( clock_t real, struct tms *tmsstart, struct tms *tmsend )
+pr_times	./apue.2e/proc/times1.c	/^pr_times(clock_t real, struct tms *tmsstart, struct tms *tmsend)$/;"	f	file:	signature:(clock_t real, struct tms *tmsstart, struct tms *tmsend)
+pr_times	./apue.2e/proc/times1.c	/^static void	pr_times(clock_t, struct tms *, struct tms *);$/;"	p	file:	signature:(clock_t, struct tms *, struct tms *)
+pr_winsize	./apue.2e/termios/winch.c	/^pr_winsize(int fd)$/;"	f	file:	signature:(int fd)
+prepare	./apue.2e/threadctl/atfork.c	/^prepare(void)$/;"	f	signature:(void)
+prev	./apue.2e/ipp/printd.c	/^	struct job      *prev;		\/* previous in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+prev	./apue.2e/ipp/printd.c	/^	struct worker_thread  *prev;	\/* previous in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+printIds	./process/src/session.c	/^void printIds()$/;"	f
+print_family	./apue.2e/sockets/findsvc.c	/^print_family(struct addrinfo *aip)$/;"	f	signature:(struct addrinfo *aip)
+print_flags	./apue.2e/sockets/findsvc.c	/^print_flags(struct addrinfo *aip)$/;"	f	signature:(struct addrinfo *aip)
+print_protocol	./apue.2e/sockets/findsvc.c	/^print_protocol(struct addrinfo *aip)$/;"	f	signature:(struct addrinfo *aip)
+print_type	./apue.2e/sockets/findsvc.c	/^print_type(struct addrinfo *aip)$/;"	f	signature:(struct addrinfo *aip)
+print_uptime	./apue.2e/sockets/ruptime-dg.c	/^print_uptime(int sockfd, struct addrinfo *aip)$/;"	f	signature:(int sockfd, struct addrinfo *aip)
+print_uptime	./apue.2e/sockets/ruptime.c	/^print_uptime(int sockfd)$/;"	f	signature:(int sockfd)
+printer	./apue.2e/ipp/printd.c	/^struct addrinfo		*printer;$/;"	v	typeref:struct:addrinfo
+printer_name	./apue.2e/ipp/printd.c	/^char					*printer_name;$/;"	v
+printer_status	./apue.2e/ipp/printd.c	/^int		printer_status(int, struct job *);$/;"	p	file:	signature:(int, struct job *)
+printer_status	./apue.2e/ipp/printd.c	/^printer_status(int sockfd, struct job *jp)$/;"	f	signature:(int sockfd, struct job *jp)
+printer_thread	./apue.2e/ipp/printd.c	/^printer_thread(void *arg)$/;"	f	signature:(void *arg)
+printer_thread	./apue.2e/ipp/printd.c	/^void		*printer_thread(void *);$/;"	p	file:	signature:(void *)
+printfoo	./11/example/11-3.c	/^void printfoo( const char *s, const struct foo *fp )$/;"	f	signature:( const char *s, const struct foo *fp )
+printfoo	./apue.2e/exercises/goodexit.c	/^printfoo(const char *s, const struct foo *fp)$/;"	f	signature:(const char *s, const struct foo *fp)
+printfoo	./apue.2e/threads/badexit2.c	/^printfoo(const char *s, const struct foo *fp)$/;"	f	signature:(const char *s, const struct foo *fp)
+printids	./11/example/11-1.c	/^void printids( const char *s )$/;"	f	signature:( const char *s )
+printids	./apue.2e/threads/threadid.c	/^printids(const char *s)$/;"	f	signature:(const char *s)
+printreq	./apue.2e/ipp/print.h	/^struct printreq {$/;"	s
+printreq::flags	./apue.2e/ipp/print.h	/^	long flags;					\/* see below *\/$/;"	m	struct:printreq	access:public
+printreq::jobnm	./apue.2e/ipp/print.h	/^	char jobnm[JOBNM_MAX];		\/* job's name *\/$/;"	m	struct:printreq	access:public
+printreq::size	./apue.2e/ipp/print.h	/^	long size;					\/* size in bytes *\/$/;"	m	struct:printreq	access:public
+printreq::usernm	./apue.2e/ipp/print.h	/^	char usernm[USERNM_MAX];	\/* user's name *\/$/;"	m	struct:printreq	access:public
+printresp	./apue.2e/ipp/print.h	/^struct printresp {$/;"	s
+printresp::jobid	./apue.2e/ipp/print.h	/^	long jobid;					\/* job ID *\/$/;"	m	struct:printresp	access:public
+printresp::msg	./apue.2e/ipp/print.h	/^	char msg[MSGLEN_MAX];		\/* error message *\/$/;"	m	struct:printresp	access:public
+printresp::retcode	./apue.2e/ipp/print.h	/^	long retcode;				\/* 0=success, !0=error code *\/$/;"	m	struct:printresp	access:public
+process_msg	./apue.2e/threads/condvar.c	/^process_msg(void)$/;"	f	signature:(void)
+prompt_read	./apue.2e/call/call.h	/^int		prompt_read(char *, int (*)(int, char **));$/;"	p	signature:(char *, int (*)(int, char **))
+prompt_read	./apue.2e/call/takeput.c	/^prompt_read(char *prompt, int (*userfunc)(int, char **))$/;"	f	signature:(char *prompt, int (*userfunc)(int, char **))
+ptroff	./apue.2e/db/db.c	/^  off_t  ptroff; \/* chain ptr offset pointing to this idx record *\/$/;"	m	struct:__anon4	file:	access:public
+ptroff	./project/apue_db/db.c	/^    off_t   ptroff;         \/* 查找的键所在链表里面的上一个记录项的偏移量 *\/$/;"	m	struct:__anon10	file:	access:public
+ptrval	./apue.2e/db/db.c	/^  off_t  ptrval; \/* contents of chain ptr in index record *\/$/;"	m	struct:__anon4	file:	access:public
+ptrval	./project/apue_db/db.c	/^    off_t   ptrval;         \/* 空闲链表指针 *\/$/;"	m	struct:__anon10	file:	access:public
+ptsname	./apue.2e/lib/bsd_ptyopen.c	/^ptsname(int fdm)$/;"	f	signature:(int fdm)
+ptsname	./apue.2e/lib/linux_ptyopen.c	/^ptsname(int fdm)$/;"	f	signature:(int fdm)
+pty_fork	./apue.2e/include/apue.h	/^pid_t 	pty_fork( int *, char *, int, const struct termios *, const struct winsize * );$/;"	p	signature:( int *, char *, int, const struct termios *, const struct winsize * )
+pty_fork	./apue.2e/lib/apue.h	/^pid_t 	pty_fork( int *, char *, int, const struct termios *, const struct winsize * );$/;"	p	signature:( int *, char *, int, const struct termios *, const struct winsize * )
+pty_fork	./apue.2e/lib/ptyfork.c	/^pty_fork(int *ptrfdm, char *slave_name, int slave_namesz,$/;"	f	signature:(int *ptrfdm, char *slave_name, int slave_namesz, const struct termios *slave_termios, const struct winsize *slave_winsize)
+pty_fork	./apue.2e/sockets/apue.h	/^pid_t 	pty_fork( int *, char *, int, const struct termios *, const struct winsize * );$/;"	p	signature:( int *, char *, int, const struct termios *, const struct winsize * )
+pty_fork	./apue.h	/^pid_t 	pty_fork( int *, char *, int, const struct termios *, const struct winsize * );$/;"	p	signature:( int *, char *, int, const struct termios *, const struct winsize * )
+ptym_open	./apue.2e/include/apue.h	/^int 	ptym_open( char *, int );$/;"	p	signature:( char *, int )
+ptym_open	./apue.2e/lib/apue.h	/^int 	ptym_open( char *, int );$/;"	p	signature:( char *, int )
+ptym_open	./apue.2e/lib/bsd_ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f	signature:(char *pts_name, int pts_namesz)
+ptym_open	./apue.2e/lib/linux_ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f	signature:(char *pts_name, int pts_namesz)
+ptym_open	./apue.2e/sockets/apue.h	/^int 	ptym_open( char *, int );$/;"	p	signature:( char *, int )
+ptym_open	./apue.2e/streams/ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f	signature:(char *pts_name, int pts_namesz)
+ptym_open	./apue.h	/^int 	ptym_open( char *, int );$/;"	p	signature:( char *, int )
+ptys_open	./apue.2e/include/apue.h	/^int 	ptys_open( char * );$/;"	p	signature:( char * )
+ptys_open	./apue.2e/lib/apue.h	/^int 	ptys_open( char * );$/;"	p	signature:( char * )
+ptys_open	./apue.2e/lib/bsd_ptyopen.c	/^ptys_open(char *pts_name)$/;"	f	signature:(char *pts_name)
+ptys_open	./apue.2e/lib/linux_ptyopen.c	/^ptys_open(char *pts_name)$/;"	f	signature:(char *pts_name)
+ptys_open	./apue.2e/sockets/apue.h	/^int 	ptys_open( char * );$/;"	p	signature:( char * )
+ptys_open	./apue.2e/streams/ptyopen.c	/^ptys_open(char *pts_name)$/;"	f	signature:(char *pts_name)
+ptys_open	./apue.h	/^int 	ptys_open( char * );$/;"	p	signature:( char * )
+put	./apue.2e/call/call.h	/^void	put(int);$/;"	p	signature:(int)
+put	./apue.2e/call/put.c	/^put(int remfd)$/;"	f	signature:(int remfd)
+q_head	./apue.2e/threads/rwlock.c	/^	struct job      *q_head;$/;"	m	struct:queue	typeref:struct:queue::job	file:	access:public
+q_lock	./apue.2e/threads/rwlock.c	/^	pthread_rwlock_t q_lock;$/;"	m	struct:queue	file:	access:public
+q_tail	./apue.2e/threads/rwlock.c	/^	struct job      *q_tail;$/;"	m	struct:queue	typeref:struct:queue::job	file:	access:public
+qlock	./apue.2e/threads/condvar.c	/^pthread_mutex_t qlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+qready	./apue.2e/threads/condvar.c	/^pthread_cond_t qready = PTHREAD_COND_INITIALIZER;$/;"	v
+queue	./apue.2e/threads/rwlock.c	/^struct queue {$/;"	s	file:
+queue::q_head	./apue.2e/threads/rwlock.c	/^	struct job      *q_head;$/;"	m	struct:queue	typeref:struct:queue::job	file:	access:public
+queue::q_lock	./apue.2e/threads/rwlock.c	/^	pthread_rwlock_t q_lock;$/;"	m	struct:queue	file:	access:public
+queue::q_tail	./apue.2e/threads/rwlock.c	/^	struct job      *q_tail;$/;"	m	struct:queue	typeref:struct:queue::job	file:	access:public
+queue_init	./apue.2e/threads/rwlock.c	/^queue_init(struct queue *qp)$/;"	f	signature:(struct queue *qp)
+quitflag	./10/example/10-16.c	/^volatile sig_atomic_t 	quitflag;$/;"	v
+quitflag	./apue.2e/signals/suspend2.c	/^volatile sig_atomic_t	quitflag;	\/* set nonzero by signal handler *\/$/;"	v
+quitflag	./apue.2e/threadctl/suspend.c	/^int			quitflag;	\/* set nonzero by thread *\/$/;"	v
+read_lock	./apue.2e/include/apue.h	94;"	d
+read_lock	./apue.2e/lib/apue.h	94;"	d
+read_lock	./apue.2e/sockets/apue.h	94;"	d
+read_lock	./apue.h	94;"	d
+readmore	./apue.2e/ipp/printd.c	/^readmore(int sockfd, char **bpp, int off, int *bszp)$/;"	f	signature:(int sockfd, char **bpp, int off, int *bszp)
+readmore	./apue.2e/ipp/printd.c	/^ssize_t	readmore(int, char **, int, int *);$/;"	p	file:	signature:(int, char **, int, int *)
+readn	./apue.2e/include/apue.h	/^ssize_t readn( int, void *, size_t );$/;"	p	signature:( int, void *, size_t )
+readn	./apue.2e/lib/apue.h	/^ssize_t readn( int, void *, size_t );$/;"	p	signature:( int, void *, size_t )
+readn	./apue.2e/lib/readn.c	/^readn(int fd, void *ptr, size_t n)$/;"	f	signature:(int fd, void *ptr, size_t n)
+readn	./apue.2e/sockets/apue.h	/^ssize_t readn( int, void *, size_t );$/;"	p	signature:( int, void *, size_t )
+readn	./apue.h	/^ssize_t readn( int, void *, size_t );$/;"	p	signature:( int, void *, size_t )
+readw_lock	./apue.2e/include/apue.h	96;"	d
+readw_lock	./apue.2e/lib/apue.h	96;"	d
+readw_lock	./apue.2e/sockets/apue.h	96;"	d
+readw_lock	./apue.h	96;"	d
+recv_fd	./apue.2e/include/apue.h	/^int 	recv_fd( int, ssize_t (*func) ( int, const void *, size_t ) );$/;"	p	signature:( int, ssize_t (*func) ( int, const void *, size_t ) )
+recv_fd	./apue.2e/lib/apue.h	/^int 	recv_fd( int, ssize_t (*func) ( int, const void *, size_t ) );$/;"	p	signature:( int, ssize_t (*func) ( int, const void *, size_t ) )
+recv_fd	./apue.2e/lib/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f	signature:(int fd, ssize_t (*userfunc)(int, const void *, size_t))
+recv_fd	./apue.2e/sockets/apue.h	/^int 	recv_fd( int, ssize_t (*func) ( int, const void *, size_t ) );$/;"	p	signature:( int, ssize_t (*func) ( int, const void *, size_t ) )
+recv_fd	./apue.2e/sockets/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f	signature:(int fd, ssize_t (*userfunc)(int, const void *, size_t))
+recv_fd	./apue.2e/streams/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f	signature:(int fd, ssize_t (*userfunc)(int, const void *, size_t))
+recv_fd	./apue.h	/^int 	recv_fd( int, ssize_t (*func) ( int, const void *, size_t ) );$/;"	p	signature:( int, ssize_t (*func) ( int, const void *, size_t ) )
+recv_ufd	./apue.2e/sockets/recvfd2.c	/^recv_ufd(int fd, uid_t *uidptr,$/;"	f	signature:(int fd, uid_t *uidptr, ssize_t (*userfunc)(int, const void *, size_t))
+rem_buf	./apue.2e/call/take.c	/^static char		 rem_buf[MAXLINE];$/;"	v	file:
+rem_cnt	./apue.2e/call/take.c	/^static int		 rem_cnt = 0;$/;"	v	file:
+rem_ptr	./apue.2e/call/take.c	/^static char		*rem_ptr;$/;"	v	file:
+rem_read	./apue.2e/call/take.c	/^rem_read(int remfd)$/;"	f	signature:(int remfd)
+rem_read	./apue.2e/call/take.c	/^static int		 rem_read(int);$/;"	p	file:	signature:(int)
+remove_job	./apue.2e/ipp/printd.c	/^remove_job(struct job *target)$/;"	f	signature:(struct job *target)
+remove_job	./apue.2e/ipp/printd.c	/^void		remove_job(struct job *);$/;"	p	file:	signature:(struct job *)
+replace_job	./apue.2e/ipp/printd.c	/^replace_job(struct job *jp)$/;"	f	signature:(struct job *jp)
+replace_job	./apue.2e/ipp/printd.c	/^void		replace_job(struct job *);$/;"	p	file:	signature:(struct job *)
+req	./apue.2e/ipp/printd.c	/^	struct printreq  req;		\/* copy of print request *\/$/;"	m	struct:job	typeref:struct:job::printreq	file:	access:public
+request	./apue.2e/calld/calld.h	/^int   request(Client *);					\/* request.c *\/$/;"	p	signature:(Client *)
+request	./apue.2e/calld/request.c	/^request(Client *cliptr)$/;"	f	signature:(Client *cliptr)
+request	./apue.2e/opend.fe/opend.h	/^void	 request(char *, int, int);$/;"	p	signature:(char *, int, int)
+request	./apue.2e/opend.fe/request.c	/^request(char *buf, int nread, int fd)$/;"	f	signature:(char *buf, int nread, int fd)
+request	./apue.2e/opend/opend.h	/^void	 request(char *, int, int, uid_t);$/;"	p	signature:(char *, int, int, uid_t)
+request	./apue.2e/opend/request.c	/^request(char *buf, int nread, int clifd, uid_t uid)$/;"	f	signature:(char *buf, int nread, int clifd, uid_t uid)
+request_id	./apue.2e/ipp/ipp.h	/^	int32_t request_id;		\/* request ID *\/$/;"	m	struct:ipp_hdr	access:public
+reread	./apue.2e/daemons/reread.c	/^reread(void)$/;"	f	signature:(void)
+reread	./apue.2e/daemons/reread2.c	/^reread(void)$/;"	f	signature:(void)
+reread	./apue.2e/ipp/printd.c	/^int					reread;$/;"	v
+retcode	./apue.2e/ipp/print.h	/^	long retcode;				\/* 0=success, !0=error code *\/$/;"	m	struct:printresp	access:public
+retry	./apue.2e/threadctl/timeout.c	/^retry(void *arg)$/;"	f	signature:(void *arg)
+s_pipe	./apue.2e/include/apue.h	/^int 	s_pipe( int * );$/;"	p	signature:( int * )
+s_pipe	./apue.2e/lib/apue.h	/^int 	s_pipe( int * );$/;"	p	signature:( int * )
+s_pipe	./apue.2e/lib/spipe.c	/^s_pipe(int fd[2])$/;"	f	signature:(int fd[2])
+s_pipe	./apue.2e/sockets/apue.h	/^int 	s_pipe( int * );$/;"	p	signature:( int * )
+s_pipe	./apue.2e/sockets/spipe.c	/^s_pipe(int fd[2])$/;"	f	signature:(int fd[2])
+s_pipe	./apue.2e/streams/spipe.c	/^s_pipe(int fd[2])$/;"	f	signature:(int fd[2])
+s_pipe	./apue.h	/^int 	s_pipe( int * );$/;"	p	signature:( int * )
+save_termios	./apue.2e/lib/ttymodes.c	/^static struct termios		save_termios;$/;"	v	typeref:struct:termios	file:
+scan_configfile	./apue.2e/ipp/util.c	/^scan_configfile(char *keyword)$/;"	f	file:	signature:(char *keyword)
+searchdir	./apue.2e/termios/ttyname.c	/^searchdir(char *dirname, struct stat *fdstatp)$/;"	f	file:	signature:(char *dirname, struct stat *fdstatp)
+sem_close	./apue.2e/lib/semaph.c	/^sem_close(int id)$/;"	f	signature:(int id)
+sem_close	./apue.2e/lib/semaph.c	/^void	sem_close(int);$/;"	p	file:	signature:(int)
+sem_create	./apue.2e/lib/semaph.c	/^int		sem_create(key_t, int);$/;"	p	file:	signature:(key_t, int)
+sem_create	./apue.2e/lib/semaph.c	/^sem_create(key_t key, int initval)$/;"	f	signature:(key_t key, int initval)
+sem_op	./apue.2e/lib/semaph.c	/^sem_op(int id, int value)$/;"	f	signature:(int id, int value)
+sem_op	./apue.2e/lib/semaph.c	/^void	sem_op(int, int);$/;"	p	file:	signature:(int, int)
+sem_open	./apue.2e/lib/semaph.c	/^int		sem_open(key_t);$/;"	p	file:
+sem_open	./apue.2e/lib/semaph.c	/^sem_open(key_t key)$/;"	f	signature:(key_t key)
+sem_rm	./apue.2e/lib/semaph.c	/^sem_rm(int id)$/;"	f	signature:(int id)
+sem_rm	./apue.2e/lib/semaph.c	/^void	sem_rm(int);$/;"	p	file:	signature:(int)
+sem_signal	./apue.2e/lib/semaph.c	/^sem_signal(int id)$/;"	f	signature:(int id)
+sem_signal	./apue.2e/lib/semaph.c	/^void	sem_signal(int);$/;"	p	file:	signature:(int)
+sem_wait	./apue.2e/lib/semaph.c	/^sem_wait(int id)$/;"	f	signature:(int id)
+sem_wait	./apue.2e/lib/semaph.c	/^void	sem_wait(int);$/;"	p	file:	signature:(int)
+send_err	./apue.2e/include/apue.h	/^int 	send_err( int, int, const char * );$/;"	p	signature:( int, int, const char * )
+send_err	./apue.2e/lib/apue.h	/^int 	send_err( int, int, const char * );$/;"	p	signature:( int, int, const char * )
+send_err	./apue.2e/lib/senderr.c	/^send_err(int fd, int errcode, const char *msg)$/;"	f	signature:(int fd, int errcode, const char *msg)
+send_err	./apue.2e/sockets/apue.h	/^int 	send_err( int, int, const char * );$/;"	p	signature:( int, int, const char * )
+send_err	./apue.h	/^int 	send_err( int, int, const char * );$/;"	p	signature:( int, int, const char * )
+send_fd	./apue.2e/include/apue.h	/^int 	send_fd( int, int );$/;"	p	signature:( int, int )
+send_fd	./apue.2e/lib/apue.h	/^int 	send_fd( int, int );$/;"	p	signature:( int, int )
+send_fd	./apue.2e/lib/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f	signature:(int fd, int fd_to_send)
+send_fd	./apue.2e/sockets/apue.h	/^int 	send_fd( int, int );$/;"	p	signature:( int, int )
+send_fd	./apue.2e/sockets/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f	signature:(int fd, int fd_to_send)
+send_fd	./apue.2e/sockets/sendfd2.c	/^send_fd(int fd, int fd_to_send)$/;"	f	signature:(int fd, int fd_to_send)
+send_fd	./apue.2e/streams/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f	signature:(int fd, int fd_to_send)
+send_fd	./apue.h	/^int 	send_fd( int, int );$/;"	p	signature:( int, int )
+send_str	./apue.2e/calld/calld.h	/^int   send_str(int, char *, char *, int);	\/* sendstr.c *\/$/;"	p	signature:(int, char *, char *, int)
+send_str	./apue.2e/calld/sendstr.c	/^send_str(int fd, char *ptr, char *phone, int echocheck)$/;"	f	signature:(int fd, char *ptr, char *phone, int echocheck)
+serv_accept	./apue.2e/include/apue.h	/^int 	serv_accept( int, uid_t * );$/;"	p	signature:( int, uid_t * )
+serv_accept	./apue.2e/lib/apue.h	/^int 	serv_accept( int, uid_t * );$/;"	p	signature:( int, uid_t * )
+serv_accept	./apue.2e/lib/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f	signature:(int listenfd, uid_t *uidptr)
+serv_accept	./apue.2e/sockets/apue.h	/^int 	serv_accept( int, uid_t * );$/;"	p	signature:( int, uid_t * )
+serv_accept	./apue.2e/sockets/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f	signature:(int listenfd, uid_t *uidptr)
+serv_accept	./apue.2e/streams/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f	signature:(int listenfd, uid_t *uidptr)
+serv_accept	./apue.h	/^int 	serv_accept( int, uid_t * );$/;"	p	signature:( int, uid_t * )
+serv_listen	./apue.2e/include/apue.h	/^int 	serv_listen( const char * );$/;"	p	signature:( const char * )
+serv_listen	./apue.2e/lib/apue.h	/^int 	serv_listen( const char * );$/;"	p	signature:( const char * )
+serv_listen	./apue.2e/lib/servlisten.c	/^serv_listen(const char *name)$/;"	f	signature:(const char *name)
+serv_listen	./apue.2e/sockets/apue.h	/^int 	serv_listen( const char * );$/;"	p	signature:( const char * )
+serv_listen	./apue.2e/sockets/servlisten.c	/^serv_listen(const char *name)$/;"	f	signature:(const char *name)
+serv_listen	./apue.2e/streams/servlisten.c	/^serv_listen(const char *name)$/;"	f	signature:(const char *name)
+serv_listen	./apue.h	/^int 	serv_listen( const char * );$/;"	p	signature:( const char * )
+serve	./apue.2e/sockets/ruptimed-dg.c	/^serve(int sockfd)$/;"	f	signature:(int sockfd)
+serve	./apue.2e/sockets/ruptimed-fd.c	/^serve(int sockfd)$/;"	f	signature:(int sockfd)
+serve	./apue.2e/sockets/ruptimed.c	/^serve(int sockfd)$/;"	f	signature:(int sockfd)
+set_fl	./3/example/3-5.c	/^void set_fl( int fd, int flag )$/;"	f	signature:( int fd, int flag )
+set_fl	./apue.2e/include/apue.h	/^void 	set_fl( int, int );$/;"	p	signature:( int, int )
+set_fl	./apue.2e/lib/apue.h	/^void 	set_fl( int, int );$/;"	p	signature:( int, int )
+set_fl	./apue.2e/lib/setfl.c	/^set_fl(int fd, int flags) \/* flags are file status flags to turn on *\/$/;"	f	signature:(int fd, int flags)
+set_fl	./apue.2e/sockets/apue.h	/^void 	set_fl( int, int );$/;"	p	signature:( int, int )
+set_fl	./apue.h	/^void 	set_fl( int, int );$/;"	p	signature:( int, int )
+set_noecho	./apue.2e/pty/main.c	/^set_noecho(int fd)		\/* turn off echo (for slave pty) *\/$/;"	f	file:	signature:(int fd)
+set_noecho	./apue.2e/pty/main.c	/^static void	set_noecho(int);	\/* at the end of this file *\/$/;"	p	file:	signature:(int)
+setasync	./apue.2e/exercises/asyncsocket.c	/^setasync(int sockfd)$/;"	f	signature:(int sockfd)
+sig_alrm	./10/example/10-14.c	/^static void 			sig_usr1( int ), sig_alrm( int );$/;"	p	file:	signature:( int )
+sig_alrm	./10/example/10-14.c	/^static void sig_alrm( int signo )$/;"	f	file:	signature:( int signo )
+sig_alrm	./10/example/10-21.c	/^static void sig_alrm( int signo )$/;"	f	file:	signature:( int signo )
+sig_alrm	./10/example/10-4.c	/^static void sig_alrm( int signo )$/;"	f	file:	signature:( int signo )
+sig_alrm	./10/example/10-5.c	/^static void sig_alrm( int signo )$/;"	f	file:	signature:( int signo )
+sig_alrm	./10/example/10-7.c	/^static void sig_alrm( int );$/;"	p	file:	signature:( int )
+sig_alrm	./10/example/10-7.c	/^static void sig_alrm( int signo )$/;"	f	file:	signature:( int signo )
+sig_alrm	./10/example/10-8.c	/^static void 	sig_alrm( int );$/;"	p	file:	signature:( int )
+sig_alrm	./10/example/10-8.c	/^static void sig_alrm( int signo )$/;"	f	file:	signature:( int signo )
+sig_alrm	./apue.2e/calld/expectstr.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	./apue.2e/lib/sleep.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	./apue.2e/signals/mask.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	./apue.2e/signals/mask.c	/^static void						sig_usr1(int), sig_alrm(int);$/;"	p	file:	signature:(int)
+sig_alrm	./apue.2e/signals/read1.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	./apue.2e/signals/read1.c	/^static void	sig_alrm(int);$/;"	p	file:	signature:(int)
+sig_alrm	./apue.2e/signals/read2.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	./apue.2e/signals/read2.c	/^static void		sig_alrm(int);$/;"	p	file:	signature:(int)
+sig_alrm	./apue.2e/signals/sleep1.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	./apue.2e/signals/sleep2.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_catch	./apue.2e/termios/t_raw.c	/^sig_catch(int signo)$/;"	f	file:	signature:(int signo)
+sig_chld	./apue.2e/calld/calld.h	/^void  sig_chld(int);						\/* sigchld.c *\/$/;"	p	signature:(int)
+sig_chld	./apue.2e/calld/sigchld.c	/^sig_chld(int signo)$/;"	f	signature:(int signo)
+sig_chld	./apue.2e/proc/systest2.c	/^sig_chld(int signo)$/;"	f	file:	signature:(int signo)
+sig_cld	./10/example/10-3.c	/^static void 	sig_cld( int );$/;"	p	file:	signature:( int )
+sig_cld	./10/example/10-3.c	/^static void sig_cld( int signo )$/;"	f	file:	signature:( int signo )
+sig_cld	./apue.2e/signals/child.c	/^sig_cld(int signo)	\/* interrupts pause() *\/$/;"	f	file:	signature:(int signo)
+sig_cld	./apue.2e/signals/child.c	/^static void	sig_cld(int);$/;"	p	file:	signature:(int)
+sig_hup	./9/example/9-1.c	/^static void sig_hup( int signo )$/;"	f	file:	signature:( int signo )
+sig_hup	./apue.2e/sess/orphan3.c	/^sig_hup(int signo)$/;"	f	file:	signature:(int signo)
+sig_hup	./process/src/pg.c	/^static void sig_hup(int signo)$/;"	f	file:	signature:(int signo)
+sig_int	./10/example/10-15.c	/^static void 	sig_int( int );$/;"	p	file:	signature:( int )
+sig_int	./10/example/10-15.c	/^static void sig_int( int signo )$/;"	f	file:	signature:( int signo )
+sig_int	./10/example/10-16.c	/^static void sig_int( int signo )$/;"	f	file:	signature:( int signo )
+sig_int	./10/example/10-5.c	/^static void 	sig_int( int );$/;"	p	file:	signature:( int )
+sig_int	./10/example/10-5.c	/^static void sig_int( int signo )$/;"	f	file:	signature:( int signo )
+sig_int	./apue.2e/proc/shell2.c	/^sig_int(int signo)$/;"	f	signature:(int signo)
+sig_int	./apue.2e/proc/shell2.c	/^static void	sig_int(int);		\/* our signal-catching function *\/$/;"	p	file:	signature:(int)
+sig_int	./apue.2e/proc/systest2.c	/^sig_int(int signo)$/;"	f	file:	signature:(int signo)
+sig_int	./apue.2e/signals/suspend1.c	/^sig_int(int signo)$/;"	f	file:	signature:(int signo)
+sig_int	./apue.2e/signals/suspend1.c	/^static void	sig_int(int);$/;"	p	file:	signature:(int)
+sig_int	./apue.2e/signals/suspend2.c	/^sig_int(int signo)	\/* one signal handler for SIGINT and SIGQUIT *\/$/;"	f	file:	signature:(int signo)
+sig_int	./apue.2e/signals/tsleep2.c	/^sig_int(int signo)$/;"	f	file:	signature:(int signo)
+sig_int	./apue.2e/signals/tsleep2.c	/^static void		sig_int(int);$/;"	p	file:	signature:(int)
+sig_pipe	./apue.2e/ipc/pipe4.c	/^sig_pipe(int signo)$/;"	f	file:	signature:(int signo)
+sig_pipe	./apue.2e/ipc/pipe4.c	/^static void	sig_pipe(int);		\/* our signal handler *\/$/;"	p	file:	signature:(int)
+sig_pipe	./apue.2e/ipc/spipe4.c	/^sig_pipe(int signo)$/;"	f	file:	signature:(int signo)
+sig_pipe	./apue.2e/ipc/spipe4.c	/^static void	sig_pipe(int);		\/* our signal handler *\/$/;"	p	file:	signature:(int)
+sig_quit	./10/example/10-11.c	/^static void 	sig_quit( int );$/;"	p	file:	signature:( int )
+sig_quit	./10/example/10-11.c	/^static void sig_quit( int signo )$/;"	f	file:	signature:( int signo )
+sig_quit	./apue.2e/signals/critical.c	/^sig_quit(int signo)$/;"	f	file:	signature:(int signo)
+sig_quit	./apue.2e/signals/critical.c	/^static void	sig_quit(int);$/;"	p	file:	signature:(int)
+sig_term	./apue.2e/pty/loop.c	/^sig_term(int signo)$/;"	f	file:	signature:(int signo)
+sig_term	./apue.2e/pty/loop.c	/^static void	sig_term(int);$/;"	p	file:	signature:(int)
+sig_tstp	./10/example/10-22.c	/^static void 	sig_tstp( int );$/;"	p	file:	signature:( int )
+sig_tstp	./10/example/10-22.c	/^static void sig_tstp( int signo )$/;"	f	file:	signature:( int signo )
+sig_tstp	./apue.2e/signals/sigtstp.c	/^sig_tstp(int signo)	\/* signal handler for SIGTSTP *\/$/;"	f	file:	signature:(int signo)
+sig_tstp	./apue.2e/signals/sigtstp.c	/^static void	sig_tstp(int);$/;"	p	file:	signature:(int)
+sig_usr	./10/example/10-1.c	/^static void 	sig_usr( int );$/;"	p	file:	signature:( int )
+sig_usr	./10/example/10-1.c	/^static void sig_usr( int signo )$/;"	f	file:	signature:( int signo )
+sig_usr	./10/example/10-17.c	/^static void sig_usr( int signo )$/;"	f	file:	signature:( int signo )
+sig_usr	./apue.2e/lib/tellwait.c	/^sig_usr(int signo)	\/* one signal handler for SIGUSR1 and SIGUSR2 *\/$/;"	f	file:	signature:(int signo)
+sig_usr	./apue.2e/signals/sigusr.c	/^sig_usr(int signo)		\/* argument is signal number *\/$/;"	f	file:	signature:(int signo)
+sig_usr	./apue.2e/signals/sigusr.c	/^static void	sig_usr(int);	\/* one handler for both signals *\/$/;"	p	file:	signature:(int)
+sig_usr1	./10/example/10-14.c	/^static void 			sig_usr1( int ), sig_alrm( int );$/;"	p	file:	signature:( int )
+sig_usr1	./10/example/10-14.c	/^static void sig_usr1( int signo )$/;"	f	file:	signature:( int signo )
+sig_usr1	./apue.2e/signals/mask.c	/^sig_usr1(int signo)$/;"	f	file:	signature:(int signo)
+sig_usr1	./apue.2e/signals/mask.c	/^static void						sig_usr1(int), sig_alrm(int);$/;"	p	file:	signature:(int)
+sig_winch	./apue.2e/termios/winch.c	/^sig_winch(int signo)$/;"	f	file:	signature:(int signo)
+sigaddset	./10/example/10-9.c	/^int sigaddset( sigset_t *set, int signo )$/;"	f	signature:( sigset_t *set, int signo )
+sigaddset	./apue.2e/signals/setops.c	/^sigaddset(sigset_t *set, int signo)$/;"	f	signature:(sigset_t *set, int signo)
+sigalrm	./apue.2e/sockets/ruptime-dg.c	/^sigalrm(int signo)$/;"	f	signature:(int signo)
+sigcaught	./apue.2e/pty/loop.c	/^static volatile sig_atomic_t	sigcaught;	\/* set by signal handler *\/$/;"	v	file:
+sigdelset	./10/example/10-9.c	/^int sigdelset( sigset_t *set, int signo )$/;"	f	signature:( sigset_t *set, int signo )
+sigdelset	./apue.2e/signals/setops.c	/^sigdelset(sigset_t *set, int signo)$/;"	f	signature:(sigset_t *set, int signo)
+sigflag	./10/example/10-17.c	/^static volatile sig_atomic_t 	sigflag;$/;"	v	file:
+sigflag	./apue.2e/lib/tellwait.c	/^static volatile sig_atomic_t sigflag; \/* set nonzero by sig handler *\/$/;"	v	file:
+sighup	./apue.2e/daemons/reread2.c	/^sighup(int signo)$/;"	f	signature:(int signo)
+sigint	./apue.2e/advio/pendlock.c	/^sigint(int signo)$/;"	f	signature:(int signo)
+sigismember	./10/example/10-9.c	/^int sigismember( sigset_t *set, int signo )$/;"	f	signature:( sigset_t *set, int signo )
+sigismember	./apue.2e/signals/setops.c	/^sigismember(const sigset_t *set, int signo)$/;"	f	signature:(const sigset_t *set, int signo)
+signal	./10/example/10-12.c	/^Sigfunc *signal( int signo, Sigfunc *func )$/;"	f	signature:( int signo, Sigfunc *func )
+signal	./apue.2e/lib/signal.c	/^signal(int signo, Sigfunc *func)$/;"	f	signature:(int signo, Sigfunc *func)
+signal_intr	./10/example/10.13.c	/^Sigfunc *signal_intr( int signo, Sigfunc *func )$/;"	f	signature:( int signo, Sigfunc *func )
+signal_intr	./apue.2e/include/apue.h	/^Sigfunc *signal_intr( int, Sigfunc * );$/;"	p	signature:( int, Sigfunc * )
+signal_intr	./apue.2e/lib/apue.h	/^Sigfunc *signal_intr( int, Sigfunc * );$/;"	p	signature:( int, Sigfunc * )
+signal_intr	./apue.2e/lib/signalintr.c	/^signal_intr(int signo, Sigfunc *func)$/;"	f	signature:(int signo, Sigfunc *func)
+signal_intr	./apue.2e/sockets/apue.h	/^Sigfunc *signal_intr( int, Sigfunc * );$/;"	p	signature:( int, Sigfunc * )
+signal_intr	./apue.h	/^Sigfunc *signal_intr( int, Sigfunc * );$/;"	p	signature:( int, Sigfunc * )
+signal_thread	./apue.2e/ipp/printd.c	/^signal_thread(void *arg)$/;"	f	signature:(void *arg)
+signal_thread	./apue.2e/ipp/printd.c	/^void		*signal_thread(void *);$/;"	p	file:	signature:(void *)
+sigterm	./apue.2e/daemons/reread2.c	/^sigterm(int signo)$/;"	f	signature:(int signo)
+size	./apue.2e/ipp/print.h	/^	long size;					\/* size in bytes *\/$/;"	m	struct:printreq	access:public
+sleep	./10/example/10-21.c	/^unsigned int sleep( unsigned int nsecs )$/;"	f	signature:( unsigned int nsecs )
+sleep	./apue.2e/exercises/sleep.c	/^sleep(unsigned nsec)$/;"	f	signature:(unsigned nsec)
+sleep	./apue.2e/lib/sleep.c	/^sleep(unsigned int nsecs)$/;"	f	signature:(unsigned int nsecs)
+sleep1	./10/example/10-4.c	/^unsigned int sleep1( unsigned int nsecs )$/;"	f	signature:( unsigned int nsecs )
+sleep1	./apue.2e/signals/sleep1.c	/^sleep1(unsigned int nsecs)$/;"	f	signature:(unsigned int nsecs)
+sleep2	./10/example/10-5.c	/^unsigned int sleep2( unsigned int nsecs )$/;"	f	signature:( unsigned int nsecs )
+sleep2	./apue.2e/signals/sleep2.c	/^sleep2(unsigned int nsecs)$/;"	f	signature:(unsigned int nsecs)
+sleep2	./apue.2e/signals/tsleep2.c	/^unsigned int	sleep2(unsigned int);$/;"	p	file:	signature:(unsigned int)
+sleep_us	./apue.2e/exercises/sleepus_poll.c	/^sleep_us(unsigned int nusecs)$/;"	f	signature:(unsigned int nusecs)
+sleep_us	./apue.2e/exercises/sleepus_select.c	/^sleep_us(unsigned int nusecs)$/;"	f	signature:(unsigned int nusecs)
+sleep_us	./apue.2e/include/apue.h	/^void 	sleep_us( unsigned int );$/;"	p	signature:( unsigned int )
+sleep_us	./apue.2e/lib/apue.h	/^void 	sleep_us( unsigned int );$/;"	p	signature:( unsigned int )
+sleep_us	./apue.2e/lib/sleepus.c	/^sleep_us(unsigned int nusecs)$/;"	f	signature:(unsigned int nusecs)
+sleep_us	./apue.2e/sockets/apue.h	/^void 	sleep_us( unsigned int );$/;"	p	signature:( unsigned int )
+sleep_us	./apue.h	/^void 	sleep_us( unsigned int );$/;"	p	signature:( unsigned int )
+sockfd	./apue.2e/ipp/printd.c	/^	int                    sockfd;	\/* socket *\/$/;"	m	struct:worker_thread	file:	access:public
+speed	./apue.2e/calld/calld.h	/^  char	speed[MAXSPEEDSTR];	\/* option from client *\/$/;"	m	struct:__anon5	access:public
+speed	./apue.2e/calld/main.c	/^char		*speed, *sysname;$/;"	v
+src	./apue.2e/call/main.c	/^char	*src;$/;"	v
+st	./apue.2e/ipp/ipp.h	/^		int16_t st;	\/* status *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+status	./apue.2e/ipp/ipp.h	122;"	d
+sub	./apue.2e/calld/calld.h	/^  char	*sub;		\/* phone number substitution string (ignored) *\/$/;"	m	struct:__anon8	access:public
+submit_file	./apue.2e/ipp/print.c	/^submit_file(int fd, int sockfd, const char *fname, size_t nbytes,$/;"	f	signature:(int fd, int sockfd, const char *fname, size_t nbytes, int text)
+submit_file	./apue.2e/ipp/print.c	/^void submit_file(int, int, const char *, size_t, int);$/;"	p	file:	signature:(int, int, const char *, size_t, int)
+sys_next	./apue.2e/calld/calld.h	/^long  sys_next(Systems *);					\/* sysfile.c *\/$/;"	p	signature:(Systems *)
+sys_next	./apue.2e/calld/sysfile.c	/^sys_next(Systems *sysptr)	\/* structure is filled in with pointers *\/$/;"	f	signature:(Systems *sysptr)
+sys_posn	./apue.2e/calld/calld.h	/^void  sys_posn(long);$/;"	p	signature:(long)
+sys_posn	./apue.2e/calld/sysfile.c	/^sys_posn(long posn)		\/* position Systems file *\/$/;"	f	signature:(long posn)
+sys_rew	./apue.2e/calld/calld.h	/^void  sys_rew(void);$/;"	p	signature:(void)
+sys_rew	./apue.2e/calld/sysfile.c	/^sys_rew(void)$/;"	f	signature:(void)
+sysftell	./apue.2e/calld/calld.h	/^  long	sysftell;	\/* next line to read in Systems file *\/$/;"	m	struct:__anon5	access:public
+sysline	./apue.2e/calld/sysfile.c	/^static char	 sysline[MAXLINE];$/;"	v	file:
+syslineno	./apue.2e/calld/sysfile.c	/^static int	 syslineno;			\/* for error messages *\/$/;"	v	file:
+sysname	./apue.2e/calld/calld.h	/^  char	sysname[MAXSYSNAME];\/* option from client *\/$/;"	m	struct:__anon5	access:public
+sysname	./apue.2e/calld/main.c	/^char		*speed, *sysname;$/;"	v
+system	./apue.2e/proc/system.c	/^system(const char *cmdstring)	\/* version without signal handling *\/$/;"	f	signature:(const char *cmdstring)
+system	./apue.2e/signals/system.c	/^system(const char *cmdstring)	\/* with appropriate signal handling *\/$/;"	f	signature:(const char *cmdstring)
+systems	./apue.2e/calld/main.c	/^Systems		systems;$/;"	v
+tail	./apue.2e/termios/ttyname.c	/^static struct devdir	*tail;$/;"	v	typeref:struct:devdir	file:
+take	./apue.2e/call/call.h	/^void	take(int);$/;"	p	signature:(int)
+take	./apue.2e/call/take.c	/^take(int remfd)$/;"	f	signature:(int remfd)
+take_put_args	./apue.2e/call/call.h	/^int		take_put_args(int, char **);$/;"	p	signature:(int, char **)
+take_put_args	./apue.2e/call/takeput.c	/^take_put_args(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+thr_fn	./11/example/11-1.c	/^void *thr_fn( void *arg )$/;"	f	signature:( void *arg )
+thr_fn	./apue.2e/daemons/reread.c	/^thr_fn(void *arg)$/;"	f	signature:(void *arg)
+thr_fn	./apue.2e/threadctl/atfork.c	/^thr_fn(void *arg)$/;"	f	signature:(void *arg)
+thr_fn	./apue.2e/threadctl/suspend.c	/^thr_fn(void *arg)$/;"	f	signature:(void *arg)
+thr_fn	./apue.2e/threads/threadid.c	/^thr_fn(void *arg)$/;"	f	signature:(void *arg)
+thr_fn1	./11/example/11-2.c	/^void *thr_fn1( void *arg )$/;"	f	signature:( void *arg )
+thr_fn1	./11/example/11-3.c	/^void *thr_fn1( void *arg )$/;"	f	signature:( void *arg )
+thr_fn1	./11/example/11-4.c	/^void *thr_fn1( void *arg )$/;"	f	signature:( void *arg )
+thr_fn1	./apue.2e/exercises/goodexit.c	/^thr_fn1(void *arg)$/;"	f	signature:(void *arg)
+thr_fn1	./apue.2e/threads/badexit2.c	/^thr_fn1(void *arg)$/;"	f	signature:(void *arg)
+thr_fn1	./apue.2e/threads/cleanup.c	/^thr_fn1(void *arg)$/;"	f	signature:(void *arg)
+thr_fn1	./apue.2e/threads/exitstatus.c	/^thr_fn1(void *arg)$/;"	f	signature:(void *arg)
+thr_fn2	./11/example/11-2.c	/^void *thr_fn2( void *arg )$/;"	f	signature:( void *arg )
+thr_fn2	./11/example/11-3.c	/^void *thr_fn2( void *arg )$/;"	f	signature:( void *arg )
+thr_fn2	./11/example/11-4.c	/^void *thr_fn2( void *arg )$/;"	f	signature:( void *arg )
+thr_fn2	./apue.2e/threads/badexit2.c	/^thr_fn2(void *arg)$/;"	f	signature:(void *arg)
+thr_fn2	./apue.2e/threads/cleanup.c	/^thr_fn2(void *arg)$/;"	f	signature:(void *arg)
+thr_fn2	./apue.2e/threads/exitstatus.c	/^thr_fn2(void *arg)$/;"	f	signature:(void *arg)
+thread_init	./apue.2e/threadctl/getenv2.c	/^thread_init(void)$/;"	f	file:	signature:(void)
+thread_init	./apue.2e/threadctl/getenv3.c	/^thread_init(void)$/;"	f	file:	signature:(void)
+tid	./apue.2e/ipp/printd.c	/^	pthread_t              tid;		\/* thread ID *\/$/;"	m	struct:worker_thread	file:	access:public
+time	./apue.2e/calld/calld.h	/^  char	*time;		\/* (e.g., "Any") time to call (ignored) *\/$/;"	m	struct:__anon6	access:public
+timeout	./apue.2e/threadctl/timeout.c	/^timeout(const struct timespec *when, void (*func)(void *), void *arg)$/;"	f	signature:(const struct timespec *when, void (*func)(void *), void *arg)
+timeout_helper	./apue.2e/threadctl/timeout.c	/^timeout_helper(void *arg)$/;"	f	signature:(void *arg)
+to_arg	./apue.2e/threadctl/timeout.c	/^	void	*to_arg;			\/* argument *\/$/;"	m	struct:to_info	file:	access:public
+to_fn	./apue.2e/threadctl/timeout.c	/^	void	(*to_fn)(void *);	\/* function *\/$/;"	m	struct:to_info	file:	access:public
+to_info	./apue.2e/threadctl/timeout.c	/^struct to_info {$/;"	s	file:
+to_info::to_arg	./apue.2e/threadctl/timeout.c	/^	void	*to_arg;			\/* argument *\/$/;"	m	struct:to_info	file:	access:public
+to_info::to_fn	./apue.2e/threadctl/timeout.c	/^	void	(*to_fn)(void *);	\/* function *\/$/;"	m	struct:to_info	file:	access:public
+to_info::to_wait	./apue.2e/threadctl/timeout.c	/^	struct timespec to_wait;	\/* time to wait *\/$/;"	m	struct:to_info	typeref:struct:to_info::timespec	file:	access:public
+to_wait	./apue.2e/threadctl/timeout.c	/^	struct timespec to_wait;	\/* time to wait *\/$/;"	m	struct:to_info	typeref:struct:to_info::timespec	file:	access:public
+tok_ptr	./7/example/7-4.c	/^char 	*tok_ptr;$/;"	v
+tok_ptr	./apue.2e/environ/cmd1.c	/^char	*tok_ptr;		\/* global pointer for get_token() *\/$/;"	v
+tread	./apue.2e/ipp/print.h	/^extern ssize_t tread(int, void *, size_t, unsigned int);$/;"	p	signature:(int, void *, size_t, unsigned int)
+tread	./apue.2e/ipp/util.c	/^tread(int fd, void *buf, size_t nbytes, unsigned int timout)$/;"	f	signature:(int fd, void *buf, size_t nbytes, unsigned int timout)
+treadn	./apue.2e/ipp/print.h	/^extern ssize_t treadn(int, void *, size_t, unsigned int);$/;"	p	signature:(int, void *, size_t, unsigned int)
+treadn	./apue.2e/ipp/util.c	/^treadn(int fd, void *buf, size_t nbytes, unsigned int timout)$/;"	f	signature:(int fd, void *buf, size_t nbytes, unsigned int timout)
+tty_atexit	./apue.2e/lib/ttymodes.c	/^tty_atexit(void)		\/* can be set up by atexit(tty_atexit) *\/$/;"	f	signature:(void)
+tty_cbreak	./apue.2e/include/apue.h	/^int 	tty_cbreak( int );$/;"	p	signature:( int )
+tty_cbreak	./apue.2e/lib/apue.h	/^int 	tty_cbreak( int );$/;"	p	signature:( int )
+tty_cbreak	./apue.2e/lib/ttymodes.c	/^tty_cbreak(int fd)	\/* put terminal into a cbreak mode *\/$/;"	f	signature:(int fd)
+tty_cbreak	./apue.2e/sockets/apue.h	/^int 	tty_cbreak( int );$/;"	p	signature:( int )
+tty_cbreak	./apue.h	/^int 	tty_cbreak( int );$/;"	p	signature:( int )
+tty_dial	./apue.2e/calld/calld.h	/^int   tty_dial(int, char *, char *, char *, char *);	\/* ttydial.c *\/$/;"	p	signature:(int, char *, char *, char *, char *)
+tty_dial	./apue.2e/calld/ttydial.c	/^tty_dial(int fd, char *phone, char *dialer, char *sub, char *expsend)$/;"	f	signature:(int fd, char *phone, char *dialer, char *sub, char *expsend)
+tty_open	./apue.2e/calld/calld.h	/^int   tty_open(char *, char *, enum parity, int);	\/* ttyopen.c *\/$/;"	p	signature:(char *, char *, enum parity, int)
+tty_open	./apue.2e/calld/ttyopen.c	/^tty_open(char *class, char *line, enum parity parity, int modem)$/;"	f	signature:(char *class, char *line, enum parity parity, int modem)
+tty_raw	./apue.2e/include/apue.h	/^int 	tty_raw( int );$/;"	p	signature:( int )
+tty_raw	./apue.2e/lib/apue.h	/^int 	tty_raw( int );$/;"	p	signature:( int )
+tty_raw	./apue.2e/lib/ttymodes.c	/^tty_raw(int fd)		\/* put terminal into a raw mode *\/$/;"	f	signature:(int fd)
+tty_raw	./apue.2e/sockets/apue.h	/^int 	tty_raw( int );$/;"	p	signature:( int )
+tty_raw	./apue.h	/^int 	tty_raw( int );$/;"	p	signature:( int )
+tty_reset	./apue.2e/include/apue.h	/^int 	tty_reset( int );$/;"	p	signature:( int )
+tty_reset	./apue.2e/lib/apue.h	/^int 	tty_reset( int );$/;"	p	signature:( int )
+tty_reset	./apue.2e/lib/ttymodes.c	/^tty_reset(int fd)		\/* restore terminal's mode *\/$/;"	f	signature:(int fd)
+tty_reset	./apue.2e/sockets/apue.h	/^int 	tty_reset( int );$/;"	p	signature:( int )
+tty_reset	./apue.h	/^int 	tty_reset( int );$/;"	p	signature:( int )
+tty_termios	./apue.2e/include/apue.h	/^struct termios 	*tty_termios( void );$/;"	p	signature:( void )
+tty_termios	./apue.2e/lib/apue.h	/^struct termios 	*tty_termios( void );$/;"	p	signature:( void )
+tty_termios	./apue.2e/lib/ttymodes.c	/^tty_termios(void)		\/* let caller see original tty state *\/$/;"	f	signature:(void)
+tty_termios	./apue.2e/sockets/apue.h	/^struct termios 	*tty_termios( void );$/;"	p	signature:( void )
+tty_termios	./apue.h	/^struct termios 	*tty_termios( void );$/;"	p	signature:( void )
+ttyname	./apue.2e/termios/ttyname.c	/^ttyname(int fd)$/;"	f	signature:(int fd)
+ttysavefd	./apue.2e/lib/ttymodes.c	/^static int					ttysavefd = -1;$/;"	v	file:
+ttystate	./apue.2e/lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	v	typeref:enum:__anon3	file:
+type	./apue.2e/calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") matched by type in Systems *\/$/;"	m	struct:__anon7	access:public
+type	./apue.2e/calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") or system name if direct connect *\/$/;"	m	struct:__anon6	access:public
+u	./apue.2e/ipp/ipp.h	/^	} u;$/;"	m	struct:ipp_hdr	typeref:union:ipp_hdr::__anon1	access:public
+uid	./apue.2e/calld/calld.h	/^  uid_t	uid;		\/* client's user ID *\/$/;"	m	struct:__anon5	access:public
+uid	./apue.2e/calld/main.c	/^uid_t		uid;$/;"	v
+uid	./apue.2e/opend/opend.h	/^  uid_t	uid;$/;"	m	struct:__anon2	access:public
+un_lock	./apue.2e/include/apue.h	102;"	d
+un_lock	./apue.2e/lib/apue.h	102;"	d
+un_lock	./apue.2e/sockets/apue.h	102;"	d
+un_lock	./apue.h	102;"	d
+unlockpt	./apue.2e/lib/bsd_ptyopen.c	/^unlockpt(int fdm)$/;"	f	signature:(int fdm)
+unlockpt	./apue.2e/lib/linux_ptyopen.c	/^unlockpt(int fdm)$/;"	f	signature:(int fdm)
+update	./apue.2e/advio/devzero.c	/^update(long *ptr)$/;"	f	file:	signature:(long *ptr)
+update_jobno	./apue.2e/ipp/printd.c	/^update_jobno(void)$/;"	f	signature:(void)
+update_jobno	./apue.2e/ipp/printd.c	/^void		update_jobno(void);$/;"	p	file:	signature:(void)
+usage	./apue.2e/call/main.c	/^static void	usage(char *);$/;"	p	file:	signature:(char *)
+usage	./apue.2e/call/main.c	/^usage(char *msg)$/;"	f	file:	signature:(char *msg)
+usernm	./apue.2e/ipp/print.h	/^	char usernm[USERNM_MAX];	\/* user's name *\/$/;"	m	struct:printreq	access:public
+waitloc	./apue.2e/threadctl/suspend.c	/^pthread_cond_t waitloc = PTHREAD_COND_INITIALIZER;$/;"	v
+worker_thread	./apue.2e/ipp/printd.c	/^struct worker_thread {$/;"	s	file:
+worker_thread::next	./apue.2e/ipp/printd.c	/^	struct worker_thread  *next;	\/* next in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+worker_thread::prev	./apue.2e/ipp/printd.c	/^	struct worker_thread  *prev;	\/* previous in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+worker_thread::sockfd	./apue.2e/ipp/printd.c	/^	int                    sockfd;	\/* socket *\/$/;"	m	struct:worker_thread	file:	access:public
+worker_thread::tid	./apue.2e/ipp/printd.c	/^	pthread_t              tid;		\/* thread ID *\/$/;"	m	struct:worker_thread	file:	access:public
+workerlock	./apue.2e/ipp/printd.c	/^pthread_mutex_t		workerlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+workers	./apue.2e/ipp/printd.c	/^struct worker_thread	*workers;$/;"	v	typeref:struct:worker_thread
+workq	./apue.2e/threads/condvar.c	/^struct msg *workq;$/;"	v	typeref:struct:msg
+write_lock	./apue.2e/include/apue.h	98;"	d
+write_lock	./apue.2e/lib/apue.h	98;"	d
+write_lock	./apue.2e/sockets/apue.h	98;"	d
+write_lock	./apue.h	98;"	d
+writen	./apue.2e/include/apue.h	/^ssize_t writen( int, const void *, size_t );$/;"	p	signature:( int, const void *, size_t )
+writen	./apue.2e/lib/apue.h	/^ssize_t writen( int, const void *, size_t );$/;"	p	signature:( int, const void *, size_t )
+writen	./apue.2e/lib/writen.c	/^writen(int fd, const void *ptr, size_t n)$/;"	f	signature:(int fd, const void *ptr, size_t n)
+writen	./apue.2e/sockets/apue.h	/^ssize_t writen( int, const void *, size_t );$/;"	p	signature:( int, const void *, size_t )
+writen	./apue.h	/^ssize_t writen( int, const void *, size_t );$/;"	p	signature:( int, const void *, size_t )
+writew_lock	./apue.2e/include/apue.h	100;"	d
+writew_lock	./apue.2e/lib/apue.h	100;"	d
+writew_lock	./apue.2e/sockets/apue.h	100;"	d
+writew_lock	./apue.h	100;"	d
+zeromask	./10/example/10-17.c	/^static sigset_t 		newmask, oldmask, zeromask;$/;"	v	file:
+zeromask	./apue.2e/lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:

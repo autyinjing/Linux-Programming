@@ -408,6 +408,10 @@ static void _db_writedat(DB *db, const char *data, off_t offset, int whence)
     iov[1].iov_len  = 1;
     if (writev(db->datfd, &iov[0], 2) != db->datlen)
         err_dump("_db_writedat: writev error of data record");
+
+    /* 等待数据写入磁盘再返回 */
+    fsync(db->datfd);
+
     if (whence == SEEK_END)
         if (un_lock(db->datfd, 0, SEEK_SET, 0) < 0)
             err_dump("_db_writedat: unlock error");
@@ -448,6 +452,9 @@ static void _db_writeidx(DB *db, const char *key, off_t offset, int whence, off_
     if (writev(db->idxfd, &iov[0], 2) != PTR_SZ + IDXLEN_SZ + len)
         err_dump("_db_writeidx: writev error of index record");
 
+    /* 等待数据写入磁盘再返回 */
+    fsync(db->idxfd);
+
     if (whence == SEEK_END)
         if (un_lock(db->idxfd, ((db->nhash+1)*PTR_SZ)+1, SEEK_SET, 0) < 0)
             err_dump("_db_writeidx: unlock error");
@@ -466,6 +473,9 @@ static void _db_writeptr(DB *db, off_t offset, off_t ptrval)
         err_dump("_db_writeptr: lseek error to ptr field");
     if (write(db->idxfd, asciiptr, PTR_SZ) != PTR_SZ)
         err_dump("_db_writeptr: write error of ptr field");
+
+    /* 等待数据写入磁盘再返回 */
+    fsync(db->idxfd);
 }
 
 /* 存储记录接口 */
